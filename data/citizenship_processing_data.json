@@ -1,0 +1,107 @@
+{
+  "generated_at": "2026-10-22T02:30:37Z",
+  "citizenship": {
+    "status": "verified_ok",
+    "http_status": 200,
+    "bytes": 1311265,
+    "sha256": "973451257b6c9bb0aac1337baca5517005b85789a97c298d994892aba1816a34",
+    "sha256_prefix": "973451257b6c9bb0",
+    "method": "dha-citizenship-pageschema-live",
+    "url": "https://immi.homeaffairs.gov.au/citizenship/citizenship-processing-times/citizenship-processing-times",
+    "source_updated_label": "16 October 2026",
+    "stock_as_at": "30 September 2026",
+    "flow_period": "1–30 September 2026",
+    "duration_rows": [
+      {
+        "id": "conferral_app_to_decision",
+        "stream_ko": "일반 시민권 부여 (Conferral — 영주권자 일반 신청)",
+        "stream_en": "Australian Citizenship by Conferral (General Eligibility)",
+        "stage_ko": "1단계: 신청일 → 승인 결정일 (Application to Decision)",
+        "stage_en": "Stage 1: From Date of Application to Decision",
+        "p25": "36 days (36일)",
+        "p50": "42 days (42일)",
+        "p75": "78 days (78일)",
+        "p90": "5 months (5개월)"
+      },
+      {
+        "id": "conferral_approval_to_ceremony",
+        "stream_ko": "일반 시민권 부여 (Conferral — 선서식 배정)",
+        "stream_en": "Australian Citizenship by Conferral (Ceremony Allocation)",
+        "stage_ko": "2단계: 승인일 → 시민권 선서식 (Approval to Ceremony)",
+        "stage_en": "Stage 2: From Date of Approval to Ceremony",
+        "p25": "71 days (71일)",
+        "p50": "4 months (4개월)",
+        "p75": "5 months (5개월)",
+        "p90": "6 months (6개월)"
+      },
+      {
+        "id": "conferral_app_to_ceremony",
+        "stream_ko": "일반 시민권 부여 (Conferral — 전체 완주 기간)",
+        "stream_en": "Australian Citizenship by Conferral (End-to-End Total)",
+        "stage_ko": "전체: 신청일 → 선서식 완료 (Application to Ceremony)",
+        "stage_en": "End-to-End: From Date of Application to Ceremony",
+        "p25": "5 months (5개월)",
+        "p50": "7 months (7개월)",
+        "p75": "8 months (8개월)",
+        "p90": "11 months (11개월)"
+      },
+      {
+        "id": "descent_app_to_decision",
+        "stream_ko": "혈통에 의한 시민권 (Citizenship by Descent)",
+        "stream_en": "Australian Citizenship by Descent",
+        "stage_ko": "신청일 → 결정일 (+ 우편배송 국내 2주 / 해외 6주)",
+        "stage_en": "From Date of Application to Decision (+2w onshore / +6w offshore post)",
+        "p25": "34 days (34일)",
+        "p50": "37 days (37일)",
+        "p75": "70 days (70일)",
+        "p90": "4 months (4개월)"
+      },
+      {
+        "id": "evidence_app_to_decision",
+        "stream_ko": "시민권 증서 재발급·증명 (Evidence of Citizenship)",
+        "stream_en": "Evidence of Australian Citizenship",
+        "stage_ko": "신청일 → 결정일 (From Date of Application to Decision)",
+        "stage_en": "From Date of Application to Decision",
+        "p25": "2 days (2일)",
+        "p50": "4 days (4일)",
+        "p75": "8 days (8일)",
+        "p90": "15 days (15일)"
+      }
+    ],
+    "inventory": {
+      "conferral_on_hand": 53298,
+      "descent_on_hand": 2988,
+      "evidence_on_hand": 940,
+      "conferral_monthly_received": 23581,
+      "descent_monthly_received": 1664,
+      "evidence_monthly_received": 3647
+    },
+    "art_citizenship_review": {
+      "period": "1 July – 31 August 2026 (ART Migration Caseload PDF p.11)",
+      "lodgements": 82,
+      "finalisations": 94,
+      "on_hand": 301,
+      "set_aside": 30,
+      "affirmed_non_dismissed": 21,
+      "dismissed": 5,
+      "withdrawn": 21,
+      "other": 17,
+      "change_all_pct": 31.91,
+      "restricted_change_pct": 58.82
+    },
+    "warning_note_ko": "1단계(신청→결정)와 2단계(승인→선서식) 백분위 기간은 서로 다른 코호트에서 산출되므로 단순 합산하지 마시고 3행(전체 신청→선서식: 중위 7개월 / 90% 11개월)을 참조하세요.",
+    "warning_note_en": "Do not add Stage 1 and Stage 2 percentiles directly; refer to Row 3 (Application to Ceremony: 50% 7 months / 90% 11 months)."
+  },
+  "partner_graduate_art_summary": {
+    "partner_dha_on_hand": 96839,
+    "partner_dha_grant_rate_pct": 93.9,
+    "partner_820_art_wait_p50_ko": "3년 2개월 (134주)",
+    "partner_820_art_wait_p50_en": "3 yrs 2 mos (134 wks)",
+    "partner_820_art_all_pct": 74.66,
+    "partner_820_art_restricted_pct": 85.16,
+    "graduate_485_art_all_pct": 83.99,
+    "graduate_485_art_restricted_pct": 93.3,
+    "citizenship_art_all_pct": 31.91,
+    "citizenship_art_restricted_pct": 58.82
+  }
+}
