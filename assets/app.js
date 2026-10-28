@@ -34,7 +34,7 @@
     heroTitle: "호주 파트너 비자(820/801 · 309/100 · 300) · 사실혼 관계등록 & Schedule 3 내비게이터",
     heroLead: "기본 신청비 <strong>$11,710 AUD</strong> 파트너 비자의 <strong>4대 증빙 기둥(reg 1.15A)</strong>, <strong>사실혼 12개월 동거 및 8개 주/준주 관계등록 면제(reg 2.03A: WA·NT 제외 주의)</strong>, 브리징·오버스테이 상태에서의 <strong>Schedule 3(3001/3004) 웨이버</strong> 및 <strong>스폰서 자격 제한(reg 1.20J)</strong>을 한눈에 진단합니다.",
     specName: "박창민 대표변호사 (Chang Min Park)",
-    specMeta: "법무법인 박앤코 (Park & Co Lawyers · Underwood QLD)<br/>공식 이메일: <strong>enquiry@parkcolawyers.com</strong><br/>고난도 파트너 비자(Schedule 3 웨이버 · 스폰서 제한 면제 · 가정폭력 특례) 전문",
+    specMeta: "법무법인 박앤코 (Park & Co Lawyers · Underwood QLD)<br/>공식 상담 링크: <a href=\"https://parklawyers.com.au/links/?lang=ko\" target=\"_blank\" rel=\"noopener\" style=\"color:inherit;font-weight:700;\">parklawyers.com.au/links</a><br/>고난도 파트너 비자(Schedule 3 웨이버 · 스폰서 제한 면제 · 가정폭력 특례) 전문",
     specCta: "파트너 비자 1:1 상담 브리프 전송 →",
     liveStatusLabel: "실시간 이민법 시행령 검증 완료",
     statLabelVac: "파트너 비자 신청비 (820/309/300)",
@@ -86,8 +86,8 @@
     thCitP90: "90% 완료 (장기 p90)",
     citArtCardTitle: "2. 파트너(820) · 졸업생(485) 비자 거절 또는 호주 시민권(인성·거주기간) 거절 통지를 받으셨나요?",
     citArtCardDesc: "행정재심기구(ART) 공식 통계(2026.07–08)에 따르면, 절차적 취하·각하를 제외하고 실제 본안 결정까지 간 사건 중 <strong>졸업생 비자(485) 거절은 93.30%(362/388건)</strong>, <strong>파트너 비자(820) 거절은 85.16%(109/128건)</strong>, <strong>호주 시민권 거절은 58.82%(30/51건 · 전체 종결 대비 31.91%)</strong>가 <strong>Set Aside(취소·환송)</strong>로 뒤집혔습니다. 단, 재심 청구 법정 기한(일반 28역일)을 넘기면 구제가 불가능합니다.",
-    ctaHeading: "박앤코 파트너 비자 · Schedule 3 전담팀 상담 브리프 전송 (enquiry@parkcolawyers.com)",
-    btnSendEmail: "✉️ 진단 결과 담아 이메일 보내기 →",
+    ctaHeading: "박앤코 파트너 비자 · Schedule 3 전담팀 상담 브리프 전송",
+    btnSendEmail: "🔗 진단 브리프 복사 & 공식 상담 신청 →",
     btnCopyBrief: "📋 진단 브리프 복사",
     pollerTitle: "1차 이민법 시행령 · 이민성 수수료 API(GetPriceList) · 박앤코 판례 KDB 실시간 검증 매트릭스",
     pollerDesc: "호주 이민성 비자 수수료 실시간 JSON API(<code>GetPriceList</code>), 이민법 시행령 원문(<code>F1996B03551</code>) 및 박앤코 이민 판례 KDB를 매주 자동 폴링하여 SHA-256 해시와 최신 법정 수수료를 검증합니다.",
@@ -96,7 +96,7 @@
     thPollerFigures: "실시간 추출 핵심 수치",
     thPollerHash: "SHA-256 해시 · 용량",
     thPollerStatus: "폴링 검증 상태",
-    footerNotice: "본 내비게이터는 호주 이민법 시행령(Migration Regulations 1994) 1차 출처에 기반한 일반 법률 정보 제공 도구이며, 개별 법률 자문을 대체하지 않습니다. 파트너 비자($11,710 VAC) 및 Schedule 3 웨이버·스폰서 제한 면제 접수 전 반드시 박창민 대표변호사(QLS 공인 이민법 전문변호사 · 공식 이메일: <strong>enquiry@parkcolawyers.com</strong>)와 상담하시기 바랍니다."
+    footerNotice: "본 내비게이터는 호주 이민법 시행령(Migration Regulations 1994) 1차 출처에 기반한 일반 법률 정보 제공 도구이며, 개별 법률 자문을 대체하지 않습니다. 파트너 비자($11,710 VAC) 및 Schedule 3 웨이버·스폰서 제한 면제 접수 전 반드시 박창민 대표변호사(QLS 공인 이민법 전문변호사 · 공식 상담 링크: <a href=\"https://parklawyers.com.au/links/?lang=ko\" target=\"_blank\" rel=\"noopener\" style=\"color:#FDE68A;font-weight:700;\">parklawyers.com.au/links</a>)와 상담하시기 바랍니다."
   };
 
   var EN_TRANSLATIONS = {
@@ -128,8 +128,8 @@
     heroEyebrow: "MIGRATION REGULATIONS 1994 · REGS 1.09A, 1.15A, 1.20J, 2.03A · SUBCLASS 820/801 · 309/100 · 300",
     heroTitle: "Australia Partner Visas (820/801 · 309/100 · 300), De Facto Registration & Schedule 3 Navigator",
     heroLead: "Diagnose the <strong>$11,710 AUD Partner Visa</strong> <strong>4 Evidentiary Pillars (regs 1.15A/1.09A)</strong>, <strong>12-month De Facto rule & State Relationship Registration exemptions (reg 2.03A — note WA/NT exclusion)</strong>, <strong>Schedule 3 (3001/3004) waivers</strong>, and <strong>sponsorship limitations (reg 1.20J)</strong>.",
-    specName: "Chang Min Park (Principal Solicitor)",
-    specMeta: "Park & Co Lawyers (Underwood QLD)<br/>Official Email: <strong>enquiry@parkcolawyers.com</strong><br/>Complex Partner Visas (Schedule 3 Waivers, Sponsorship Bars & Family Violence)",
+    specName: "Chang Min Park (Legal Practitioner Director)",
+    specMeta: "Park & Co Lawyers (Underwood QLD)<br/>Official Inquiry: <a href=\"https://parklawyers.com.au/links/\" target=\"_blank\" rel=\"noopener\" style=\"color:inherit;font-weight:700;\">parklawyers.com.au/links</a><br/>Complex Partner Visas (Schedule 3 Waivers, Sponsorship Bars & Family Violence)",
     specCta: "Send Partner Visa Consultation Brief →",
     liveStatusLabel: "Live Migration Regulations Verified",
     statLabelVac: "Partner Visa Base VAC (820/309/300)",
@@ -181,8 +181,8 @@
     thCitP90: "90% Processed (Upper)",
     citArtCardTitle: "2. Received a Partner (820), Graduate (485), or Australian Citizenship (Good Character / Residence) Refusal?",
     citArtCardDesc: "According to official ART statistics (Jul–Aug 2026), among applications reaching a non-dismissal substantive decision, <strong>93.30% (362/388) of Graduate 485 refusals</strong>, <strong>85.16% (109/128) of Partner 820 refusals</strong>, and <strong>58.82% (30/51 · 31.91% of all finalisations) of Citizenship refusals</strong> resulted in <strong>Set Aside / Remittal</strong>. Strict statutory deadlines (28 calendar days) apply.",
-    ctaHeading: "Send Partner Visa & Schedule 3 Consultation Brief (enquiry@parkcolawyers.com)",
-    btnSendEmail: "✉️ Email Diagnostic Brief →",
+    ctaHeading: "Send Partner Visa & Schedule 3 Consultation Brief",
+    btnSendEmail: "🔗 Copy Brief & Open Official Inquiry →",
     btnCopyBrief: "📋 Copy Brief to Clipboard",
     pollerTitle: "Live Migration Regulations, DHA Pricing API (GetPriceList) & Park & Co Immi KDB Matrix",
     pollerDesc: "Automated weekly polling of the Department of Home Affairs live pricing API (<code>GetPriceList</code>), Migration Regulations 1994 (<code>F1996B03551</code>), and Park & Co Immi KDB with genuine SHA-256 content hashes.",
@@ -191,7 +191,7 @@
     thPollerFigures: "Live Extracted Figures",
     thPollerHash: "SHA-256 Content Hash · Size",
     thPollerStatus: "Verification Status",
-    footerNotice: "This navigator provides general legal information based on the Migration Regulations 1994 (Cth) and does not constitute formal legal advice prior to a signed retainer. Contact Chang Min Park (QLS Accredited Specialist in Immigration Law · <strong>enquiry@parkcolawyers.com</strong>) before lodging."
+    footerNotice: "This navigator provides general legal information based on the Migration Regulations 1994 (Cth) and does not constitute formal legal advice prior to a signed retainer. Contact Chang Min Park (QLS Accredited Specialist in Immigration Law · <a href=\"https://parklawyers.com.au/links/\" target=\"_blank\" rel=\"noopener\" style=\"color:#FDE68A;font-weight:700;\">parklawyers.com.au/links</a>) before lodging."
   };
 
   function updateAll() {
@@ -293,14 +293,14 @@
     var brief = currentLang === "ko"
       ? [
           "[법무법인 박앤코 호주 파트너 비자(820/801 · 309/100 · 300) · Schedule 3 진단 패킷]",
-          "• 수신: 법무법인 박앤코 박창민 대표변호사 (enquiry@parkcolawyers.com)",
+          "• 수신: 법무법인 박앤코 박창민 대표변호사 (https://parklawyers.com.au/links/?lang=ko)",
           "• 신청 위치/트랙: " + loc + " / 관계 기간: " + relYrs + " / 직행 영주권(reg 1.03) 대상: " + (directPr ? "해당" : "2단계 진행"),
           "• 거주 주: " + state + " / 동거 개월: " + months + "개월 (주정부 관계등록 면제 가능 여부: " + (canExempt ? "가능" : "불가-WA/NT") + ")",
           "• Schedule 3 상태: " + s3 + " / 스폰서 과거 이력: " + spHist
         ].join("\n")
       : [
           "[Park & Co Lawyers — Partner Visa (820/801 · 309/100 · 300) & Schedule 3 Diagnostic Brief]",
-          "• To: Principal Solicitor Chang Min Park (enquiry@parkcolawyers.com)",
+          "• To: Legal Practitioner Director Chang Min Park (https://parklawyers.com.au/links/)",
           "• Track: " + loc + " / Duration: " + relYrs + " / Direct PR (reg 1.03): " + (directPr ? "Yes" : "Two-stage"),
           "• State: " + state + " / Cohabitation: " + months + "m (Registration exemption: " + (canExempt ? "Available" : "Excluded WA/NT") + ")",
           "• Schedule 3: " + s3 + " / Sponsor History: " + spHist
@@ -310,12 +310,16 @@
     if (pre) pre.textContent = brief;
     var mailBtn = document.getElementById("btn-pv-mailto");
     if (mailBtn) {
-      var subj = encodeURIComponent(
-        currentLang === "ko"
-          ? "[박앤코 파트너비자 자문요청] " + loc + " / " + state + " 진단 패킷"
-          : "[Park & Co Partner Visa Inquiry] " + loc + " / " + state + " Diagnostic Brief"
-      );
-      mailBtn.href = "mailto:enquiry@parkcolawyers.com?subject=" + subj + "&body=" + encodeURIComponent(brief);
+      mailBtn.href = currentLang === "ko"
+        ? "https://parklawyers.com.au/links/?lang=ko"
+        : "https://parklawyers.com.au/links/";
+      mailBtn.target = "_blank";
+      mailBtn.rel = "noopener";
+      mailBtn.onclick = function () {
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          navigator.clipboard.writeText(brief).catch(function () {});
+        }
+      };
     }
   }
 
