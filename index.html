@@ -24,7 +24,7 @@
   <nav class="top-nav" aria-label="Primary Navigation">
     <div class="container top-nav-inner">
       <div class="brand-lockup">
-        <a href="https://changa9090.github.io/" style="display:inline-flex;align-items:center;" title="박앤코 법률·비자 통합 허브">
+        <a id="brand-hub-link" href="https://changa9090.github.io/" style="display:inline-flex;align-items:center;" title="박앤코 법률·비자 통합 허브" data-i18n-title="brandHubTitle">
           <img src="assets/logo-negative.png" alt="Park &amp; Co Lawyers Logo" class="brand-logo" />
         </a>
         <span class="brand-tag" data-i18n="brandTag">파트너(820·309) &amp; 졸업생(500·485) 내비게이터</span>
@@ -174,7 +174,7 @@
             </div>
             <div class="form-group">
               <label for="df-months" data-i18n="lblDfMonths">3. 현재까지 실제 동거한 개월 수</label>
-              <input type="number" id="df-months" class="form-control" placeholder="예: 7" min="0" max="360" />
+              <input type="number" id="df-months" class="form-control" placeholder="예: 7" data-i18n-placeholder="phDfMonths" min="0" max="360" />
             </div>
             <div class="form-group">
               <label for="df-pillars" data-i18n="lblDfPillars">4. reg 1.15A / 1.09A 4대 증빙 기둥(재정·주거·사회·헌신) 준비 수준</label>
@@ -238,7 +238,7 @@
             </div>
             <div class="form-group">
               <label for="grad-age" data-i18n="lblGradAge">4. 비자 접수 시점 만 나이 (Age at Lodgement)</label>
-              <input type="number" id="grad-age" class="form-control" placeholder="예: 33" min="15" max="80" />
+              <input type="number" id="grad-age" class="form-control" placeholder="예: 33" data-i18n-placeholder="phGradAge" min="15" max="80" />
             </div>
             <div class="form-group">
               <label for="grad-completion-date" data-i18n="lblGradCompDate">5. 공식 학업 수료 완료일 (Completion Letter 명시 완료일 · 485 6개월 마감 계산)</label>
@@ -249,6 +249,39 @@
           <div class="card">
             <h3 style="margin:0 0 12px;font-size:15.5px;" data-i18n="gradResultHeading">500·485 적격 여부 · 신청비(VAC) · 6개월 법정 마감일 병기</h3>
             <div id="grad-calc-output"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SUBCLASS 485 TRIPLE-DEADLINE COMPARATOR -->
+      <section id="grad-485-triple-comparator" class="section-block">
+        <div class="section-head">
+          <div>
+            <h2 data-i18n="tdTitle">2. 졸업생 비자(Subclass 485) 3대 법정 기한 비교기 (최종 안전 접수 데드라인 산출)</h2>
+            <p data-i18n="tdDesc">학위 수료 확인서 발급일(+6개월 · reg 485.213), 학생비자 500 만료일(온쇼어 합법 체류 · cl 485.211 / s 48), 공인 영어시험 응시일(+12개월 · LIN 24/022) 중 가장 먼저 도래하는 날짜가 절대 초과 불가 최종 안전 접수 데드라인이 됩니다.</p>
+          </div>
+        </div>
+
+        <div class="calc-grid">
+          <div class="card">
+            <h3 style="margin:0 0 12px;font-size:15.5px;" data-i18n="tdFormHeading">485 접수 3대 기한 기준일 입력</h3>
+            <div class="form-group">
+              <label for="td-completion-date" data-i18n="lblTdCompletion">1. 학위 수료 확인서 Completion Letter 완료일 (+6개월 · reg 485.213 / 졸업식 날짜 아님)</label>
+              <input type="date" id="td-completion-date" class="form-control" />
+            </div>
+            <div class="form-group">
+              <label for="td-visa500-expiry" data-i18n="lblTdVisa500">2. 학생비자(Subclass 500) 만료일 (온쇼어 합법 체류 및 최근 6개월 내 보유 · cl 485.211 &amp; s 48 주의)</label>
+              <input type="date" id="td-visa500-expiry" class="form-control" />
+            </div>
+            <div class="form-group">
+              <label for="td-english-date" data-i18n="lblTdEnglish">3. 공인 영어시험 응시일 — IELTS / PTE / OET / TOEFL (+12개월 · LIN 24/022 단축 규정)</label>
+              <input type="date" id="td-english-date" class="form-control" />
+            </div>
+          </div>
+
+          <div class="card">
+            <h3 style="margin:0 0 12px;font-size:15.5px;" data-i18n="tdResultHeading">최종 안전 접수 데드라인 (3개 기한 중 가장 빠른 날)</h3>
+            <div id="td-comparator-output"></div>
           </div>
         </div>
       </section>
@@ -277,7 +310,28 @@
       <summary data-i18n="citTitle">영주권 취득 후 호주 시민권 단계별 실제 소요기간(p25~p90) &amp; 820·485·시민권 행정재심기구(ART) 통계</summary>
       <div class="ref-accordion-body">
         <p style="font-size:13px;color:#4A5D5F;margin-bottom:12px;" data-i18n="citDesc">호주 시민권(Conferral · Descent · Evidence) 공식 4분위 심사 소요기간(Conferral 미결 재고 53,298건)과 파트너 820(본안 85.16% 인용) · 졸업생 485(본안 93.30% 인용) · 시민권 거절(본안 58.82% 인용) 행정재심기구(ART) 통계를 요약합니다.</p>
-        <div id="cit-art-kpi-grid" class="result-summary-grid"></div>
+        <div id="cit-art-kpi-grid" class="result-summary-grid">
+          <div class="mini-kpi">
+            <span data-i18n="citKpi1Label">수여 시민권(Conferral) 전체 완료</span>
+            <strong data-i18n="citKpi1Val">7개월 (p50) / 11개월 (p90)</strong>
+            <small data-i18n="citKpi1Sub">미결 재고 53,298건 (월 신규 16,690건)</small>
+          </div>
+          <div class="mini-kpi">
+            <span data-i18n="citKpi2Label">파트너 비자(820) 1차 &amp; ART 인용률</span>
+            <strong data-i18n="citKpi2Val">93.9% (1차) · 85.16% (ART 본안)</strong>
+            <small data-i18n="citKpi2Sub">이민성 미결 96,839건 · ART 중위 3년 2개월</small>
+          </div>
+          <div class="mini-kpi">
+            <span data-i18n="citKpi3Label">졸업생 비자(485) 거절 ART 인용률</span>
+            <strong data-i18n="citKpi3Val">93.30% (본안) · 83.99% (전체)</strong>
+            <small data-i18n="citKpi3Sub">본안 결정 388건 중 362건 취소·환송</small>
+          </div>
+          <div class="mini-kpi">
+            <span data-i18n="citKpi4Label">시민권 거절 ART 재심 인용률</span>
+            <strong data-i18n="citKpi4Val">58.82% (본안) · 31.91% (전체)</strong>
+            <small data-i18n="citKpi4Sub">본안 결정 51건 중 30건 취소·환송</small>
+          </div>
+        </div>
         <div class="table-wrap" style="margin-bottom:14px;">
           <table class="data-table">
             <thead>
@@ -306,13 +360,13 @@
         <div class="result-summary-grid" style="margin-bottom:14px;">
           <div class="mini-kpi">
             <span data-i18n="statLabelVac">파트너 비자 기본 신청비</span>
-            <strong>$11,710</strong>
-            <small data-i18n="statSubVac">300→820 전환 $1,955 · 미성년 자녀 $2,935</small>
+            <strong id="stat-partner-vac-val">$11,710</strong>
+            <small id="stat-partner-vac-sub" data-i18n="statSubVac">300→820 전환 $1,955 · 미성년 자녀 $2,935</small>
           </div>
           <div class="mini-kpi">
             <span data-i18n="statLabelGradVac">학생(500) · 졸업생(485) 신청비</span>
-            <strong>$2,500 / $5,750</strong>
-            <small data-i18n="statSubGradVac">FY2026–27 공식 VAC (Second 485 $2,265)</small>
+            <strong id="stat-grad-vac-val">$2,500 / $5,750</strong>
+            <small id="stat-grad-vac-sub" data-i18n="statSubGradVac">FY2026–27 공식 VAC (Second 485 $2,265)</small>
           </div>
           <div class="mini-kpi">
             <span data-i18n="statLabelDirectPr">파트너 직행 영주권 요건</span>
@@ -364,7 +418,7 @@
 
   <footer class="site-footer">
     <div class="container">
-      <div class="visit-counter" id="visit-counter" title="클릭하면 일별 방문 추이와 유입 경로를 볼 수 있습니다" hidden>
+      <div class="visit-counter" id="visit-counter" title="클릭하면 일별 방문 추이와 유입 경로를 볼 수 있어요" hidden>
         <span><em id="vc-lbl-total">누적 방문</em><b id="vc-total">-</b></span>
         <span><em id="vc-lbl-today">오늘 방문</em><b id="vc-today">-</b></span>
         <span><em id="vc-lbl-visitors">방문자</em><b id="vc-visitors">-</b></span>
@@ -387,17 +441,17 @@
   </footer>
 
   <script src="assets/app.js"></script>
-  <script>/* Resilient Visit Counters + Daily Chart (partner-grad-hist-v1) + Privacy-Safe Referral Channels v2.1 */
+  <script>
+/* Resilient Self-Hosted Visit Counters + Daily Chart (partner-grad-vc-v3) + Privacy-Safe Referral Channels v3.0 */
 (function () {
-  var NS = 'changa9090.github.io', API = 'https://abacus.jasoncameron.dev/', START = '2026-10-28';
+  var VC_BASE = 'https://faq.immispecialist.com/vc/', START = '2026-10-28';
   var SELF_PATH = '/parkco-partner-graduate-navigator';
   var IS_PROD = (location.hostname === 'changa9090.github.io');
   var P = 'partner-grad' + (IS_PROD ? '' : '-dev');
   var BASE_P = 'partner-grad';
-  var LEGACY_TOTAL = IS_PROD ? 0 : 0;
-  var LEGACY_VIS = IS_PROD ? 0 : 0;
-  var CACHE_KEY = P + '-counts-cache-v1';
-  var HIST_KEY = P + '-hist-v1';
+  var SEED_FLOOR_TOTAL = IS_PROD ? 0 : 0;
+  var SEED_FLOOR_VIS = IS_PROD ? 0 : 0;
+  var CACHE_KEY = P + '-counts-cache-v3';
   var REF_BUCKETS = [
     { id: 'naver-search', ko: '네이버 통합·웹검색', en: 'Naver Search' },
     { id: 'naver-cafe', ko: '네이버 카페 (호주이민 사랑방 등)', en: 'Naver Cafe' },
@@ -453,7 +507,7 @@
     if (lv) lv.textContent = en ? 'Visitors' : '방문자';
     box.title = en
       ? 'Click for daily visits & referral sources'
-      : '클릭하면 일별 방문 추이와 유입 경로를 볼 수 있습니다';
+      : '클릭하면 일별 방문 추이와 유입 경로를 볼 수 있어요';
     var mt = document.getElementById('vc-modal-title');
     if (mt) {
       mt.innerHTML = en
@@ -470,6 +524,7 @@
     } catch (e) {}
   }
 
+  /* Preserve cross-system referral attribution across changa9090.github.io & faq.immispecialist.com */
   document.addEventListener('click', function (ev) {
     try {
       var a = ev.target && ev.target.closest ? ev.target.closest('a[href]') : null;
@@ -501,7 +556,6 @@
 
   var liveTodayViews = (cached.day === day && typeof cached.today === 'number') ? cached.today : null;
   var liveTodayVis = (cached.day === day && typeof cached.todayVis === 'number') ? cached.todayVis : null;
-  var liveRefHints = {};
 
   function classifyReferralBucket() {
     try {
@@ -535,7 +589,7 @@
         var h = (u.hostname || '').toLowerCase();
         var p = (u.pathname || '/').toLowerCase();
         if (h === location.hostname && (IS_PROD ? isSelfPath(p) : true)) {
-          /* Same-app internal navigation */
+          /* Same-app internal navigation; fall through to mobile UA / direct */
         } else if (h.indexOf('cafe.naver.') >= 0) {
           return 'naver-cafe';
         } else if (h.indexOf('naver.') >= 0) {
@@ -579,122 +633,77 @@
     if (tot != null || tod != null || vis != null) box.hidden = false;
   }
 
-  var seedTot = Number(box.getAttribute('data-seed-total')) || LEGACY_TOTAL || 0;
-  var seedVis = Number(box.getAttribute('data-seed-visitors')) || LEGACY_VIS || 0;
+  var seedTot = Number(box.getAttribute('data-seed-total')) || SEED_FLOOR_TOTAL || 0;
+  var seedVis = Number(box.getAttribute('data-seed-visitors')) || SEED_FLOOR_VIS || 0;
   var initTot = Math.max(cached.total || 0, seedTot) || null;
   var initVis = Math.max(cached.visitors || 0, seedVis) || null;
   if (initTot != null || initVis != null) {
     renderBadge(initTot, liveTodayViews, initVis);
   }
 
-  function fetchRetry(url, isHit, attempt) {
-    var tries = attempt || 0;
+  function fetchJson(url, opts) {
     var ctrl = typeof AbortController !== 'undefined' ? new AbortController() : null;
-    var timer = ctrl ? setTimeout(function () { ctrl.abort(); }, 15000) : null;
-    var opts = { mode: 'cors' };
-    if (ctrl) opts.signal = ctrl.signal;
-    if (isHit) opts.keepalive = true;
-    return fetch(url, opts)
-      .then(function (r) {
-        if (timer) clearTimeout(timer);
-        if (!isHit && r.status === 404) return { value: 0 };
-        if (r.status === 429) {
-          var err429 = new Error('HTTP 429');
-          err429.isRateLimit = true;
-          throw err429;
-        }
-        if (!r.ok) throw new Error('HTTP ' + r.status);
-        return r.json();
-      })
-      .then(function (j) {
-        if (typeof j.value !== 'number') throw new Error('bad payload');
-        return j.value;
-      })
-      .catch(function (err) {
-        if (timer) clearTimeout(timer);
-        var maxTries = (err && err.isRateLimit) ? 3 : 2;
-        if (tries < maxTries) {
-          var waitMs = (err && err.isRateLimit) ? (3800 + tries * 3600) : (1100 * (tries + 1));
-          return new Promise(function (res) { setTimeout(res, waitMs); })
-            .then(function () { return fetchRetry(url, isHit, tries + 1); });
-        }
-        throw err;
-      });
+    var timer = ctrl ? setTimeout(function () { ctrl.abort(); }, 6500) : null;
+    var reqOpts = opts || { mode: 'cors' };
+    if (ctrl) reqOpts.signal = ctrl.signal;
+    return fetch(url, reqOpts).then(function (r) {
+      if (timer) clearTimeout(timer);
+      if (!r.ok) throw new Error('HTTP ' + r.status);
+      return r.json();
+    }).catch(function (err) {
+      if (timer) clearTimeout(timer);
+      throw err;
+    });
   }
 
-  function call(kind, key) {
-    return fetchRetry(API + kind + '/' + NS + '/' + P + '-' + key, kind === 'hit', 0);
-  }
-  function delay(ms) { return new Promise(function (r) { setTimeout(r, ms); }); }
+  var incVisitor = !seen;
+  var incVday = (lastDay !== day);
+  var refBucket = (lastRefDay !== day) ? classifyReferralBucket() : '';
+  var hitPayload = JSON.stringify({
+    prefix: P,
+    day: day,
+    inc_view: true,
+    inc_visitor: incVisitor,
+    inc_vday: incVday,
+    ref_bucket: refBucket
+  });
 
-  if (lastDay !== day) {
-    call('hit', 'vday-' + day).then(function (v) {
-      liveTodayVis = v;
-      try {
-        localStorage.setItem(P + '-day', day);
-        var cur = JSON.parse(localStorage.getItem(CACHE_KEY) || '{}') || {};
-        cur.todayVis = v;
-        cur.day = day;
-        localStorage.setItem(CACHE_KEY, JSON.stringify(cur));
-      } catch (e) {}
-    }).catch(function () {});
-  }
-
-  if (lastRefDay !== day) {
-    var refBucket = classifyReferralBucket();
-    delay(220).then(function () {
-      return call('hit', 'ref-' + refBucket + '-' + day);
-    }).then(function (rv) {
-      liveRefHints[refBucket] = rv;
-      try {
-        localStorage.setItem(P + '-ref-day', day);
-        localStorage.setItem(P + '-ref-bucket', refBucket);
-      } catch (e) {}
-    }).catch(function () {});
-  }
-
-  Promise.allSettled([
-    call('hit', 'total'),
-    delay(80).then(function () { return call('hit', 'day-' + day); }),
-    delay(160).then(function () {
-      return call(seen ? 'get' : 'hit', 'visitors').then(function (val) {
-        if (!seen) {
-          try { localStorage.setItem(P + '-seen', '1'); } catch (e) {}
-        }
-        return val;
-      });
-    })
-  ]).then(function (res) {
-    var tot = res[0].status === 'fulfilled' ? (res[0].value + LEGACY_TOTAL) : initTot;
-    var tod = res[1].status === 'fulfilled' ? res[1].value : liveTodayViews;
-    var vis = res[2].status === 'fulfilled' ? (res[2].value + LEGACY_VIS) : initVis;
-    if (typeof tod === 'number') liveTodayViews = tod;
+  fetchJson(VC_BASE + 'hit', {
+    method: 'POST',
+    mode: 'cors',
+    keepalive: true,
+    headers: { 'Content-Type': 'text/plain;charset=UTF-8' },
+    body: hitPayload
+  }).then(function (j) {
+    if (!j || !j.ok) return;
+    var tot = Math.max(Number(j.total) || 0, seedTot);
+    var tod = typeof j.today === 'number' ? j.today : liveTodayViews;
+    var vis = Math.max(Number(j.visitors) || 0, seedVis);
+    var tvis = typeof j.today_visitors === 'number' ? j.today_visitors : liveTodayVis;
+    liveTodayViews = tod;
+    liveTodayVis = tvis;
     renderBadge(tot, tod, vis);
     try {
+      if (incVisitor) localStorage.setItem(P + '-seen', '1');
+      if (incVday) localStorage.setItem(P + '-day', day);
+      if (refBucket) {
+        localStorage.setItem(P + '-ref-day', day);
+        localStorage.setItem(P + '-ref-bucket', refBucket);
+      }
       localStorage.setItem(CACHE_KEY, JSON.stringify({
-        total: tot != null ? tot : initTot,
-        today: tod != null ? tod : liveTodayViews,
-        todayVis: liveTodayVis,
-        visitors: vis != null ? vis : initVis,
+        total: tot,
+        today: tod,
+        todayVis: tvis,
+        visitors: vis,
         day: day
       }));
     } catch (e) {}
+  }).catch(function () {
+    if (initTot != null || initVis != null) renderBadge(initTot, liveTodayViews || 1, initVis);
   });
 
-  function lastDays(n) {
-    var p = today.split('-').map(Number), base = Date.UTC(p[0], p[1] - 1, p[2]), out = [];
-    for (var i = n - 1; i >= 0; i--) {
-      var dt = new Date(base - i * 864e5);
-      var y = dt.getUTCFullYear();
-      var m = String(dt.getUTCMonth() + 1).padStart(2, '0');
-      var dy = String(dt.getUTCDate()).padStart(2, '0');
-      var s = y + '-' + m + '-' + dy;
-      if (s >= START) out.push(s);
-    }
-    return out.length ? out : [today];
-  }
-
   var activeRange = 7;
+  var cachedSummary = null;
   var modal = document.createElement('div');
   modal.id = 'vc-modal';
   modal.innerHTML = '<div class="vc-dialog" role="dialog" aria-modal="true" aria-labelledby="vc-modal-title">' +
@@ -811,48 +820,22 @@
       '<p class="vc-sum">' + summaryLine + '</p>';
   }
 
-  function loadTodayReferrers(dayKey) {
-    if (liveTodayViews === 0 && liveTodayVis === 0) {
-      return Promise.resolve({});
-    }
-    var out = {};
-    var remaining = [];
-    REF_BUCKETS.forEach(function (b) {
-      if (typeof liveRefHints[b.id] === 'number') {
-        out[b.id] = liveRefHints[b.id];
-      } else {
-        remaining.push(b);
-      }
-    });
-    var firstSlice = remaining.slice(0, 6);
-    var secondSlice = remaining.slice(6);
-    return Promise.all(firstSlice.map(function (b) {
-      return call('get', 'ref-' + b.id + '-' + dayKey).catch(function () { return 0; }).then(function (v) { out[b.id] = v || 0; });
-    })).then(function () {
-      return secondSlice.length ? delay(260) : Promise.resolve();
-    }).then(function () {
-      return Promise.all(secondSlice.map(function (b) {
-        return call('get', 'ref-' + b.id + '-' + dayKey).catch(function () { return 0; }).then(function (v) { out[b.id] = v || 0; });
-      }));
-    }).then(function () {
-      return out;
-    });
-  }
-
-  function renderReferrerBox(countsMap) {
+  function renderReferrerBox(countsMap, isWindowFallback) {
     var isEn = uiLang() === 'en';
+    var mapObj = countsMap || {};
     var items = REF_BUCKETS.map(function (b) {
-      return { id: b.id, label: isEn ? b.en : b.ko, count: countsMap[b.id] || 0 };
+      return { id: b.id, label: isEn ? b.en : b.ko, count: mapObj[b.id] || 0 };
     }).filter(function (x) { return x.count > 0; }).sort(function (a, b) { return b.count - a.count; });
     var totalRef = items.reduce(function (acc, x) { return acc + x.count; }, 0);
-    var head = '<div class="vc-ref-title"><span>' +
-      (isEn ? ('Today&rsquo;s Referral Channels (' + today + ')') : ('오늘 유입 채널 분포 (' + today + ')')) +
+    var titleKo = isWindowFallback ? '최근 30일 유입 채널 누적 분포' : ('오늘 유입 채널 분포 (' + today + ')');
+    var titleEn = isWindowFallback ? 'Referral Channels (Last 30 Days)' : ('Today&rsquo;s Referral Channels (' + today + ')');
+    var head = '<div class="vc-ref-title"><span>' + (isEn ? titleEn : titleKo) +
       '</span><small>' + (isEn ? ('Tracked visitors: ' + fmt(totalRef)) : ('채널 집계 방문자: ' + fmt(totalRef) + '명')) + '</small></div>';
     if (!items.length) {
       return head + '<p class="vc-ref-note">' +
         (isEn
           ? 'Anonymous referral channel buckets (Naver, Cafe, KakaoTalk, Threads, Hub, Direct) are recorded once per browser per day as new visits arrive (zero personal or URL path data stored).'
-          : '익명 유입 경로(검색·카페·카카오톡·스레드·허브 이동 등) 집계는 신규 방문부터 하루 브라우저당 1회씩 기록됩니다 (세부 URL·개인정보 미수집).') +
+          : '익명 유입 경로(검색·카페·카카오톡·스레드·허브 이동 등) 집계는 신규 방문부터 하루 브라우저당 1회씩 기록돼요 (세부 URL·개인정보 미수집).') +
         '</p>';
     }
     var rowsHtml = items.map(function (item) {
@@ -865,92 +848,50 @@
     }).join('');
     var note = isEn
       ? 'Privacy-safe coarse channel buckets only (1 per browser/day; zero IP, query string, or full referrer URL stored).'
-      : '개인정보 보호형 채널 그룹 집계입니다 (하루 브라우저당 1회 기준 &middot; 검색어·세부 URL·IP 미수집).';
+      : '개인정보 보호형 채널 그룹 집계 (하루 브라우저당 1회 기준 &middot; 검색어·세부 URL·IP 미수집)';
     return head + '<div class="vc-ref-list">' + rowsHtml + '</div><p class="vc-ref-note">' + note + '</p>';
   }
 
-  function loadHistoryRows(days) {
-    var histCache = {};
-    try { histCache = JSON.parse(localStorage.getItem(HIST_KEY) || '{}') || {}; } catch (e) {}
-    var results = new Array(days.length);
-    var pending = [];
-    days.forEach(function (d, idx) {
-      if (d < today && Array.isArray(histCache[d])) {
-        results[idx] = histCache[d];
-      } else if (d === today && typeof liveTodayViews === 'number' && typeof liveTodayVis === 'number') {
-        results[idx] = [liveTodayViews, liveTodayVis];
-      } else {
-        pending.push({ d: d, idx: idx });
-      }
-    });
-
-    var batchSize = pending.length > 7 ? 4 : 6;
-    var pauseMs = pending.length > 7 ? 2900 : 180;
-    var chain = Promise.resolve();
-    for (var c = 0; c < pending.length; c += batchSize) {
-      (function (slice, waitFirst) {
-        chain = chain.then(function () {
-          return (waitFirst ? delay(pauseMs) : Promise.resolve()).then(function () {
-            return Promise.all(slice.map(function (item) {
-              var k = item.d.replace(/-/g, '');
-              var pViews = (item.d === today && typeof liveTodayViews === 'number')
-                ? Promise.resolve(liveTodayViews)
-                : call('get', 'day-' + k).catch(function () { return null; });
-              var pVis = (item.d === today && typeof liveTodayVis === 'number')
-                ? Promise.resolve(liveTodayVis)
-                : call('get', 'vday-' + k).catch(function () { return null; });
-              return Promise.all([pViews, pVis]).then(function (pair) {
-                var v0 = pair[0] == null ? 0 : pair[0];
-                var v1 = pair[1] == null ? 0 : pair[1];
-                results[item.idx] = [v0, v1];
-                if (item.d < today && pair[0] !== null && pair[1] !== null) {
-                  histCache[item.d] = [v0, v1];
-                }
-              });
-            }));
-          });
-        });
-      })(pending.slice(c, c + batchSize), c > 0);
-    }
-    return chain.then(function () {
-      try { localStorage.setItem(HIST_KEY, JSON.stringify(histCache)); } catch (e) {}
-      return results.map(function (r) { return r || [0, 0]; });
-    });
+  function renderFromSummary(summary) {
+    var isEn = uiLang() === 'en';
+    var rawSeries = Array.isArray(summary.series) ? summary.series : [];
+    var filtered = rawSeries.filter(function (s) { return s && s.date >= START; });
+    if (!filtered.length) filtered = [{ date: today, views: liveTodayViews || 0, visitors: liveTodayVis || 0 }];
+    var slice = activeRange === 7 ? filtered.slice(-7) : filtered;
+    var days = slice.map(function (s) { return s.date; });
+    var rows = slice.map(function (s) { return [Number(s.views) || 0, Number(s.visitors) || 0]; });
+    var refToday = summary.referrals_today || {};
+    var refWin = summary.referrals_window || {};
+    var hasTodayRef = Object.keys(refToday).some(function (k) { return refToday[k] > 0; });
+    var useWin = (activeRange === 30) || (!hasTodayRef && Object.keys(refWin).length > 0);
+    var body = modal.querySelector('.vc-body');
+    body.innerHTML = renderToolbar(isEn, filtered.length) +
+      '<div id="vc-chart-slot">' + renderChartSvg(days, rows, isEn) + '</div>' +
+      '<div id="vc-ref-box" class="vc-ref-box">' + renderReferrerBox(useWin ? refWin : refToday, useWin) + '</div>' +
+      renderShareBar(isEn);
   }
 
-  var cachedRefMap = null;
-
-  function loadAndRenderModal(refreshRefs) {
+  function loadAndRenderModal(forceFetch) {
     syncCounterLang();
+    if (!forceFetch && cachedSummary) {
+      renderFromSummary(cachedSummary);
+      return;
+    }
     var isEn = uiLang() === 'en';
-    var fullDays = lastDays(30);
-    var days = activeRange === 7 ? lastDays(7) : fullDays;
     var body = modal.querySelector('.vc-body');
-    var chartWaitMsg = isEn ? 'Loading daily statistics&hellip;' : '일별 통계를 불러오는 중입니다&hellip;';
-    var refWaitMsg = isEn ? 'Loading today&rsquo;s referral channels&hellip;' : '오늘 유입 채널 집계를 불러오는 중입니다&hellip;';
-    var existingRefHtml = (!refreshRefs && cachedRefMap) ? renderReferrerBox(cachedRefMap) : ('<div class="vc-ref-note">' + refWaitMsg + '</div>');
-
-    body.innerHTML = renderToolbar(isEn, fullDays.length) +
-      '<div id="vc-chart-slot"><p class="vc-sum">' + chartWaitMsg + '</p></div>' +
-      '<div id="vc-ref-box" class="vc-ref-box">' + existingRefHtml + '</div>' +
-      renderShareBar(isEn);
-
-    loadHistoryRows(days)
-      .then(function (rows) {
-        var slot = document.getElementById('vc-chart-slot');
-        if (slot) slot.innerHTML = renderChartSvg(days, rows, uiLang() === 'en');
-        if (!refreshRefs && cachedRefMap) return cachedRefMap;
-        return delay(180).then(function () { return loadTodayReferrers(day); });
-      })
-      .then(function (refMap) {
-        if (refMap) cachedRefMap = refMap;
-        var refBox = document.getElementById('vc-ref-box');
-        if (refBox && refMap) refBox.innerHTML = renderReferrerBox(refMap);
+    var chartWaitMsg = isEn ? 'Loading daily statistics&hellip;' : '일별 통계를 불러오는 중이에요&hellip;';
+    body.innerHTML = '<div id="vc-chart-slot"><p class="vc-sum">' + chartWaitMsg + '</p></div>' + renderShareBar(isEn);
+    var url = VC_BASE + 'summary?prefix=' + encodeURIComponent(P) + '&days=30&day=' + encodeURIComponent(day) + '&start=' + encodeURIComponent(START);
+    fetchJson(url, { mode: 'cors' })
+      .then(function (j) {
+        if (!j || !j.ok) throw new Error('bad summary');
+        cachedSummary = j;
+        renderFromSummary(j);
       })
       .catch(function () {
         var slot = document.getElementById('vc-chart-slot');
-        if (slot && !slot.querySelector('svg')) {
-          slot.textContent = uiLang() === 'en' ? 'Could not load the chart.' : '그래프를 불러오지 못했습니다.';
+        if (slot) {
+          slot.textContent = uiLang() === 'en' ? 'Could not load the chart.' : '그래프를 불러오지 못했어요.';
         }
       });
   }

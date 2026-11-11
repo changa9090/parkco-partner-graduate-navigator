@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://changa9090.github.io/parkco-partner-graduate-navigator/sitemap.xml

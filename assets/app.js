@@ -228,6 +228,10 @@
   }
 
   var KO_TRANSLATIONS = {
+    pageTitle: "호주 파트너 비자(820·309·300) & 학생·졸업생 비자(500·485) 내비게이터 | 법무법인 박앤코",
+    brandHubTitle: "박앤코 법률·비자 통합 허브",
+    phDfMonths: "예: 7",
+    phGradAge: "예: 33",
     brandTag: "파트너(820·309) & 졸업생(500·485) 내비게이터",
     navM1: "파트너 비자(820·309)",
     navM2: "혼인·관계등록·4대기둥",
@@ -311,6 +315,25 @@
     lblGradAge: "4. 비자 접수 시점 만 나이 (Age at Lodgement)",
     lblGradCompDate: "5. 공식 학업 수료 완료일 (Completion Letter 명시 완료일 · 485 6개월 마감 계산)",
     gradResultHeading: "500·485 적격 여부 · 신청비(VAC) · 6개월 법정 마감일 병기",
+    tdTitle: "2. 졸업생 비자(Subclass 485) 3대 법정 기한 비교기 (최종 안전 접수 데드라인 산출)",
+    tdDesc: "학위 수료 확인서 발급일(+6개월 · reg 485.213)과 학생비자 500 만료일(온쇼어 합법 체류 · cl 485.211 / s 48) 및 공인 영어시험 응시일(+12개월 · LIN 24/022) 중 가장 먼저 도래하는 날짜가 절대 초과 불가 최종 안전 접수 데드라인이 됩니다.",
+    tdFormHeading: "485 접수 3대 기한 기준일 입력",
+    lblTdCompletion: "1. 학위 수료 확인서 Completion Letter 완료일 (+6개월 · reg 485.213 / 졸업식 날짜 아님)",
+    lblTdVisa500: "2. 학생비자(Subclass 500) 만료일 (온쇼어 합법 체류 및 최근 6개월 내 보유 · cl 485.211 & s 48 주의)",
+    lblTdEnglish: "3. 공인 영어시험 응시일 — IELTS / PTE / OET / TOEFL (+12개월 · LIN 24/022 단축 규정)",
+    tdResultHeading: "최종 안전 접수 데드라인 (3개 기한 중 가장 빠른 날)",
+    citKpi1Label: "수여 시민권(Conferral) 전체 완료",
+    citKpi1Val: "7개월 (p50) / 11개월 (p90)",
+    citKpi1Sub: "미결 재고 53,298건 (월 신규 16,690건)",
+    citKpi2Label: "파트너 비자(820) 1차 & ART 인용률",
+    citKpi2Val: "93.9% (1차) · 85.16% (ART 본안)",
+    citKpi2Sub: "이민성 미결 96,839건 · ART 중위 3년 2개월",
+    citKpi3Label: "졸업생 비자(485) 거절 ART 인용률",
+    citKpi3Val: "93.30% (본안) · 83.99% (전체)",
+    citKpi3Sub: "본안 결정 388건 중 362건 취소·환송",
+    citKpi4Label: "시민권 거절 ART 재심 인용률",
+    citKpi4Val: "58.82% (본안) · 31.91% (전체)",
+    citKpi4Sub: "본안 결정 51건 중 30건 취소·환송",
     ctaHeading: "법무법인 박앤코 파트너 · 학생 · 졸업생 비자 상담 브리프",
     ctaSub: "공식 이메일 <code>enquiry@parkcolawyers.com</code> 또는 통합 문의 허브로 바로 전달하실 수 있습니다.",
     btnSendEmail: "브리프 복사 & 공식 상담 신청",
@@ -354,6 +377,10 @@
   };
 
   var EN_TRANSLATIONS = {
+    pageTitle: "Australia Partner Visas (820·309·300) & Student/Graduate Visas (500·485) Navigator | Park & Co Lawyers",
+    brandHubTitle: "Park & Co Legal & Visa Hub",
+    phDfMonths: "e.g. 7",
+    phGradAge: "e.g. 33",
     brandTag: "Partner (820·309) & Graduate (500·485) Navigator",
     navM1: "Partner Visas (820·309)",
     navM2: "Marriage · Reg · 4 Pillars",
@@ -437,6 +464,25 @@
     lblGradAge: "4. Age at Visa Lodgement (Completed Years)",
     lblGradCompDate: "5. Official Course Completion Date (Completion Letter Date · 6-Month Rule)",
     gradResultHeading: "500 / 485 Eligibility, Official VAC & Dual Safe/Statutory Deadlines",
+    tdTitle: "2. Subclass 485 Triple-Deadline Comparator (Hard Filing Deadline)",
+    tdDesc: "Compare your Course Completion Letter date (+6 months · reg 485.213), Student Visa 500 expiry date (onshore lawful status · cl 485.211 / s 48), and English Test date (+12 months · LIN 24/022). The earliest expiring date is your non-extendable Hard Filing Deadline.",
+    tdFormHeading: "Enter All 3 Subclass 485 Milestone Dates",
+    lblTdCompletion: "1. Course Completion Letter Date (+6 months · reg 485.213 / NOT ceremony date)",
+    lblTdVisa500: "2. Student Visa (Subclass 500) Expiry Date (Onshore lawful status & 6m rule · cl 485.211 & s 48)",
+    lblTdEnglish: "3. English Test Date — IELTS / PTE / OET / TOEFL (+12 months · LIN 24/022 reduced validity)",
+    tdResultHeading: "Hard Filing Deadline (Earliest of the 3 Statutory Deadlines)",
+    citKpi1Label: "Conferral Overall to Ceremony",
+    citKpi1Val: "7 months (p50) / 11 months (p90)",
+    citKpi1Sub: "On-hand 53,298 (Monthly lodged 16,690)",
+    citKpi2Label: "Partner 820 Primary & ART Set Aside",
+    citKpi2Val: "93.9% (Primary) · 85.16% (ART Substantive)",
+    citKpi2Sub: "DHA On-Hand 96,839 · ART p50 3 yrs 2 mos",
+    citKpi3Label: "Graduate 485 ART Set Aside Rate",
+    citKpi3Val: "93.30% (Substantive) · 83.99% (All)",
+    citKpi3Sub: "362 of 388 substantive decisions Set Aside",
+    citKpi4Label: "Citizenship Refusal ART Set Aside",
+    citKpi4Val: "58.82% (Substantive) · 31.91% (All)",
+    citKpi4Sub: "30 of 51 substantive decisions Set Aside",
     ctaHeading: "Park & Co Lawyers Partner, Student & Graduate Consultation Brief",
     ctaSub: "Send directly via official email <code>enquiry@parkcolawyers.com</code> or the Park & Co Inquiry Hub.",
     btnSendEmail: "Copy Brief & Open Official Inquiry",
@@ -482,29 +528,100 @@
   /* ==========================================================================
      3. PURE EVALUATION ENGINES (TESTABLE IN NODE VM & BROWSER)
      ========================================================================== */
+  var liveVacConfig = {
+    partnerBase: 11710,
+    partner18: 5860,
+    partnerU18: 2935,
+    trans300: 1955,
+    trans300_18: 980,
+    trans300_u18: 485,
+    ceased300: 2475,
+    s500Base: 2500,
+    s500_18: 1530,
+    s500_u18: 500,
+    s500Stac: 700,
+    g485Base: 5750,
+    g485_18: 2875,
+    g485_u18: 1450,
+    g485SecBase: 2265,
+    g485Sec_18: 1140,
+    g485Sec_u18: 575
+  };
+
+  function fmtAudInt(n) {
+    return "$" + Number(n || 0).toLocaleString("en-US");
+  }
+
+  function hydrateVacSchedule(vacSched) {
+    if (!vacSched || typeof vacSched !== "object") return;
+    var p820 = vacSched.partner_820_801 || {};
+    var s500 = vacSched.student_500 || {};
+    var g485 = vacSched.graduate_485 || {};
+    if (typeof p820.base === "number" && p820.base > 0) liveVacConfig.partnerBase = p820.base;
+    if (typeof p820.adult_18_plus === "number" && p820.adult_18_plus > 0) liveVacConfig.partner18 = p820.adult_18_plus;
+    if (typeof p820.child_under_18 === "number" && p820.child_under_18 > 0) liveVacConfig.partnerU18 = p820.child_under_18;
+    if (typeof p820.from_300_holder_base === "number" && p820.from_300_holder_base > 0) liveVacConfig.trans300 = p820.from_300_holder_base;
+    if (typeof p820.from_300_holder_adult_18_plus === "number" && p820.from_300_holder_adult_18_plus > 0) liveVacConfig.trans300_18 = p820.from_300_holder_adult_18_plus;
+    if (typeof p820.from_300_holder_child_under_18 === "number" && p820.from_300_holder_child_under_18 > 0) liveVacConfig.trans300_u18 = p820.from_300_holder_child_under_18;
+    if (typeof p820.from_ceased_300_base === "number" && p820.from_ceased_300_base > 0) liveVacConfig.ceased300 = p820.from_ceased_300_base;
+
+    if (typeof s500.base === "number" && s500.base > 0) liveVacConfig.s500Base = s500.base;
+    if (typeof s500.adult_18_plus === "number" && s500.adult_18_plus > 0) liveVacConfig.s500_18 = s500.adult_18_plus;
+    if (typeof s500.child_under_18 === "number" && s500.child_under_18 > 0) liveVacConfig.s500_u18 = s500.child_under_18;
+    if (typeof s500.subsequent_stac === "number" && s500.subsequent_stac > 0) liveVacConfig.s500Stac = s500.subsequent_stac;
+
+    if (typeof g485.phew_pvew_base === "number" && g485.phew_pvew_base > 0) liveVacConfig.g485Base = g485.phew_pvew_base;
+    if (typeof g485.phew_pvew_adult_18_plus === "number" && g485.phew_pvew_adult_18_plus > 0) liveVacConfig.g485_18 = g485.phew_pvew_adult_18_plus;
+    if (typeof g485.phew_pvew_child_under_18 === "number" && g485.phew_pvew_child_under_18 > 0) liveVacConfig.g485_u18 = g485.phew_pvew_child_under_18;
+    if (typeof g485.second_phew_base === "number" && g485.second_phew_base > 0) liveVacConfig.g485SecBase = g485.second_phew_base;
+    if (typeof g485.second_phew_adult_18_plus === "number" && g485.second_phew_adult_18_plus > 0) liveVacConfig.g485Sec_18 = g485.second_phew_adult_18_plus;
+    if (typeof g485.second_phew_child_under_18 === "number" && g485.second_phew_child_under_18 > 0) liveVacConfig.g485Sec_u18 = g485.second_phew_child_under_18;
+
+    if (typeof document !== "undefined") {
+      var spVal = document.getElementById("stat-partner-vac-val");
+      var sgVal = document.getElementById("stat-grad-vac-val");
+      if (spVal) spVal.textContent = fmtAudInt(liveVacConfig.partnerBase);
+      if (sgVal) sgVal.textContent = fmtAudInt(liveVacConfig.s500Base) + " / " + fmtAudInt(liveVacConfig.g485Base);
+    }
+  }
+
   function evaluatePartnerPathway(opts) {
     var loc = (opts && opts.location) || "";
     var relYrs = (opts && opts.relYears) || "1to2";
     var hasChild = !!(opts && opts.hasSharedChild);
     var spHist = (opts && opts.sponsorHist) || "clean";
+    var relLegal = (opts && opts.relLegalStatus) || "";
 
     if (!loc) {
       return { ready: false };
     }
 
+    var pBase = liveVacConfig.partnerBase;
+    var p18 = liveVacConfig.partner18;
+    var pU18 = liveVacConfig.partnerU18;
+    var t300 = liveVacConfig.trans300;
+    var c300 = liveVacConfig.ceased300;
+
     var directPr = relYrs === "over3" || (relYrs === "2to3" && hasChild);
     var subclassCode = "820_801";
     var trackTitleKo = "Subclass 820 / 801 (온쇼어 파트너 비자)";
     var trackTitleEn = "Subclass 820 / 801 (Onshore Partner Visa)";
-    var baseVacAud = 11710;
-    var vacDisplayKo = "$11,710 AUD (동반 18세 이상 +$5,860 · 18세 미만 +$2,935)";
-    var vacDisplayEn = "$11,710 AUD (Add 18+ +$5,860 · Under 18 +$2,935)";
+    var baseVacAud = pBase;
+    var vacDisplayKo = fmtAudInt(pBase) + " AUD (동반 18세 이상 +" + fmtAudInt(p18) + " · 18세 미만 +" + fmtAudInt(pU18) + ")";
+    var vacDisplayEn = fmtAudInt(pBase) + " AUD (Add 18+ +" + fmtAudInt(p18) + " · Under 18 +" + fmtAudInt(pU18) + ")";
     var schedule3State = "not_triggered_substantive";
     var schedule3TitleKo = "Schedule 3 미적용 (유효 본비자 보유 중 안전 접수)";
     var schedule3TitleEn = "Schedule 3 Not Triggered (Valid Substantive Visa Held)";
     var schedule3DetailKo = "현재 유효한 본비자(Substantive Visa)를 보유한 상태에서 820 비자를 접수하므로 Schedule 3(3001·3004) 추가 요건이 적용되지 않습니다. 조건 8503(No Further Stay) 부착 여부만 사전 확인하십시오.";
     var schedule3DetailEn = "Lodging Subclass 820 while holding a valid substantive visa avoids Schedule 3 (Criteria 3001/3004). Confirm no Condition 8503 (No Further Stay) is attached.";
     var schedule3Severity = "ok";
+
+    var isOffshoreFiance300 = (loc === "offshore_fiance" || loc === "offshore_300");
+    var contradiction300Married = (isOffshoreFiance300 && relLegal === "legally_married");
+    var contradictionTitleKo = "";
+    var contradictionTitleEn = "";
+    var contradictionDetailKo = "";
+    var contradictionDetailEn = "";
 
     if (loc === "onshore_bva_within28") {
       schedule3State = "triggered_bva_within28";
@@ -530,33 +647,44 @@
       schedule3TitleEn = "Offshore 309/100 Application — Onshore Schedule 3 Not Applicable";
       schedule3DetailKo = "호주 밖에서 접수하는 Subclass 309 비자에는 온쇼어 브리징 Schedule 3 규정이 적용되지 않습니다.";
       schedule3DetailEn = "Onshore Schedule 3 criteria do not apply to offshore Subclass 309 partner visa applications.";
-    } else if (loc === "offshore_fiance") {
+    } else if (isOffshoreFiance300) {
       subclassCode = "300_to_820";
       trackTitleKo = "Subclass 300 (약혼자) → 호주 입국·혼인 후 Subclass 820 / 801 전환";
       trackTitleEn = "Subclass 300 (Prospective Marriage) → Onshore Subclass 820 / 801";
-      baseVacAud = 13665;
-      vacDisplayKo = "1단계 300 ($11,710) + 2단계 820 전환 ($1,955) = 총 $13,665 AUD";
-      vacDisplayEn = "Stage 1 Subclass 300 ($11,710) + Stage 2 820 Transition ($1,955) = $13,665 AUD";
+      baseVacAud = pBase + t300;
+      vacDisplayKo = "1단계 300 (" + fmtAudInt(pBase) + ") + 2단계 820 전환 (" + fmtAudInt(t300) + ") = 총 " + fmtAudInt(pBase + t300) + " AUD";
+      vacDisplayEn = "Stage 1 Subclass 300 (" + fmtAudInt(pBase) + ") + Stage 2 820 Transition (" + fmtAudInt(t300) + ") = " + fmtAudInt(pBase + t300) + " AUD";
       directPr = false;
       schedule3State = "not_applicable_offshore";
       schedule3Severity = "ok";
       schedule3TitleKo = "오프쇼어 300 승인 입국 후 유효기간 내 혼인·820 접수 시 Schedule 3 미적용";
       schedule3TitleEn = "Schedule 3 Not Triggered When Lodging 820 Before Subclass 300 Expiry";
       schedule3DetailKo = "Subclass 300 비자 유효기간(통상 9~15개월) 안에 호주 입국과 법적 혼인을 마치고 만료 전 820 비자를 접수하면 Schedule 3가 적용되지 않습니다.";
-      schedule3DetailEn = "Marrying your sponsor and lodging Subclass 820 before Subclass 300 ceases avoids Schedule 3 and secures the $1,955 transition VAC.";
+      schedule3DetailEn = "Marrying your sponsor and lodging Subclass 820 before Subclass 300 ceases avoids Schedule 3 and secures the " + fmtAudInt(t300) + " transition VAC.";
+
+      if (contradiction300Married) {
+        subclassCode = "300_married_contradiction";
+        trackTitleKo = "법정 모순 차단: 기혼 부부는 Subclass 300(약혼자 비자) 신청 불가 → Subclass 309/100 또는 820/801 전환 필수";
+        trackTitleEn = "Statutory Contradiction Blocked: Married Couples Cannot Lodge Subclass 300 → Switch to Subclass 309/100 or 820/801";
+        schedule3Severity = "danger";
+        contradictionTitleKo = "법정 자격 모순 경고 (cl 300.211 / cl 300.221): 이미 법적 혼인한 부부는 Subclass 300 신규 승인 불가";
+        contradictionTitleEn = "Statutory Contradiction Guard (cl 300.211 / cl 300.221): Already Legally Married Couples Cannot Be Granted Subclass 300";
+        contradictionDetailKo = "이민법 시행령 Schedule 2 cl 300.211 및 cl 300.221에 따라 Subclass 300(Prospective Marriage)은 아직 혼인하지 않은 예비 배우자 전용 비자입니다. 비자 접수 전에 이미 법적으로 혼인한 부부가 Subclass 300을 신청하면 부적격 거절 대상입니다(유효한 300 접수 후 결정 전에 혼인한 경우에만 cl 300.221A에 따라 Subclass 309 전환 간주). 이미 혼인신고를 마친 부부는 오프쇼어 Subclass 309/100 또는 온쇼어 Subclass 820/801로 직접 신청해야 합니다.";
+        contradictionDetailEn = "Under Migration Regulations Schedule 2 cl 300.211 and cl 300.221, Subclass 300 (Prospective Marriage) is strictly for prospective spouses who intend to marry. If you are already legally married prior to lodgement, Subclass 300 cannot be validly granted (cl 300.221A conversion applies only where marriage occurs after a valid 300 application and before decision). Please lodge Partner Subclass 309/100 (offshore) or Subclass 820/801 (onshore) directly.";
+      }
     } else if (loc === "onshore_300_holder") {
       subclassCode = "300_holder_820";
       trackTitleKo = "유효 Subclass 300 보유자 → 온쇼어 Subclass 820 / 801 전환";
       trackTitleEn = "Current Subclass 300 Holder → Onshore Subclass 820 / 801 Transition";
-      baseVacAud = 1955;
-      vacDisplayKo = "$1,955 AUD (만료 전 접수 기준 · 300 만료 후 접수 시 $2,475 AUD)";
-      vacDisplayEn = "$1,955 AUD before 300 expiry ($2,475 AUD if Subclass 300 has ceased)";
+      baseVacAud = t300;
+      vacDisplayKo = fmtAudInt(t300) + " AUD (만료 전 접수 기준 · 300 만료 후 접수 시 " + fmtAudInt(c300) + " AUD)";
+      vacDisplayEn = fmtAudInt(t300) + " AUD before 300 expiry (" + fmtAudInt(c300) + " AUD if Subclass 300 has ceased)";
       schedule3State = "not_triggered_substantive";
       schedule3Severity = "ok";
       schedule3TitleKo = "유효 Subclass 300 보유 중 접수 — Schedule 3 미적용";
       schedule3TitleEn = "Valid Subclass 300 Held — Schedule 3 Not Triggered";
-      schedule3DetailKo = "Subclass 300 비자가 만료되기 전에 혼인신고 후 820/801 전환 신청을 접수하면 할인 수수료($1,955)가 적용되며 Schedule 3도 발생하지 않습니다.";
-      schedule3DetailEn = "Lodging 820/801 after marriage while Subclass 300 remains in effect qualifies for the $1,955 transition VAC without triggering Schedule 3.";
+      schedule3DetailKo = "Subclass 300 비자가 만료되기 전에 혼인신고 후 820/801 전환 신청을 접수하면 할인 수수료(" + fmtAudInt(t300) + ")가 적용되며 Schedule 3도 발생하지 않습니다.";
+      schedule3DetailEn = "Lodging 820/801 after marriage while Subclass 300 remains in effect qualifies for the " + fmtAudInt(t300) + " transition VAC without triggering Schedule 3.";
     }
 
     var sponsorBar = spHist !== "clean";
@@ -590,7 +718,12 @@
       schedule3DetailEn: schedule3DetailEn,
       sponsorBar: sponsorBar,
       sponsorNoteKo: sponsorNoteKo,
-      sponsorNoteEn: sponsorNoteEn
+      sponsorNoteEn: sponsorNoteEn,
+      contradiction300Married: contradiction300Married,
+      contradictionTitleKo: contradictionTitleKo,
+      contradictionTitleEn: contradictionTitleEn,
+      contradictionDetailKo: contradictionDetailKo,
+      contradictionDetailEn: contradictionDetailEn
     };
   }
 
@@ -601,6 +734,7 @@
     var state = ((opts && opts.state) || "QLD").toUpperCase();
     var rawMonths = opts && opts.monthsRaw !== undefined ? String(opts.monthsRaw).trim() : "";
     var pillars = (opts && opts.pillars) || "strong4";
+    var loc = (opts && opts.location) || "";
 
     if (!relLegal) {
       return { ready: false };
@@ -633,8 +767,16 @@
     var badgeEn = "";
     var detailKo = "";
     var detailEn = "";
+    var isOffshoreFiance300 = (loc === "offshore_fiance" || loc === "offshore_300");
+    var contradiction300Married = (isOffshoreFiance300 && relLegal === "legally_married");
 
-    if (relLegal === "legally_married") {
+    if (contradiction300Married) {
+      status = "contradiction_300_married";
+      badgeKo = "법정 모순 경고 (cl 300.211 / cl 300.221) — 이미 법적 혼인한 부부는 Subclass 300(약혼자 비자) 대상이 아닙니다";
+      badgeEn = "Statutory Contradiction Warning (cl 300.211 / cl 300.221) — Already Married Couples Cannot Lodge Subclass 300";
+      detailKo = "1단계에서 약혼자 비자(Subclass 300)를 선택하셨으나 2단계에서 법적 혼인신고 완료(s 5F)를 선택하셨습니다. Subclass 300은 장래 혼인 예정인 미혼 예비 배우자 전용이므로 이미 혼인한 부부는 오프쇼어 Subclass 309/100 또는 온쇼어 Subclass 820/801 배우자 비자로 직접 접수해야 합니다(cl 300.221A 전환은 유효한 300 접수 후 결정 전 혼인 시에만 적용).";
+      detailEn = "You selected Subclass 300 (Prospective Marriage) in Step 1 together with Legally Married (s 5F) in Step 2. Because Subclass 300 is strictly for unmarried prospective spouses under cl 300.211/300.221, already married couples must lodge Subclass 309/100 (offshore) or Subclass 820/801 (onshore) directly (cl 300.221A applies only where marriage occurs after valid 300 lodgement and before decision).";
+    } else if (relLegal === "legally_married") {
       status = "married_exempt";
       badgeKo = "법률혼 배우자 요건 적용 (s 5F) — 12개월 의무 동거 요건 면제";
       badgeEn = "Legally Married Spouse (s 5F) — 12-Month De Facto Rule Does Not Apply";
@@ -705,10 +847,18 @@
       ? "4 Pillars Action Required (regs 1.15A / 1.09A): Dormant joint accounts or single-name leases carry low weight. Establish active joint household transactions, joint utility records, at least two Form 888 statutory declarations, and Superannuation/Will nominations."
       : "All 4 evidentiary pillars (financial, household, social, mutual commitment) are aligned. Continue uploading updated quarterly evidence to ImmiAccount until decision.";
 
+    var isEligibleRel = (
+      status === "married_exempt" ||
+      status === "registered_exempt" ||
+      status === "defacto_12m_met"
+    );
+
     return {
       ready: true,
       validationError: false,
+      eligible: isEligibleRel,
       status: status,
+      contradiction300Married: contradiction300Married,
       months: months,
       canExemptState: canExemptState,
       badgeKo: badgeKo,
@@ -755,17 +905,17 @@
       };
     }
 
-    var vacBaseAud = 5750;
-    var vacTextKo = "주신청자 $5,750 AUD (동반 18세 이상 +$2,875 · 18세 미만 +$1,450)";
-    var vacTextEn = "Main applicant $5,750 AUD (Add 18+ +$2,875 · Under 18 +$1,450)";
+    var vacBaseAud = liveVacConfig.g485Base;
+    var vacTextKo = "주신청자 " + fmtAudInt(liveVacConfig.g485Base) + " AUD (동반 18세 이상 +" + fmtAudInt(liveVacConfig.g485_18) + " · 18세 미만 +" + fmtAudInt(liveVacConfig.g485_u18) + ")";
+    var vacTextEn = "Main applicant " + fmtAudInt(liveVacConfig.g485Base) + " AUD (Add 18+ +" + fmtAudInt(liveVacConfig.g485_18) + " · Under 18 +" + fmtAudInt(liveVacConfig.g485_u18) + ")";
     if (stream === "485_second") {
-      vacBaseAud = 2265;
-      vacTextKo = "Second 485 주신청자 $2,265 AUD (동반 18세 이상 +$1,140 · 18세 미만 +$575)";
-      vacTextEn = "Second 485 main applicant $2,265 AUD (Add 18+ +$1,140 · Under 18 +$575)";
+      vacBaseAud = liveVacConfig.g485SecBase;
+      vacTextKo = "Second 485 주신청자 " + fmtAudInt(liveVacConfig.g485SecBase) + " AUD (동반 18세 이상 +" + fmtAudInt(liveVacConfig.g485Sec_18) + " · 18세 미만 +" + fmtAudInt(liveVacConfig.g485Sec_u18) + ")";
+      vacTextEn = "Second 485 main applicant " + fmtAudInt(liveVacConfig.g485SecBase) + " AUD (Add 18+ +" + fmtAudInt(liveVacConfig.g485Sec_18) + " · Under 18 +" + fmtAudInt(liveVacConfig.g485Sec_u18) + ")";
     } else if (stream === "500_student") {
-      vacBaseAud = 2500;
-      vacTextKo = "학생 비자(500) 주신청자 $2,500 AUD (동반 18세 이상 +$1,530 · 18세 미만 +$500 · 온쇼어 연장 STAC +$700 해당 여부 확인)";
-      vacTextEn = "Student Subclass 500 main applicant $2,500 AUD (Add 18+ +$1,530 · Under 18 +$500 · check $700 STAC if extending onshore)";
+      vacBaseAud = liveVacConfig.s500Base;
+      vacTextKo = "학생 비자(500) 주신청자 " + fmtAudInt(liveVacConfig.s500Base) + " AUD (동반 18세 이상 +" + fmtAudInt(liveVacConfig.s500_18) + " · 18세 미만 +" + fmtAudInt(liveVacConfig.s500_u18) + " · 온쇼어 연장 STAC +" + fmtAudInt(liveVacConfig.s500Stac) + " 해당 여부 확인)";
+      vacTextEn = "Student Subclass 500 main applicant " + fmtAudInt(liveVacConfig.s500Base) + " AUD (Add 18+ +" + fmtAudInt(liveVacConfig.s500_18) + " · Under 18 +" + fmtAudInt(liveVacConfig.s500_u18) + " · check " + fmtAudInt(liveVacConfig.s500Stac) + " STAC if extending onshore)";
     }
 
     var issues = [];
@@ -876,10 +1026,137 @@
     };
   }
 
+  function evaluate485TripleDeadlines(opts) {
+    var compDate = String((opts && opts.completionDate) || "").trim();
+    var visa500Exp = String((opts && (opts.studentVisaExpiryDate || opts.visa500ExpiryDate)) || "").trim();
+    var engDate = String((opts && opts.englishTestDate) || "").trim();
+    var refTodayIso = (opts && opts.todayIso) || ParkCoDates.todayBrisbaneIso();
+
+    if (!compDate && !visa500Exp && !engDate) {
+      return { ready: false };
+    }
+
+    var items = [];
+
+    if (compDate) {
+      if (!ParkCoDates.parseIsoLocal(compDate)) {
+        return {
+          ready: true,
+          validationError: true,
+          errorKo: "학위 수료 확인서(Completion Letter) 날짜 형식이 올바르지 않습니다(YYYY-MM-DD).",
+          errorEn: "Invalid Course Completion Letter date format (YYYY-MM-DD)."
+        };
+      }
+      var compDeadlineIso = ParkCoDates.formatIsoLocal(ParkCoDates.addYearsMonthsClamped(compDate, 0, 6, 0));
+      var compDiff = ParkCoDates.diffDaysBetweenIso(refTodayIso, compDeadlineIso);
+      items.push({
+        id: "completion_6m",
+        sourceIso: compDate,
+        deadlineIso: compDeadlineIso,
+        daysRemaining: compDiff,
+        expired: compDiff < 0,
+        labelKo: "학위 수료일 + 6개월 (reg 485.213 / cl 485.221)",
+        labelEn: "Completion Letter + 6 Months (reg 485.213 / cl 485.221)",
+        ruleKo: "학위 수여식(졸업식) 날짜가 아니라 대학 공식 Completion Letter 상 최종 학업 완료일로부터 정확히 6개월 이내에 접수해야 합니다.",
+        ruleEn: "Counted strictly 6 months from the official course completion date on your Completion Letter (NOT graduation ceremony date)."
+      });
+    }
+
+    if (visa500Exp) {
+      if (!ParkCoDates.parseIsoLocal(visa500Exp)) {
+        return {
+          ready: true,
+          validationError: true,
+          errorKo: "학생비자(Subclass 500) 만료일 형식이 올바르지 않습니다(YYYY-MM-DD).",
+          errorEn: "Invalid Student Visa (Subclass 500) expiry date format (YYYY-MM-DD)."
+        };
+      }
+      var vDiff = ParkCoDates.diffDaysBetweenIso(refTodayIso, visa500Exp);
+      items.push({
+        id: "student_500_expiry",
+        sourceIso: visa500Exp,
+        deadlineIso: visa500Exp,
+        daysRemaining: vDiff,
+        expired: vDiff < 0,
+        labelKo: "학생비자(500) 만료일 (cl 485.211 / s 48 주의)",
+        labelEn: "Student Visa (500) Expiry (cl 485.211 / s 48 Rule)",
+        ruleKo: "유효한 본비자(500) 만료 전에 온쇼어에서 접수해야 BVA가 순조롭게 부여됩니다(만료 후 무비자 전락 또는 거절 이력 발생 시 s 48 제한 및 최근 6개월 내 500 보유 요건 위반 위험).",
+        ruleEn: "Lodge onshore before Subclass 500 expires to transition cleanly onto BVA (avoiding unlawful status, s 48 bars, or breaching the 6-month substantive 500 holding rule under cl 485.211)."
+      });
+    }
+
+    if (engDate) {
+      if (!ParkCoDates.parseIsoLocal(engDate)) {
+        return {
+          ready: true,
+          validationError: true,
+          errorKo: "공인 영어시험 응시일 형식이 올바르지 않습니다(YYYY-MM-DD).",
+          errorEn: "Invalid English test date format (YYYY-MM-DD)."
+        };
+      }
+      var engDeadlineIso = ParkCoDates.formatIsoLocal(ParkCoDates.addYearsMonthsClamped(engDate, 1, 0, 0));
+      var eDiff = ParkCoDates.diffDaysBetweenIso(refTodayIso, engDeadlineIso);
+      items.push({
+        id: "english_12m",
+        sourceIso: engDate,
+        deadlineIso: engDeadlineIso,
+        daysRemaining: eDiff,
+        expired: eDiff < 0,
+        labelKo: "공인 영어성적 유효만료일 + 12개월 (LIN 24/022)",
+        labelEn: "English Test Validity + 12 Months (LIN 24/022)",
+        ruleKo: "LIN 24/022 개정에 따라 Subclass 485 영어 성적(IELTS/PTE/OET/TOEFL) 인정 유효기간이 기존 3년에서 접수 직전 최대 1년(12개월)으로 대폭 단축되었습니다.",
+        ruleEn: "Under LIN 24/022, maximum English test validity (IELTS/PTE/OET/TOEFL) for Subclass 485 was reduced from 3 years to strictly 1 year (12 months) before lodgement."
+      });
+    }
+
+    var sorted = items.slice().sort(function (a, b) {
+      return a.deadlineIso < b.deadlineIso ? -1 : (a.deadlineIso > b.deadlineIso ? 1 : 0);
+    });
+    var earliest = sorted[0];
+    var latest = sorted[sorted.length - 1];
+
+    items.forEach(function (it) {
+      it.isEarliest = it.deadlineIso === earliest.deadlineIso;
+    });
+
+    var safePriorIso = ParkCoDates.computeSafePriorBusinessIso(earliest.deadlineIso, 14, "QLD");
+    var spreadDays = ParkCoDates.diffDaysBetweenIso(earliest.deadlineIso, latest.deadlineIso);
+
+    var explanationKo = "최종 안전 접수 데드라인은 3개 기한 중 가장 먼저 도래하는 [" + earliest.labelKo + ": " + earliest.deadlineIso + "]입니다. " +
+      (items.length > 1
+        ? "나머지 기한(" + latest.deadlineIso + " 등 · 최대 " + spreadDays + "일 더 늦음)에 여유가 남아 있더라도 가장 먼저 만료되는 법정 요건 하나라도 도과하는 즉시 유효한 485 승인 요건이 상실되므로 다른 늦은 날짜가 앞선 기한을 절대 연장해 주지 못합니다."
+        : "나머지 2개 기준일(학생비자 500 만료일 · 공인 영어시험 응시일 · 수료 완료일)도 모두 입력하시면 3개 기한 중 가장 빠른 병목 날짜를 정밀 비교합니다.");
+
+    var explanationEn = "Your Hard Filing Deadline is [" + earliest.labelEn + ": " + earliest.deadlineIso + "], the earliest expiring requirement. " +
+      (items.length > 1
+        ? "Even though later dates exist (up to " + latest.deadlineIso + ", " + spreadDays + " days later), missing the earliest expiring statutory requirement invalidates or bars your 485 application — later dates on the other two items CANNOT extend an earlier expiring requirement."
+        : "Enter all 3 dates (Completion Letter, Subclass 500 expiry, and English test date) to compare every statutory bottleneck side by side.");
+
+    return {
+      ready: true,
+      validationError: false,
+      allThreeProvided: items.length === 3,
+      todayIso: refTodayIso,
+      hardFilingDeadlineIso: earliest.deadlineIso,
+      safePriorBusinessIso: safePriorIso,
+      daysRemaining: earliest.daysRemaining,
+      expired: earliest.expired,
+      earliestId: earliest.id,
+      earliestItem: earliest,
+      items: items,
+      sortedItems: sorted,
+      explanationKo: explanationKo,
+      explanationEn: explanationEn
+    };
+  }
+
   root.PartnerGraduateEngine = {
     evaluatePartnerPathway: evaluatePartnerPathway,
     evaluateRelationshipEligibility: evaluateRelationshipEligibility,
     evaluateGraduatePathway: evaluateGraduatePathway,
+    evaluate485TripleDeadlines: evaluate485TripleDeadlines,
+    hydrateVacSchedule: hydrateVacSchedule,
+    formatCitizenshipDuration: formatCitizenshipDuration,
     getLabel: getLabel,
     LABELS: LABELS
   };
@@ -939,17 +1216,22 @@
   function updateAll() {
     var isKo = currentLang === "ko";
 
-    /* --- Partner Step 1 --- */
+    /* --- Partner Step 1 & Step 2 Cross-Context --- */
     var locVal = (document.getElementById("pv-location") || {}).value || "";
     var relYrsVal = (document.getElementById("pv-rel-years") || {}).value || "1to2";
     var childVal = (document.getElementById("pv-shared-child") || {}).value || "no";
     var spHistVal = (document.getElementById("s3-sponsor-hist") || {}).value || "clean";
+    var relLegalVal = (document.getElementById("rel-legal-status") || {}).value || "";
+    var stateVal = (document.getElementById("df-state") || {}).value || "QLD";
+    var monthsRawVal = (document.getElementById("df-months") || {}).value;
+    var pillarsVal = (document.getElementById("df-pillars") || {}).value || "strong4";
 
     var pRes = evaluatePartnerPathway({
       location: locVal,
       relYears: relYrsVal,
       hasSharedChild: childVal === "yes",
-      sponsorHist: spHistVal
+      sponsorHist: spHistVal,
+      relLegalStatus: relLegalVal
     });
 
     var pOut = document.getElementById("pv-pathway-output");
@@ -958,10 +1240,32 @@
         pOut.innerHTML = renderNeutralPrompt(
           "체류 위치 및 현재 비자 상태를 선택해 주십시오",
           "Select Your Current Location & Visa Status",
-          "왼쪽 1번 항목을 선택하시면 권고 파트너 비자 서브클래스(820/309/300)와 신청비($11,710 / $1,955) 및 Schedule 3 웨이버 필요 여부가 즉시 표시됩니다.",
+          "왼쪽 1번 항목을 선택하시면 권고 파트너 비자 서브클래스(820/309/300)와 신청비(" + fmtAudInt(liveVacConfig.partnerBase) + " / " + fmtAudInt(liveVacConfig.trans300) + ") 및 Schedule 3 웨이버 필요 여부가 즉시 표시됩니다.",
           "Choose item 1 on the left to view your recommended Partner subclass, FY2026–27 VAC, Direct PR status, and Schedule 3 assessment."
         );
       } else {
+        var guardHtml = "";
+        if (pRes.contradiction300Married) {
+          guardHtml =
+            '<div id="pv-300-married-guard" class="alert-box alert-danger" style="margin-bottom:10px;">' +
+              '<div style="font-weight:800;font-size:14px;margin-bottom:4px;">' +
+                escapeHtml(isKo ? pRes.contradictionTitleKo : pRes.contradictionTitleEn) +
+              '</div>' +
+              '<div style="font-size:13px;line-height:1.55;">' +
+                escapeHtml(isKo ? pRes.contradictionDetailKo : pRes.contradictionDetailEn) +
+              '</div>' +
+              '<div class="guard-quick-btns">' +
+                '<button type="button" class="btn-guard-fix js-fix-300-offshore">' +
+                  escapeHtml(isKo ? "오프쇼어 배우자 비자(Subclass 309/100)로 전환" : "Switch to Offshore Partner (Subclass 309/100)") +
+                '</button>' +
+                '<button type="button" class="btn-guard-fix js-fix-300-onshore">' +
+                  escapeHtml(isKo ? "온쇼어 배우자 비자(Subclass 820/801)로 전환" : "Switch to Onshore Partner (Subclass 820/801)") +
+                '</button>' +
+              '</div>' +
+            '</div>';
+        }
+
+        var trackBoxClass = pRes.contradiction300Married ? "alert-box alert-danger" : "alert-box alert-info";
         var s3BoxClass = pRes.schedule3Severity === "danger" ? "alert-box alert-danger" : "alert-box alert-ok";
         var spBoxClass = pRes.sponsorBar ? "alert-box alert-warn" : "alert-box alert-info";
         var prMsg = pRes.directPr
@@ -973,8 +1277,9 @@
               : "Two-Stage Partner Assessment: Temporary stage (820/309) granted first; Permanent stage (801/100) assessed 24 months from lodgement ($0 extra VAC).");
 
         pOut.innerHTML =
-          '<div class="alert-box alert-info" style="margin-bottom:10px;">' +
-            '<div style="font-size:14.5px;font-weight:800;color:#0E3A3E;margin-bottom:4px;">' +
+          guardHtml +
+          '<div class="' + trackBoxClass + '" style="margin-bottom:10px;">' +
+            '<div style="font-size:14.5px;font-weight:800;color:' + (pRes.contradiction300Married ? "#7F1D1D" : "#0E3A3E") + ';margin-bottom:4px;">' +
               escapeHtml(isKo ? pRes.trackTitleKo : pRes.trackTitleEn) +
             '</div>' +
             '<div style="font-size:13px;"><strong>' + (isKo ? "FY2026–27 공식 신청비(VAC): " : "FY2026–27 Official VAC: ") + '</strong>' +
@@ -994,12 +1299,6 @@
       }
     }
 
-    /* --- Partner Step 2 --- */
-    var relLegalVal = (document.getElementById("rel-legal-status") || {}).value || "";
-    var stateVal = (document.getElementById("df-state") || {}).value || "QLD";
-    var monthsRawVal = (document.getElementById("df-months") || {}).value;
-    var pillarsVal = (document.getElementById("df-pillars") || {}).value || "strong4";
-
     var stateGroup = document.getElementById("df-state-group");
     if (stateGroup) {
       stateGroup.style.opacity = relLegalVal === "legally_married" ? "0.65" : "1";
@@ -1009,7 +1308,8 @@
       relLegalStatus: relLegalVal,
       state: stateVal,
       monthsRaw: monthsRawVal,
-      pillars: pillarsVal
+      pillars: pillarsVal,
+      location: locVal
     });
 
     var dfOut = document.getElementById("pv-defacto-output");
@@ -1029,16 +1329,30 @@
         dfOut.innerHTML = '<div class="alert-box alert-danger"><strong>' + escapeHtml(isKo ? rRes.errorKo : rRes.errorEn) + '</strong></div>';
       } else {
         var rBoxClass = "alert-box alert-ok";
-        if (rRes.status === "wa_nt_registration_invalid" || rRes.status === "unregistered_under12_wa_nt") {
+        if (rRes.status === "contradiction_300_married" || rRes.status === "wa_nt_registration_invalid" || rRes.status === "unregistered_under12_wa_nt") {
           rBoxClass = "alert-box alert-danger";
         } else if (rRes.status === "unregistered_under12_can_register") {
           rBoxClass = "alert-box alert-warn";
         }
         var pBoxClass = rRes.pillarWarn ? "alert-box alert-warn" : "alert-box alert-info";
+        var dfFixBtns = rRes.contradiction300Married
+          ? (
+              '<div class="guard-quick-btns">' +
+                '<button type="button" class="btn-guard-fix js-fix-300-offshore">' +
+                  escapeHtml(isKo ? "오프쇼어 309/100으로 변경" : "Switch to Offshore 309/100") +
+                '</button>' +
+                '<button type="button" class="btn-guard-fix js-fix-300-onshore">' +
+                  escapeHtml(isKo ? "온쇼어 820/801로 변경" : "Switch to Onshore 820/801") +
+                '</button>' +
+              '</div>'
+            )
+          : "";
+
         dfOut.innerHTML =
           '<div class="' + rBoxClass + '" style="margin-bottom:10px;">' +
             '<div style="font-weight:800;margin-bottom:4px;">' + escapeHtml(isKo ? rRes.badgeKo : rRes.badgeEn) + '</div>' +
             '<div style="font-size:13px;">' + escapeHtml(isKo ? rRes.detailKo : rRes.detailEn) + '</div>' +
+            dfFixBtns +
           '</div>' +
           '<div class="' + pBoxClass + '">' +
             '<div style="font-size:13px;">' + escapeHtml(isKo ? rRes.pillarKo : rRes.pillarEn) + '</div>' +
@@ -1131,6 +1445,72 @@
       }
     }
 
+    /* --- Mode 2 Section 2: Subclass 485 Triple-Deadline Comparator --- */
+    var tdCompVal = (document.getElementById("td-completion-date") || {}).value || gComp || "";
+    var tdVisaVal = (document.getElementById("td-visa500-expiry") || {}).value || "";
+    var tdEngVal = (document.getElementById("td-english-date") || {}).value || "";
+
+    var tdRes = evaluate485TripleDeadlines({
+      completionDate: tdCompVal,
+      studentVisaExpiryDate: tdVisaVal,
+      englishTestDate: tdEngVal
+    });
+
+    var tdOut = document.getElementById("td-comparator-output");
+    if (tdOut) {
+      if (!tdRes.ready) {
+        tdOut.innerHTML = renderNeutralPrompt(
+          "485 접수 3대 기한 기준일을 입력해 주십시오",
+          "Enter Your 3 Subclass 485 Milestone Dates",
+          "왼쪽에 학위 수료 완료일(+6개월)과 학생비자 500 만료일 및 영어시험 응시일(+12개월 · LIN 24/022)을 입력하시면 3개 기한 중 가장 빠른 최종 안전 접수 데드라인이 산출됩니다.",
+          "Enter your Completion Letter date (+6m), Subclass 500 expiry date, and English test date (+12m under LIN 24/022) to highlight the earliest Hard Filing Deadline."
+        );
+      } else if (tdRes.validationError) {
+        tdOut.innerHTML = '<div class="alert-box alert-danger"><strong>' + escapeHtml(isKo ? tdRes.errorKo : tdRes.errorEn) + '</strong></div>';
+      } else {
+        var hdClass = tdRes.expired ? "alert-box alert-danger" : "alert-box alert-warn";
+        var hdBadgeText = tdRes.expired
+          ? (isKo
+              ? "기한 경과 경고: 브리즈번 오늘(" + tdRes.todayIso + ") 기준 " + Math.abs(tdRes.daysRemaining) + "일 도과 — 긴급 대안 비자 검토 필수"
+              : "DEADLINE EXPIRED: Passed " + Math.abs(tdRes.daysRemaining) + " days ago (from Brisbane today " + tdRes.todayIso + ") — Urgent Alternative Triage Required")
+          : (isKo
+              ? "브리즈번 오늘(" + tdRes.todayIso + ") 기준 잔여 " + tdRes.daysRemaining + "일 · 14일 전 안전 접수 목표일: " + tdRes.safePriorBusinessIso
+              : tdRes.daysRemaining + " days remaining from Brisbane today (" + tdRes.todayIso + ") · 14-day prior safe target: " + tdRes.safePriorBusinessIso);
+
+        var cardsHtml = tdRes.items.map(function (item) {
+          var cls = "td-item-card" + (item.expired ? " td-expired" : (item.isEarliest ? " td-earliest" : ""));
+          var badgeLbl = item.expired
+            ? (isKo ? "기한 도과 (" + Math.abs(item.daysRemaining) + "일 경과)" : "EXPIRED (" + Math.abs(item.daysRemaining) + "d ago)")
+            : (item.isEarliest
+                ? (isKo ? "최우선 병목 기한 (잔여 " + item.daysRemaining + "일)" : "EARLIEST BOTTLENECK (" + item.daysRemaining + "d left)")
+                : (isKo ? "잔여 " + item.daysRemaining + "일" : item.daysRemaining + " days left"));
+          return (
+            '<div class="' + cls + '">' +
+              '<span class="td-item-badge">' + escapeHtml(badgeLbl) + '</span>' +
+              '<div style="font-size:12px;font-weight:800;color:#14282A;margin-top:2px;">' + escapeHtml(isKo ? item.labelKo : item.labelEn) + '</div>' +
+              '<div style="font-size:17px;font-weight:900;color:' + (item.expired ? "#991B1B" : (item.isEarliest ? "#7A1F2B" : "#0E3A3E")) + ';">' + escapeHtml(item.deadlineIso) + '</div>' +
+              '<div style="font-size:11.5px;color:#4A5D5F;">' + escapeHtml((isKo ? "기준일: " : "Input date: ") + item.sourceIso) + '</div>' +
+              '<div style="font-size:11.5px;color:#36494B;line-height:1.45;margin-top:2px;">' + escapeHtml(isKo ? item.ruleKo : item.ruleEn) + '</div>' +
+            '</div>'
+          );
+        }).join("");
+
+        tdOut.innerHTML =
+          '<div class="' + hdClass + '" style="margin-bottom:10px;">' +
+            '<div style="font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:0.03em;color:#7A1F2B;">' +
+              escapeHtml(isKo ? "최종 안전 접수 데드라인 — 3개 기한 중 가장 빠른 날" : "Hard Filing Deadline — Earliest Expiring Requirement") +
+            '</div>' +
+            '<div style="font-size:22px;font-weight:900;color:#7F1D1D;margin:3px 0;">' +
+              escapeHtml(tdRes.hardFilingDeadlineIso) +
+              ' <span style="font-size:13px;font-weight:800;">(' + escapeHtml(isKo ? tdRes.earliestItem.labelKo : tdRes.earliestItem.labelEn) + ')</span>' +
+            '</div>' +
+            '<div style="font-size:12.5px;font-weight:700;margin-bottom:6px;">' + escapeHtml(hdBadgeText) + '</div>' +
+            '<div style="font-size:12.5px;line-height:1.55;color:#14282A;">' + escapeHtml(isKo ? tdRes.explanationKo : tdRes.explanationEn) + '</div>' +
+          '</div>' +
+          '<div class="triple-deadline-grid">' + cardsHtml + '</div>';
+      }
+    }
+
     /* --- Shared Smart Brief (Human-Readable Labels Only — Zero Raw Enum Codes) --- */
     var briefLines = [];
     if (isKo) {
@@ -1139,6 +1519,9 @@
       briefLines.push("• 현재 점검 탭: " + (currentMode === "graduate" ? "학생 비자(500) · 졸업생 비자(485)" : "파트너 비자(820·309·300 · Schedule 3)"));
       if (pRes.ready) {
         briefLines.push("• [파트너 트랙] 체류·비자 상태: " + getLabel("location", locVal, "ko"));
+        if (pRes.contradiction300Married) {
+          briefLines.push("  - [중대 경고] 이미 법적 혼인한 상태에서는 Subclass 300 신청 불가 (cl 300.211 / 300.221) → Subclass 309/100 또는 820/801 직접 접수 필요");
+        }
         briefLines.push("  - 권고 트랙/수수료: " + pRes.trackTitleKo + " / " + pRes.vacDisplayKo);
         briefLines.push("  - 관계 기간: " + getLabel("relDuration", relYrsVal, "ko") + " / 직행 영주권(reg 1.03): " + (pRes.directPr ? "대상 해당" : "2단계 심사 적용"));
         briefLines.push("  - Schedule 3 판정: " + pRes.schedule3TitleKo);
@@ -1155,7 +1538,10 @@
           briefLines.push("  - 학업 수료 완료일: " + gRes.deadlineInfo.completionIso + " → 안전 권고일: " + gRes.deadlineInfo.safeIso + " | 법정 마감일(6개월): " + gRes.deadlineInfo.statutoryIso);
         }
       }
-      if (!pRes.ready && !rRes.ready && !gRes.ready) {
+      if (tdRes.ready && !tdRes.validationError) {
+        briefLines.push("• [485 3대 기한 비교] 최종 안전 접수 데드라인: " + tdRes.hardFilingDeadlineIso + " (" + tdRes.earliestItem.labelKo + " / 잔여 " + tdRes.daysRemaining + "일)");
+      }
+      if (!pRes.ready && !rRes.ready && !gRes.ready && !tdRes.ready) {
         briefLines.push("• 아직 선택된 진단 항목이 없습니다. 위 진단기에서 조건을 선택하거나 [예시 조건 채우기]를 눌러 주십시오.");
       }
     } else {
@@ -1164,6 +1550,9 @@
       briefLines.push("• Active Mode: " + (currentMode === "graduate" ? "Student (500) & Graduate (485) Visas" : "Partner Visas (820/309/300 & Schedule 3)"));
       if (pRes.ready) {
         briefLines.push("• [Partner Track] Current Status: " + getLabel("location", locVal, "en"));
+        if (pRes.contradiction300Married) {
+          briefLines.push("  - [STATUTORY CONTRADICTION] Married couples cannot lodge Subclass 300 (cl 300.211 / 300.221) → Lodge Subclass 309/100 or 820/801 directly");
+        }
         briefLines.push("  - Recommended Track / VAC: " + pRes.trackTitleEn + " / " + pRes.vacDisplayEn);
         briefLines.push("  - Relationship Duration: " + getLabel("relDuration", relYrsVal, "en") + " / Direct PR (reg 1.03): " + (pRes.directPr ? "Eligible" : "Two-stage process"));
         briefLines.push("  - Schedule 3 Status: " + pRes.schedule3TitleEn);
@@ -1180,7 +1569,10 @@
           briefLines.push("  - Completion Date: " + gRes.deadlineInfo.completionIso + " → Safe Date: " + gRes.deadlineInfo.safeIso + " | Statutory 6m Deadline: " + gRes.deadlineInfo.statutoryIso);
         }
       }
-      if (!pRes.ready && !rRes.ready && !gRes.ready) {
+      if (tdRes.ready && !tdRes.validationError) {
+        briefLines.push("• [485 Triple-Deadline Comparator] Hard Filing Deadline: " + tdRes.hardFilingDeadlineIso + " (" + tdRes.earliestItem.labelEn + " / " + tdRes.daysRemaining + " days left)");
+      }
+      if (!pRes.ready && !rRes.ready && !gRes.ready && !tdRes.ready) {
         briefLines.push("• No diagnostic inputs selected yet. Choose your parameters above or click [Load Sample Case].");
       }
     }
@@ -1203,6 +1595,8 @@
   function fillSampleInputs() {
     var todayIso = ParkCoDates.todayBrisbaneIso();
     var twoMonthsAgo = ParkCoDates.formatIsoLocal(ParkCoDates.addYearsMonthsClamped(todayIso, 0, -2, 0));
+    var twoMonthsAhead = ParkCoDates.formatIsoLocal(ParkCoDates.addYearsMonthsClamped(todayIso, 0, 2, 0));
+    var tenMonthsAgo = ParkCoDates.formatIsoLocal(ParkCoDates.addYearsMonthsClamped(todayIso, 0, -10, 15));
 
     var map = {
       "pv-location": "onshore_substantive",
@@ -1217,7 +1611,10 @@
       "grad-current-visa": "500_current",
       "grad-qual-type": "bachelor_coursework",
       "grad-age": "29",
-      "grad-completion-date": twoMonthsAgo
+      "grad-completion-date": twoMonthsAgo,
+      "td-completion-date": twoMonthsAgo,
+      "td-visa500-expiry": twoMonthsAhead,
+      "td-english-date": tenMonthsAgo
     };
     Object.keys(map).forEach(function (id) {
       var el = document.getElementById(id);
@@ -1240,7 +1637,10 @@
       "grad-current-visa": "500_current",
       "grad-qual-type": "bachelor_coursework",
       "grad-age": "",
-      "grad-completion-date": ""
+      "grad-completion-date": "",
+      "td-completion-date": "",
+      "td-visa500-expiry": "",
+      "td-english-date": ""
     };
     Object.keys(defaults).forEach(function (id) {
       var el = document.getElementById(id);
@@ -1255,57 +1655,91 @@
   var cachedPvPollingStatus = null;
   var cachedCitizenshipData = {
     citizenship: {
-      conferral_monthly_lodged: 16690,
-      conferral_on_hand: 53298,
+      inventory: {
+        conferral_applications_lodged_aug_2026: 16690,
+        conferral_on_hand: 53298
+      },
+      art_citizenship_review: {
+        total_finalised: 94,
+        substantive_decisions: 51,
+        set_aside: 30,
+        set_aside_pct_all: 31.91,
+        set_aside_pct_restricted: 58.82
+      },
       duration_rows: [
         {
           id: "conferral_lodgement_to_decision",
-          label_ko: "수여 시민권 (Conferral) · 1단계: 신청 접수 ~ 승인 결정",
+          label_ko: "일반 시민권 부여 (Conferral) · 1단계: 신청일 → 승인 결정일",
           label_en: "Citizenship by Conferral · Stage 1: Application to Decision",
-          p25_ko: "84일", p25_en: "84 days",
-          p50_ko: "5개월", p50_en: "5 months",
-          p75_ko: "8개월", p75_en: "8 months",
-          p90_ko: "11개월", p90_en: "11 months"
+          p25: "36 days (36일)",
+          p50: "42 days (42일)",
+          p75: "78 days (78일)",
+          p90: "5 months (5개월)"
         },
         {
           id: "conferral_approval_to_ceremony",
-          label_ko: "수여 시민권 (Conferral) · 2단계: 승인 후 ~ 시민권 수여식 (Ceremony)",
+          label_ko: "일반 시민권 부여 (Conferral) · 2단계: 승인일 → 시민권 선서식",
           label_en: "Citizenship by Conferral · Stage 2: Approval to Ceremony",
-          p25_ko: "66일", p25_en: "66 days",
-          p50_ko: "4개월", p50_en: "4 months",
-          p75_ko: "5개월", p75_en: "5 months",
-          p90_ko: "7개월", p90_en: "7 months"
+          p25: "71 days (71일)",
+          p50: "4 months (4개월)",
+          p75: "5 months (5개월)",
+          p90: "6 months (6개월)"
         },
         {
           id: "conferral_lodgement_to_ceremony",
-          label_ko: "수여 시민권 (Conferral) · 전체: 신청 접수 ~ 수여식 최종 완료",
+          label_ko: "일반 시민권 부여 (Conferral) · 전체: 신청일 → 선서식 완료",
           label_en: "Citizenship by Conferral · Overall: Application to Ceremony",
-          p25_ko: "6개월", p25_en: "6 months",
-          p50_ko: "8개월", p50_en: "8 months",
-          p75_ko: "10개월", p75_en: "10 months",
-          p90_ko: "13개월", p90_en: "13 months"
+          p25: "5 months (5개월)",
+          p50: "7 months (7개월)",
+          p75: "8 months (8개월)",
+          p90: "11 months (11개월)"
         },
         {
           id: "descent_lodgement_to_decision",
-          label_ko: "혈통 시민권 (Citizenship by Descent) · 신청 ~ 결정",
+          label_ko: "혈통에 의한 시민권 (Citizenship by Descent) · 신청일 → 결정일",
           label_en: "Citizenship by Descent · Application to Decision",
-          p25_ko: "47일", p25_en: "47 days",
-          p50_ko: "74일", p50_en: "74 days",
-          p75_ko: "3개월", p75_en: "3 months",
-          p90_ko: "4개월", p90_en: "4 months"
+          p25: "34 days (34일)",
+          p50: "37 days (37일)",
+          p75: "70 days (70일)",
+          p90: "4 months (4개월)"
         },
         {
           id: "evidence_lodgement_to_decision",
-          label_ko: "시민권 증서 발급 (Evidence of Australian Citizenship) · 신청 ~ 결정",
+          label_ko: "시민권 증서 재발급·증명 (Evidence of Citizenship) · 신청일 → 결정일",
           label_en: "Evidence of Australian Citizenship · Application to Decision",
-          p25_ko: "3일", p25_en: "3 days",
-          p50_ko: "10일", p50_en: "10 days",
-          p75_ko: "18일", p75_en: "18 days",
-          p90_ko: "28일", p90_en: "28 days"
+          p25: "2 days (2일)",
+          p50: "4 days (4일)",
+          p75: "8 days (8일)",
+          p90: "15 days (15일)"
         }
       ]
+    },
+    partner_graduate_art_summary: {
+      partner_dha_on_hand: 96839,
+      partner_dha_grant_rate_pct: 93.9,
+      partner_820_art_wait_p50_ko: "3년 2개월 (134주)",
+      partner_820_art_wait_p50_en: "3 yrs 2 mos (134 wks)",
+      partner_820_art_all_pct: 74.66,
+      partner_820_art_restricted_pct: 85.16,
+      graduate_485_art_all_pct: 83.99,
+      graduate_485_art_restricted_pct: 93.30,
+      citizenship_art_all_pct: 31.91,
+      citizenship_art_restricted_pct: 58.82
     }
   };
+
+  function formatCitizenshipDuration(rawVal, isKo) {
+    var s = String(rawVal == null ? "" : rawVal).trim();
+    if (!s) return "";
+    if (!isKo) {
+      return s.replace(/\s*\([^)]*[가-힣][^)]*\)/g, "").trim();
+    }
+    var koMatch = s.match(/\(([^()]*[가-힣][^()]*)\)/);
+    if (koMatch && koMatch[1]) {
+      return koMatch[1].trim();
+    }
+    return s;
+  }
 
   function renderCitizenshipIntelligence() {
     if (typeof document === "undefined") return;
@@ -1315,26 +1749,68 @@
 
     var isKo = currentLang === "ko";
     var cit = cachedCitizenshipData.citizenship || {};
+    var rows = cit.duration_rows || [];
+    var inv = cit.inventory || {};
+    var citArt = cit.art_citizenship_review || {};
+    var artSum = cachedCitizenshipData.partner_graduate_art_summary || {};
+
+    var overallRow = null;
+    for (var idx = 0; idx < rows.length; idx++) {
+      var cand = rows[idx];
+      var stg = String((cand && (cand.id || cand.stage_en || cand.label_en)) || "").toLowerCase();
+      if (stg.indexOf("lodgement_to_ceremony") >= 0 || stg.indexOf("application to ceremony") >= 0) {
+        overallRow = cand;
+        break;
+      }
+    }
+    var overallP50 = overallRow
+      ? formatCitizenshipDuration((isKo ? overallRow.p50_ko : overallRow.p50_en) || overallRow.p50, isKo)
+      : (isKo ? "7개월" : "7 months");
+    var overallP90 = overallRow
+      ? formatCitizenshipDuration((isKo ? overallRow.p90_ko : overallRow.p90_en) || overallRow.p90, isKo)
+      : (isKo ? "11개월" : "11 months");
+
+    var onHandNum = Number(inv.conferral_on_hand || cit.conferral_on_hand || 53298);
+    var monthlyNum = Number(inv.conferral_monthly_received || inv.conferral_applications_lodged_aug_2026 || cit.conferral_monthly_lodged || 23581);
+    var partnerGrantPct = artSum.partner_dha_grant_rate_pct != null ? Number(artSum.partner_dha_grant_rate_pct).toFixed(1) : "93.9";
+    var partnerArtSubPct = artSum.partner_820_art_restricted_pct != null ? Number(artSum.partner_820_art_restricted_pct).toFixed(2) : "85.16";
+    var partnerOnHand = Number(artSum.partner_dha_on_hand || 96839);
+    var partnerWaitStr = isKo
+      ? (artSum.partner_820_art_wait_p50_ko || "3년 2개월 (134주)")
+      : formatCitizenshipDuration(artSum.partner_820_art_wait_p50_en || "3 yrs 2 mos (134 wks)", false);
+    var gradArtSubPct = artSum.graduate_485_art_restricted_pct != null ? Number(artSum.graduate_485_art_restricted_pct).toFixed(2) : "93.30";
+    var gradArtAllPct = artSum.graduate_485_art_all_pct != null ? Number(artSum.graduate_485_art_all_pct).toFixed(2) : "83.99";
+    var citArtSubPct = (artSum.citizenship_art_restricted_pct != null ? Number(artSum.citizenship_art_restricted_pct) : Number(citArt.restricted_change_pct || citArt.set_aside_pct_restricted || 58.82)).toFixed(2);
+    var citArtAllPct = (artSum.citizenship_art_all_pct != null ? Number(artSum.citizenship_art_all_pct) : Number(citArt.change_all_pct || citArt.set_aside_pct_all || 31.91)).toFixed(2);
+    var citSetAside = Number(citArt.set_aside || 30);
+    var citSubTotal = Number(citArt.substantive_decisions || ((citArt.set_aside || 0) + (citArt.affirmed_non_dismissed || 0)) || 51);
+
     var kpis = [
       {
         label: isKo ? "수여 시민권(Conferral) 전체 완료" : "Conferral Overall to Ceremony",
-        val: isKo ? "8개월 (p50) / 13개월 (p90)" : "8 mos (p50) / 13 mos (p90)",
-        sub: isKo ? "미결 재고 53,298건 (월 신규 16,690건)" : "On-hand 53,298 (Monthly lodged 16,690)"
+        val: overallP50 + " (p50) / " + overallP90 + " (p90)",
+        sub: isKo
+          ? "미결 재고 " + onHandNum.toLocaleString("en-US") + "건 (월 신규 " + monthlyNum.toLocaleString("en-US") + "건)"
+          : "On-hand " + onHandNum.toLocaleString("en-US") + " (Monthly lodged " + monthlyNum.toLocaleString("en-US") + ")"
       },
       {
         label: isKo ? "파트너 비자(820) 1차 & ART 인용률" : "Partner 820 Primary & ART Set Aside",
-        val: isKo ? "93.9% (1차) · 85.16% (ART 본안)" : "93.9% (Primary) · 85.16% (ART Substantive)",
-        sub: isKo ? "이민성 미결 96,839건 · ART 중위 3년 2개월" : "DHA On-Hand 96,839 · ART p50 3y 2m"
+        val: partnerGrantPct + "% (" + (isKo ? "1차" : "Primary") + ") · " + partnerArtSubPct + "% (" + (isKo ? "ART 본안" : "ART Substantive") + ")",
+        sub: isKo
+          ? "이민성 미결 " + partnerOnHand.toLocaleString("en-US") + "건 · ART 중위 " + partnerWaitStr
+          : "DHA On-Hand " + partnerOnHand.toLocaleString("en-US") + " · ART p50 " + partnerWaitStr
       },
       {
         label: isKo ? "졸업생 비자(485) 거절 ART 인용률" : "Graduate 485 ART Set Aside Rate",
-        val: isKo ? "93.30% (본안) · 83.99% (전체)" : "93.30% (Substantive) · 83.99% (All)",
+        val: gradArtSubPct + "% (" + (isKo ? "본안" : "Substantive") + ") · " + gradArtAllPct + "% (" + (isKo ? "전체" : "All") + ")",
         sub: isKo ? "본안 결정 388건 중 362건 취소·환송" : "362 of 388 substantive decisions Set Aside"
       },
       {
         label: isKo ? "시민권 거절 ART 재심 인용률" : "Citizenship Refusal ART Set Aside",
-        val: isKo ? "58.82% (본안) · 31.91% (전체)" : "58.82% (Substantive) · 31.91% (All)",
-        sub: isKo ? "본안 결정 51건 중 30건 취소·환송" : "30 of 51 substantive decisions Set Aside"
+        val: citArtSubPct + "% (" + (isKo ? "본안" : "Substantive") + ") · " + citArtAllPct + "% (" + (isKo ? "전체" : "All") + ")",
+        sub: isKo
+          ? "본안 결정 " + citSubTotal + "건 중 " + citSetAside + "건 취소·환송"
+          : citSetAside + " of " + citSubTotal + " substantive decisions Set Aside"
       }
     ];
 
@@ -1348,15 +1824,14 @@
       );
     }).join("");
 
-    var rows = cit.duration_rows || [];
     tbody.innerHTML = rows.map(function (r) {
       var label = isKo
         ? (r.label_ko || ((r.stream_ko || "") + " · " + (r.stage_ko || "")))
-        : (r.label_en || ((r.stream_en || "") + " · " + (r.stage_en || "")));
-      var p25 = (isKo ? r.p25_ko : r.p25_en) || r.p25 || "";
-      var p50 = (isKo ? r.p50_ko : r.p50_en) || r.p50 || "";
-      var p75 = (isKo ? r.p75_ko : r.p75_en) || r.p75 || "";
-      var p90 = (isKo ? r.p90_ko : r.p90_en) || r.p90 || "";
+        : (r.label_en || ((r.stream_en || "") + " · " + (r.stage_en || ""))).replace(/\s*\([^)]*[가-힣][^)]*\)/g, "").trim();
+      var p25 = formatCitizenshipDuration((isKo ? r.p25_ko : r.p25_en) || r.p25 || "", isKo);
+      var p50 = formatCitizenshipDuration((isKo ? r.p50_ko : r.p50_en) || r.p50 || "", isKo);
+      var p75 = formatCitizenshipDuration((isKo ? r.p75_ko : r.p75_en) || r.p75 || "", isKo);
+      var p90 = formatCitizenshipDuration((isKo ? r.p90_ko : r.p90_en) || r.p90 || "", isKo);
       return (
         '<tr>' +
           '<td><strong>' + escapeHtml(label) + '</strong></td>' +
@@ -1375,17 +1850,25 @@
     var tbody = document.getElementById("pv-poller-tbody");
     if (!kpiGrid || !tbody || !cachedPvPollingStatus) return;
 
+    if (cachedPvPollingStatus.vac_schedule) {
+      hydrateVacSchedule(cachedPvPollingStatus.vac_schedule);
+    }
+
     var isKo = currentLang === "ko";
     var kpis = [
       {
         label: isKo ? "파트너 비자 기본 VAC (820/309/300)" : "Partner Visa Base VAC (820/309/300)",
-        val: "$11,710 AUD",
-        sub: isKo ? "동반 18+ $5,860 · <18 $2,935" : "Add 18+ $5,860 · <18 $2,935"
+        val: fmtAudInt(liveVacConfig.partnerBase) + " AUD",
+        sub: isKo
+          ? "동반 18+ " + fmtAudInt(liveVacConfig.partner18) + " · <18 " + fmtAudInt(liveVacConfig.partnerU18)
+          : "Add 18+ " + fmtAudInt(liveVacConfig.partner18) + " · <18 " + fmtAudInt(liveVacConfig.partnerU18)
       },
       {
         label: isKo ? "학생(500) · 졸업생(485) 기본 VAC" : "Student (500) · Graduate (485) VAC",
-        val: "$2,500 / $5,750",
-        sub: isKo ? "Second 485 $2,265 · 300→820 $1,955" : "Second 485 $2,265 · 300→820 $1,955"
+        val: fmtAudInt(liveVacConfig.s500Base) + " / " + fmtAudInt(liveVacConfig.g485Base),
+        sub: isKo
+          ? "Second 485 " + fmtAudInt(liveVacConfig.g485SecBase) + " · 300→820 " + fmtAudInt(liveVacConfig.trans300)
+          : "Second 485 " + fmtAudInt(liveVacConfig.g485SecBase) + " · 300→820 " + fmtAudInt(liveVacConfig.trans300)
       },
       {
         label: isKo ? "사실혼 12개월 면제 등록 주" : "Prescribed Registration States",
@@ -1413,6 +1896,10 @@
     tbody.innerHTML = sources.map(function (s) {
       var title = isKo ? (s.title_ko || s.title_en) : (s.title_en || s.title_ko);
       var figs = (s.extracted_figures || []).join(" · ") || "-";
+      if (!isKo) {
+        title = String(title || "").replace(/\s*\([^)]*[가-힣][^)]*\)/g, "");
+        figs = String(figs || "").replace(/\s*\([^)]*[가-힣][^)]*\)/g, "");
+      }
       var kb = s.bytes ? Math.round(s.bytes / 1024).toLocaleString() + " KB" : "Live API";
       var method = s.method || "https-direct-live";
       return (
@@ -1435,10 +1922,25 @@
     if (document.body) document.body.setAttribute("data-ui-lang", currentLang);
 
     var dict = currentLang === "en" ? EN_TRANSLATIONS : KO_TRANSLATIONS;
+    if (dict.pageTitle) {
+      document.title = dict.pageTitle;
+    }
     document.querySelectorAll("[data-i18n]").forEach(function (el) {
       var k = el.getAttribute("data-i18n");
       if (dict[k] !== undefined) el.innerHTML = dict[k];
     });
+    document.querySelectorAll("[data-i18n-title]").forEach(function (el) {
+      var k = el.getAttribute("data-i18n-title");
+      if (dict[k] !== undefined) el.setAttribute("title", dict[k]);
+    });
+    document.querySelectorAll("[data-i18n-placeholder]").forEach(function (el) {
+      var k = el.getAttribute("data-i18n-placeholder");
+      if (dict[k] !== undefined) el.setAttribute("placeholder", dict[k]);
+    });
+    var vcBox = document.getElementById("visit-counter");
+    if (vcBox) {
+      vcBox.setAttribute("title", currentLang === "en" ? "Click to view daily visit trends and referrers" : "클릭하면 일별 방문 추이와 유입 경로를 볼 수 있어요");
+    }
     document.querySelectorAll(".lang-btn").forEach(function (btn) {
       btn.classList.toggle("active", btn.getAttribute("data-lang") === currentLang);
     });
@@ -1465,7 +1967,8 @@
       [
         "pv-location", "pv-rel-years", "pv-shared-child", "s3-sponsor-hist",
         "rel-legal-status", "df-state", "df-months", "df-pillars",
-        "grad-target-stream", "grad-current-visa", "grad-qual-type", "grad-age", "grad-completion-date"
+        "grad-target-stream", "grad-current-visa", "grad-qual-type", "grad-age", "grad-completion-date",
+        "td-completion-date", "td-visa500-expiry", "td-english-date"
       ].forEach(function (id) {
         var el = document.getElementById(id);
         if (el) {
@@ -1497,6 +2000,22 @@
         if (trg) {
           ev.preventDefault();
           fillSampleInputs();
+          return;
+        }
+        var fixOff = ev.target && ev.target.closest ? ev.target.closest(".js-fix-300-offshore") : null;
+        if (fixOff) {
+          ev.preventDefault();
+          var locEl1 = document.getElementById("pv-location");
+          if (locEl1) locEl1.value = "offshore_married_defacto";
+          updateAll();
+          return;
+        }
+        var fixOn = ev.target && ev.target.closest ? ev.target.closest(".js-fix-300-onshore") : null;
+        if (fixOn) {
+          ev.preventDefault();
+          var locEl2 = document.getElementById("pv-location");
+          if (locEl2) locEl2.value = "onshore_substantive";
+          updateAll();
         }
       });
 
@@ -1524,12 +2043,13 @@
       if (printBtn) printBtn.addEventListener("click", function () { window.print(); });
 
       var params = new URLSearchParams(window.location.search || "");
-      if (params.get("mode") === "graduate") {
+      var reqMode = (params.get("mode") || "").toLowerCase();
+      if (reqMode === "graduate") {
         setMode("graduate", false);
       } else {
         setMode("partner", false);
       }
-      if (params.get("lang") === "en") {
+      if ((params.get("lang") || "").toLowerCase() === "en") {
         applyLanguage("en", false);
       } else {
         applyLanguage("ko", false);
@@ -1541,7 +2061,11 @@
           .then(function (data) {
             if (!data) return;
             cachedPvPollingStatus = data;
+            if (data.vac_schedule) {
+              hydrateVacSchedule(data.vac_schedule);
+            }
             renderPvPollerMatrix();
+            updateAll();
           })
           .catch(function () {});
 

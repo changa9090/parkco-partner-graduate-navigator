@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-08T21:50:50Z",
+  "generated_at": "2026-11-11T12:20:00Z",
   "citizenship": {
     "status": "verified_ok",
     "http_status": 200,
-    "bytes": 1313896,
-    "sha256": "f0708f44c493179ec085d303d4a80161ee91ae4dd5d06bed05d92c48753f58f1",
-    "sha256_prefix": "f0708f44c493179e",
+    "bytes": 1314850,
+    "sha256": "469a7bb4fda9e8fb1c014f60a2bbed730286612c6da52c1c33bab5f86aaf2bf1",
+    "sha256_prefix": "469a7bb4fda9e8fb",
     "method": "dha-citizenship-pageschema-live",
     "url": "https://immi.homeaffairs.gov.au/citizenship/citizenship-processing-times/citizenship-processing-times",
     "source_updated_label": "16 October 2026",

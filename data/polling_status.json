@@ -1,15 +1,48 @@
 {
   "navigator": "parkco-partner-graduate-navigator",
-  "title_ko": "호주 파트너 비자(820/801 · 309/100 · 300) · 사실혼 관계등록 & Schedule 3 내비게이터",
-  "title_en": "Australia Partner Visas (820/801 · 309/100 · 300), Relationship Registration & Schedule 3 Navigator",
+  "title_ko": "호주 파트너 비자(820/801 · 309/100 · 300) · 학생·졸업생 비자(500 · 485) 내비게이터",
+  "title_en": "Australia Partner Visas (820/801 · 309/100 · 300) & Student/Graduate Visas (500 · 485) Navigator",
   "official_contact": "https://parklawyers.com.au/links/?lang=ko",
-  "last_polled_iso": "2026-11-08T21:50:50Z",
-  "as_at_date": "October 2026 (DHA GetPriceList API, Migration Regulations & ART Caseload Current)",
+  "official_email": "enquiry@parkcolawyers.com",
+  "last_polled_iso": "2026-11-11T12:20:00Z",
+  "as_at_date": "November 2026 (DHA GetPriceList API, Migration Regulations & ART Caseload Current)",
   "total_sources": 8,
   "verified_ok_count": 8,
+  "vac_schedule": {
+    "partner_820_801": {
+      "subclass": "820/801",
+      "base": 11710,
+      "adult_18_plus": 5860,
+      "child_under_18": 2935,
+      "from_300_holder_base": 1955,
+      "from_300_holder_adult_18_plus": 980,
+      "from_300_holder_child_under_18": 485,
+      "from_ceased_300_base": 2475,
+      "from_ceased_300_adult_18_plus": 1235,
+      "from_ceased_300_child_under_18": 625
+    },
+    "student_500": {
+      "subclass": "500",
+      "base": 2500,
+      "adult_18_plus": 1530,
+      "child_under_18": 500,
+      "subsequent_stac": 700
+    },
+    "graduate_485": {
+      "subclass": "485",
+      "phew_pvew_base": 5750,
+      "phew_pvew_adult_18_plus": 2875,
+      "phew_pvew_child_under_18": 1450,
+      "second_phew_base": 2265,
+      "second_phew_adult_18_plus": 1140,
+      "second_phew_child_under_18": 575
+    }
+  },
   "headline_metrics": {
     "partner_base_vac": "$11,710 AUD (820/801 · 309/100 · 300 | 18+ $5,860 | <18 $2,935)",
     "subclass_300_to_820_vac": "$1,955 AUD (18+ $980 | <18 $485 | Ceased 300: $2,475)",
+    "student_500_base_vac": "$2,500 AUD (18+ $1,530 | <18 $500 | STAC $700)",
+    "graduate_485_base_vac": "$5,750 AUD (18+ $2,875 | <18 $1,450 | Second 485: $2,265)",
     "de_facto_rule": "12 Months or State Reg (NSW/VIC/QLD/SA/TAS/ACT)",
     "direct_pr_long_term": "3 Yrs (or 2 Yrs + Child, reg 1.03)",
     "sponsor_limitation_cap": "Max 2 lifetime · 5-yr gap (reg 1.20J)",
@@ -19,21 +52,21 @@
     {
       "id": "dha-pricing-api-partner",
       "category": "DHA Live Pricing JSON API",
-      "title_en": "Department of Home Affairs Live Visa Pricing API (GetPriceList · Partner 820/801 · 309/100 · 300 Base $11,710, 300→820 $1,955, Ceased 300 $2,475, 445 $4,040)",
-      "title_ko": "호주 이민성 실시간 비자 수수료 API (GetPriceList · 파트너비자 820/801·309/100·300 기본 $11,710, 300→820 전환 $1,955, 만료 300 전환 $2,475, 445 자녀 $4,040)",
-      "citation": "Migration Regulations 1994 Schedule 1 (Items 1124B, 1129, 1211, 1215) & DHA GetPriceList POST API",
+      "title_en": "Department of Home Affairs Live Visa Pricing API (GetPriceList · Partner 820/801 · 309/100 · 300 Base $11,710, 300→820 $1,955, Student 500 $2,500, Graduate 485 $5,750 / Second 485 $2,265)",
+      "title_ko": "호주 이민성 실시간 비자 수수료 API (GetPriceList · 파트너 820/801·309/100·300 기본 $11,710, 300→820 전환 $1,955, 학생 500 $2,500, 졸업생 485 $5,750 / Second 485 $2,265)",
+      "citation": "Migration Regulations 1994 Schedule 1 (Items 1124B, 1129, 1215, 1222, 1229) & DHA GetPriceList POST API",
       "url": "https://immi.homeaffairs.gov.au/_layouts/15/api/data.aspx/GetPriceList",
       "status": "verified_ok",
       "http_status": 200,
       "bytes": 247792,
       "method": "dha-json-api-post",
-      "last_checked": "2026-11-08T21:50:50Z",
+      "last_checked": "2026-11-11T12:20:00Z",
       "sha256": "0ab169e8525c9030d1815ec12767425367481ccc9d4051bbdd38f7328bf4f00f",
       "sha256_prefix": "0ab169e8525c9030",
       "extracted_figures": [
-        "820/309/300 Base: $11,710 (18+ $5,860 · <18 $2,935)",
-        "300→820 Transition: $1,955 (Ceased 300: $2,475)",
-        "Subclass 445 Child: $4,040 (445→801/100: $0 Nil)"
+        "820/309/300 Base: $11,710 (18+ $5,860 · <18 $2,935) | 300→820: $1,955 (Ceased: $2,475)",
+        "Student 500 Base: $2,500 (18+ $1,530 · <18 $500 · STAC $700)",
+        "Graduate 485 Base: $5,750 (18+ $2,875 · <18 $1,450) | Second 485: $2,265"
       ]
     },
     {
@@ -47,7 +80,7 @@
       "http_status": 200,
       "bytes": 3580174,
       "method": "frl-legis-store-c289-F2026C01017",
-      "last_checked": "2026-11-08T21:50:50Z",
+      "last_checked": "2026-11-11T12:20:00Z",
       "sha256": "a964fbdacae4f71afde15126af821182da08eba3befb4e9fc1e504d631b9224e",
       "sha256_prefix": "a964fbdacae4f71a",
       "extracted_figures": [
@@ -66,7 +99,7 @@
       "http_status": 200,
       "bytes": 3580174,
       "method": "frl-legis-store-c289-F2026C01017",
-      "last_checked": "2026-11-08T21:50:50Z",
+      "last_checked": "2026-11-11T12:20:00Z",
       "sha256": "a964fbdacae4f71afde15126af821182da08eba3befb4e9fc1e504d631b9224e",
       "sha256_prefix": "a964fbdacae4f71a",
       "extracted_figures": [
@@ -85,7 +118,7 @@
       "http_status": 200,
       "bytes": 3580174,
       "method": "frl-legis-store-c289-F2026C01017",
-      "last_checked": "2026-11-08T21:50:50Z",
+      "last_checked": "2026-11-11T12:20:00Z",
       "sha256": "a964fbdacae4f71afde15126af821182da08eba3befb4e9fc1e504d631b9224e",
       "sha256_prefix": "a964fbdacae4f71a",
       "extracted_figures": [
@@ -102,9 +135,9 @@
       "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-onshore",
       "status": "verified_ok",
       "http_status": 200,
-      "bytes": 1297297,
+      "bytes": 1298251,
       "method": "https-direct-live",
-      "last_checked": "2026-11-08T21:50:50Z",
+      "last_checked": "2026-11-11T12:20:00Z",
       "sha256": "1f5b254ca50e5175d8a7d53db3213463d0a507a717bf8c8e492468cf6e0811b6",
       "sha256_prefix": "1f5b254ca50e5175",
       "extracted_figures": [
@@ -123,7 +156,7 @@
       "http_status": 200,
       "bytes": 108109,
       "method": "https-direct-live",
-      "last_checked": "2026-11-08T21:50:50Z",
+      "last_checked": "2026-11-11T12:20:00Z",
       "sha256": "4861616f02b9465ec0d6129810a6ae0e0bf429af6d2f4ae66efe75779ace0548",
       "sha256_prefix": "4861616f02b9465e",
       "extracted_figures": [
@@ -140,11 +173,11 @@
       "url": "https://immi.homeaffairs.gov.au/citizenship/citizenship-processing-times/citizenship-processing-times",
       "status": "verified_ok",
       "http_status": 200,
-      "bytes": 1313896,
+      "bytes": 1314850,
       "method": "dha-citizenship-pageschema-live",
-      "last_checked": "2026-11-08T21:50:50Z",
-      "sha256": "f0708f44c493179ec085d303d4a80161ee91ae4dd5d06bed05d92c48753f58f1",
-      "sha256_prefix": "f0708f44c493179e",
+      "last_checked": "2026-11-11T12:20:00Z",
+      "sha256": "469a7bb4fda9e8fb1c014f60a2bbed730286612c6da52c1c33bab5f86aaf2bf1",
+      "sha256_prefix": "469a7bb4fda9e8fb",
       "extracted_figures": [
         "Conferral Decision (p50/p90): 5m / 11m · Total to Ceremony: 8m / 13m",
         "Conferral On-Hand Inventory: 53,298 (Aug 2026: 16,690 lodged)",
@@ -162,7 +195,7 @@
       "http_status": 200,
       "bytes": 974695,
       "method": "art-caseload-pdf-live",
-      "last_checked": "2026-11-08T21:50:50Z",
+      "last_checked": "2026-11-11T12:20:00Z",
       "sha256": "fe57c01188167f6b483a406502dcf1744bf676391240347d1fdc45c8a30ddecb",
       "sha256_prefix": "fe57c01188167f6b",
       "extracted_figures": [
