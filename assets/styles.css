@@ -1,3 +1,28 @@
+@font-face {
+  font-family: "Pretendard Variable";
+  font-weight: 45 920;
+  font-style: normal;
+  font-display: swap;
+  src: url("./fonts/PretendardVariable.woff2") format("woff2-variations"),
+       url("https://changa9090.github.io/shared/fonts/PretendardVariable.woff2") format("woff2-variations");
+}
+@font-face {
+  font-family: "Pretendard";
+  font-weight: 45 920;
+  font-style: normal;
+  font-display: swap;
+  src: url("./fonts/PretendardVariable.woff2") format("woff2-variations"),
+       url("https://changa9090.github.io/shared/fonts/PretendardVariable.woff2") format("woff2-variations");
+}
+@font-face {
+  font-family: "Manrope";
+  font-weight: 300 800;
+  font-style: normal;
+  font-display: swap;
+  src: url("./fonts/Manrope-VF.ttf") format("truetype"),
+       url("https://changa9090.github.io/shared/fonts/Manrope-VF.ttf") format("truetype");
+}
+
 /* Park & Co Lawyers · Unified Editorial Design System (2026–2027)
    Palette: #FBF9F5 warm ivory, #FFFFFF surface, #0E3A3E deep teal brand,
    #B68B40 gold accent, #14282A ink, #E5DFD3 border. Zero external font CDNs. */

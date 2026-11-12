@@ -1563,7 +1563,7 @@
       }
     }
 
-    /* --- Shared Smart Brief (Human-Readable Labels Only — Zero Raw Enum Codes) --- */
+    /* --- Shared Smart Brief (Human-Readable Labels Only · Zero Raw Enum Codes) --- */
     var briefLines = [];
     if (isKo) {
       briefLines.push("[법무법인 박앤코 파트너 비자(820·309·300) · 학생·졸업생 비자(500·485) 진단 브리프]");
