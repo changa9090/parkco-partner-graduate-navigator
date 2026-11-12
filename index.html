@@ -33,9 +33,10 @@
       <div class="header-nav-links" role="navigation" aria-label="Key Tool Sections">
         <a href="#mode-switch-anchor" id="nav-jump-partner" class="header-nav-link" data-i18n="navM1">파트너 비자(820·309)</a>
         <a href="#de-facto-4pillars" id="nav-jump-defacto" class="header-nav-link" data-i18n="navM2">혼인·관계등록·4대기둥</a>
+        <a href="#partner-knowledge-hub" id="nav-jump-hub" class="header-nav-link" data-i18n="navM3">복합사례·60문항 지식허브</a>
         <a href="#mode-switch-anchor" id="nav-jump-grad" class="header-nav-link" data-i18n="navGradTab">학생(500)·졸업생(485)</a>
         <a href="#partner-brief-cta" class="header-nav-link" data-i18n="navM4">상담 브리프</a>
-        <a class="header-nav-link header-nav-link--faq parkco-svc-link" href="https://faq.immispecialist.com/?lang=ko" data-ko-href="https://faq.immispecialist.com/?lang=ko" data-en-href="https://faq.immispecialist.com/?lang=en" target="_blank" rel="noopener" data-i18n="ecoFaqLink">이민 FAQ</a>
+        <a class="header-nav-link header-nav-link--faq parkco-svc-link" href="https://faq.immispecialist.com/category/partner-spouse-visas?lang=ko" data-ko-href="https://faq.immispecialist.com/category/partner-spouse-visas?lang=ko" data-en-href="https://faq.immispecialist.com/category/partner-spouse-visas?lang=en" target="_blank" rel="noopener" data-i18n="ecoFaqLink">파트너·이민 FAQ</a>
       </div>
 
       <div class="nav-actions">
@@ -100,6 +101,8 @@
                 <option value="onshore_substantive" data-i18n="optLocOnshoreSub">호주 내 체류 · 유효한 본비자(485, 500, 417, 600, 482 등 · 8503 없음) 보유</option>
                 <option value="onshore_bva_within28" data-i18n="optLocOnshoreBva">호주 내 체류 · 브리징 비자(BVA/BVB/BVC) 보유 또는 본비자 만료 후 28일 이내</option>
                 <option value="onshore_expired_over28" data-i18n="optLocExpired28">호주 내 체류 · 마지막 본비자 만료 후 28일 초과 경과 (BVE 또는 무비자)</option>
+                <option value="onshore_s48_barred" data-i18n="optLocS48Barred">호주 내 체류 · 과거 비자 거절·취소 후 본비자 미보유 (s 48 장벽 · item 1124B(3)(e) 6주 내 법정선언서 2부 필수)</option>
+                <option value="onshore_8503_491_494" data-i18n="optLoc8503Or491">호주 내 체류 · Condition 8503(No Further Stay) 부착 또는 지방비자(491·494) 보유 3년 미만</option>
                 <option value="offshore_married_defacto" data-i18n="optLocOffshore">한국 등 호주 외 체류 · 법률혼 또는 사실혼 (Subclass 309/100 신청)</option>
                 <option value="offshore_fiance" data-i18n="optLocFiance">한국 등 호주 외 체류 · 약혼자 비자 신청 (Subclass 300 → 입국·혼인 후 820 전환)</option>
                 <option value="onshore_300_holder" data-i18n="optLoc300Holder">호주 내 체류 · 유효한 약혼자 비자(Subclass 300) 보유 중 스폰서와 혼인 완료</option>
@@ -122,11 +125,12 @@
               </select>
             </div>
             <div class="form-group">
-              <label for="s3-sponsor-hist" data-i18n="lblSponsorHist">4. 스폰서(배우자)의 과거 파트너 초청·피초청 이력 (reg 1.20J / 1.20KA)</label>
+              <label for="s3-sponsor-hist" data-i18n="lblSponsorHist">4. 스폰서(배우자)의 과거 파트너 초청·피초청 및 범죄경력·가족 심사 (rr 1.20J–1.20KD)</label>
               <select id="s3-sponsor-hist" class="form-control">
-                <option value="clean" data-i18n="optSpClean">과거 파트너 스폰서십 이력 없음 (초회 스폰서)</option>
+                <option value="clean" data-i18n="optSpClean">과거 파트너 스폰서십·범죄경력 제한 사항 없음 (초회 스폰서)</option>
                 <option value="within_5yrs_or_2x" data-i18n="optSpBarred">최근 5년 내 파트너 초청·피초청 이력 있음 또는 평생 2회 초청 완료 (reg 1.20J 웨이버 필수)</option>
-                <option value="contrib_parent_5yr" data-i18n="optSpParent">스폰서 본인이 최근 5년 내 기여제 부모비자(143/864) 승인 이력 있음 (reg 1.20KA 제한)</option>
+                <option value="contrib_parent_5yr" data-i18n="optSpParent">스폰서 본인이 최근 5년 내 기여제 부모비자(143/864) 승인 및 기존 파트너 보유 (reg 1.20KA 제한)</option>
+                <option value="character_or_prior_spouse" data-i18n="optSpCharacter">스폰서 관련 범죄경력·보호명령(rr 1.20KB–KD) 또는 전 배우자 미이혼·비이주 자녀 건강(PIC 4007) 이슈</option>
               </select>
             </div>
           </div>
@@ -142,8 +146,8 @@
       <section id="de-facto-4pillars" class="section-block">
         <div class="section-head">
           <div>
-            <h2 data-i18n="m2Title">2. 법적 혼인 · 주정부 관계등록 · 사실혼 12개월 동거 및 4대 증빙 기둥 진단</h2>
-            <p data-i18n="m2Desc">법적 혼인 부부(s 5F)와 지정 6개 주·준주 관계등록 커플(reg 2.03A(5))은 12개월 의무 동거 요건이 적용되지 않거나 면제됩니다(서호주 WA·노던준주 NT는 등록 면제 불가).</p>
+            <h2 data-i18n="m2Title">2. 법적 혼인 · 주정부 관계등록 · 사실혼 12개월 관계 요건(SZOXP) 및 4대 증빙 기둥 진단</h2>
+            <p data-i18n="m2Desc">법적 혼인 부부(s 5F)와 지정 6개 주·준주 관계등록 커플(reg 2.03A(5))은 사실혼 12개월 기간 요건이 적용되지 않거나 면제됩니다(서호주 WA·노던준주 NT는 등록 면제 불가 · 관계등록이 4대 기둥 증거 자체를 면제하지는 않음).</p>
           </div>
         </div>
 
@@ -188,6 +192,56 @@
           <div class="card">
             <h3 style="margin:0 0 12px;font-size:15.5px;" data-i18n="m2ResultHeading">혼인·사실혼 요건 적격 판정 &amp; 4대 기둥 보완 지침</h3>
             <div id="pv-defacto-output"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PARTNER STEP 3: COMPREHENSIVE PARTNER VISA KNOWLEDGE HUB (V01-V11, CESSATION MATRIX, REVIEW & 6 CASES, CHECKLISTS/MYTHS, 60 FAQs) -->
+      <section id="partner-knowledge-hub" class="section-block">
+        <div class="section-head">
+          <div>
+            <h2 data-i18n="pkhTitle">3. 파트너 비자(820/801 · 309/100 · 300) 심층 지식허브 · 11대 복합사례 · 결별/가정폭력 · ART 재심 · 60문항 백과</h2>
+            <p data-i18n="pkhDesc">2026-11-12 기준 1차 연방 법령(Migration Act 1958 · Migration Regulations 1994 · LIN 23/026 · F2024L00751), 연방법원·대법원 6대 판례, 이민성(2025–26 미결 116,917건 · 본안 승인 비중 94.0%) 및 행정재심기구(ART 본안 인용 80.1%~81.5% · 중위 3년 1개월) 공식 통계를 바탕으로 구성한 연구 가이드입니다.</p>
+          </div>
+        </div>
+
+        <div class="card" style="margin-bottom:14px;">
+          <div style="display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:space-between;margin-bottom:12px;">
+            <div style="display:flex;flex-wrap:wrap;gap:6px;" role="tablist" aria-label="Partner Knowledge Hub Tabs">
+              <button type="button" class="btn-secondary pkh-tab-btn active" data-pkh-tab="faqs" data-i18n="pkhTabFaqs">60문항 지식 백과 (PV001~PV060)</button>
+              <button type="button" class="btn-secondary pkh-tab-btn" data-pkh-tab="complex" data-i18n="pkhTabComplex">유튜브 11대 복합 시나리오 (V01~V11)</button>
+              <button type="button" class="btn-secondary pkh-tab-btn" data-pkh-tab="cessation" data-i18n="pkhTabCessation">결별 · 가정폭력 · 사망 · 자녀 매트릭스</button>
+              <button type="button" class="btn-secondary pkh-tab-btn" data-pkh-tab="review" data-i18n="pkhTabReview">거절 · ART 재심(r 4.02) · 6대 판례 · 통계</button>
+              <button type="button" class="btn-secondary pkh-tab-btn" data-pkh-tab="checklists" data-i18n="pkhTabChecklists">6단계 체크리스트 &amp; 12대 오해 바로잡기</button>
+            </div>
+            <a class="btn-burgundy parkco-svc-link" href="https://faq.immispecialist.com/category/partner-spouse-visas?lang=ko" data-ko-href="https://faq.immispecialist.com/category/partner-spouse-visas?lang=ko" data-en-href="https://faq.immispecialist.com/category/partner-spouse-visas?lang=en" target="_blank" rel="noopener" style="font-size:12.5px;padding:7px 12px;" data-i18n="pkhBtnOpenFaqPortal">공식 FAQ 포털에서 전체 보기 &nearr;</a>
+          </div>
+
+          <div id="pkh-panel-faqs" class="pkh-panel">
+            <div style="display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:space-between;margin-bottom:10px;">
+              <div id="pkh-faq-cat-bar" style="display:flex;flex-wrap:wrap;gap:6px;"></div>
+              <div style="flex:1;min-width:240px;max-width:380px;">
+                <input type="search" id="pkh-faq-search" class="form-control" placeholder="60문항 검색 (예: 820, 309, 300, Schedule 3, s 48, 8503, 491, 가정폭력, 1.20J, r 4.02, PIC 4007)..." data-i18n-placeholder="pkhFaqSearchPh" />
+              </div>
+            </div>
+            <div id="pkh-faq-count" style="font-size:12.5px;color:#4A5D5F;margin-bottom:10px;"></div>
+            <div id="pkh-faq-list" style="display:grid;grid-template-columns:1fr;gap:10px;"></div>
+          </div>
+
+          <div id="pkh-panel-complex" class="pkh-panel" hidden>
+            <div id="pkh-complex-content"></div>
+          </div>
+
+          <div id="pkh-panel-cessation" class="pkh-panel" hidden>
+            <div id="pkh-cessation-content"></div>
+          </div>
+
+          <div id="pkh-panel-review" class="pkh-panel" hidden>
+            <div id="pkh-review-content"></div>
+          </div>
+
+          <div id="pkh-panel-checklists" class="pkh-panel" hidden>
+            <div id="pkh-checklists-content"></div>
           </div>
         </div>
       </section>
@@ -274,7 +328,7 @@
               <input type="date" id="td-visa500-expiry" class="form-control" />
             </div>
             <div class="form-group">
-              <label for="td-english-date" data-i18n="lblTdEnglish">3. 공인 영어시험 응시일 — IELTS / PTE / OET / TOEFL (+12개월 · LIN 24/022 단축 규정)</label>
+              <label for="td-english-date" data-i18n="lblTdEnglish">3. 공인 영어시험 응시일 · IELTS / PTE / OET / TOEFL (+12개월 · LIN 24/022 단축 규정)</label>
               <input type="date" id="td-english-date" class="form-control" />
             </div>
           </div>
@@ -318,8 +372,8 @@
           </div>
           <div class="mini-kpi">
             <span data-i18n="citKpi2Label">파트너 비자(820) 1차 &amp; ART 인용률</span>
-            <strong data-i18n="citKpi2Val">93.9% (1차) · 85.16% (ART 본안)</strong>
-            <small data-i18n="citKpi2Sub">이민성 미결 96,839건 · ART 중위 3년 2개월</small>
+            <strong data-i18n="citKpi2Val">94.0% (1차 본안) · 80.1% (ART 본안)</strong>
+            <small data-i18n="citKpi2Sub">이민성 미결 116,917건 · ART 중위 3년 1개월</small>
           </div>
           <div class="mini-kpi">
             <span data-i18n="citKpi3Label">졸업생 비자(485) 거절 ART 인용률</span>
