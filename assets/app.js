@@ -307,7 +307,7 @@
     optPillarWeak: "일부 보완 필요 (공동 계좌 미사용 또는 임대차계약서 단독 명의 등)",
     m2ResultHeading: "혼인·사실혼 요건 적격 판정 & 4대 기둥 보완 지침",
     pkhTitle: "3. 파트너 비자(820/801 · 309/100 · 300) 심층 지식허브 · 11대 복합사례 · 결별/가정폭력 · ART 재심 · 60문항 백과",
-    pkhDesc: "2026-11-12 기준 1차 연방 법령(Migration Act 1958 · Migration Regulations 1994 · LIN 23/026 · F2024L00751)과 연방법원·대법원 6대 판례 및 이민성(2025–26 미결 116,917건 · 본안 승인 비중 94.0%) · 행정재심기구(ART 본안 인용 80.1%~81.5% · 중위 3년 1개월) 공식 통계를 바탕으로 구성한 연구 가이드입니다.",
+    pkhDesc: "2026-11-12 기준 1차 연방 법령(Migration Act 1958 · Migration Regulations 1994 · LIN 23/026 · F2024L00751)과 연방법원·대법원 6대 판례 및 이민성(2025–26 미결 116,917건 · 본안 결정 중 승인 비중 94.0%) · 행정재심기구(Subclass 820 ART 취소·환송: FY2025–26 연간 본안 결정 분모 80.1%[전체 종결 대비 60.6%] · FY2026–27 Q1 본안 81.5%[전체 69.1%] · FY2026–27 상세통계 YTD 본안 제한 분모 85.16%[전체 74.66%] · 중위 대기 3년 1개월 · 이민성 잔여 요건 재심사용 환송 비율이며 즉시 승인이나 개별 승인 확률이 아님) 공식 통계를 바탕으로 구성한 연구 가이드입니다.",
     pkhTabFaqs: "60문항 지식 백과 (PV001~PV060)",
     pkhTabComplex: "유튜브 11대 복합 시나리오 (V01~V11)",
     pkhTabCessation: "결별 · 가정폭력 · 사망 · 자녀 매트릭스",
@@ -347,9 +347,9 @@
     citKpi1Label: "수여 시민권(Conferral) 전체 완료",
     citKpi1Val: "7개월 (p50) / 11개월 (p90)",
     citKpi1Sub: "미결 재고 53,298건 (월 신규 16,690건)",
-    citKpi2Label: "파트너 비자(820) 1차 & ART 인용률",
-    citKpi2Val: "94.0% (1차 본안) · 80.1% (ART 본안)",
-    citKpi2Sub: "이민성 미결 116,917건 · ART 중위 3년 1개월",
+    citKpi2Label: "파트너 820 ART 취소·환송률 (본안 분모)",
+    citKpi2Val: "80.1% (25–26 연간) · 85.16% (26–27 YTD)",
+    citKpi2Sub: "전체 종결 대비 60.6% / 74.66% · 환송 후 잔여심사 (개별 승인확률 아님)",
     citKpi3Label: "졸업생 비자(485) 거절 ART 인용률",
     citKpi3Val: "93.30% (본안) · 83.99% (전체)",
     citKpi3Sub: "본안 결정 388건 중 362건 취소·환송",
@@ -362,7 +362,7 @@
     btnCopyBrief: "브리프 복사",
     btnPrint: "진단서 인쇄",
     citTitle: "영주권 취득 후 호주 시민권 단계별 실제 소요기간(p25~p90) & 820·485·시민권 행정재심기구(ART) 통계",
-    citDesc: "호주 시민권(Conferral · Descent · Evidence) 공식 4분위 심사 소요기간(Conferral 미결 재고 53,298건)과 파트너 820(2025–26 본안 80.1% · 2026–27 Q1 본안 81.5% 인용 · 미결 116,917건) · 졸업생 485(본안 93.30% 인용) · 시민권 거절(본안 58.82% 인용) 행정재심기구(ART) 통계를 요약합니다.",
+    citDesc: "호주 시민권(Conferral · Descent · Evidence) 공식 4분위 심사 소요기간(Conferral 미결 재고 53,298건)과 Subclass 820 파트너(FY2025–26 연간 본안 결정 분모 80.1%[692/864, 전체 종결 60.6%] · FY2026–27 Q1 본안 81.5%[전체 69.1%] · FY2026–27 상세통계 YTD 본안 제한 분모 85.16%[109/128, 전체 74.66%] 취소·환송) · 졸업생 485(본안 93.30% · 전체 83.99% 취소·환송) · 시민권 거절(본안 58.82% · 전체 31.91% 취소·환송) 행정재심기구(ART) 통계를 요약합니다. 취소·환송(Set Aside / Remittal)은 특정 요건 충족 지시와 함께 이민성으로 환송되어 신원·신체검사·Stage 2 등 잔여 심사를 거치는 절차적 결정 비율이며 즉시 비자 승인이나 개별 신청자의 승인 확률을 뜻하지 않습니다.",
     thCitStream: "시민권 신청 유형 및 심사 단계",
     thCitP25: "25% 완료",
     thCitP50: "50% 완료 (중앙값)",
@@ -383,8 +383,8 @@
     statSubSponsorCap: "불가피한 사유 입증 시 면제 가능",
     specName: "박창민 대표변호사 (Chang Min Park · Legal Practitioner Director)",
     specMeta: "법무법인 박앤코 (Underwood QLD) · 이메일: <a href=\"mailto:enquiry@parkcolawyers.com\">enquiry@parkcolawyers.com</a> · 상담 허브: <a class=\"parkco-svc-link\" href=\"https://parklawyers.com.au/links/?lang=ko\" data-ko-href=\"https://parklawyers.com.au/links/?lang=ko\" data-en-href=\"https://parklawyers.com.au/links/?lang=en\" target=\"_blank\" rel=\"noopener\">parklawyers.com.au/links</a>",
-    pollerTitle: "1차 이민법 시행령 · 연방 이민성 수수료 API(GetPriceList) · 행정재심기구(ART) 실시간 검증 (SHA-256)",
-    pollerDesc: "연방 이민성 비자 수수료 실시간 JSON API(<code>GetPriceList</code>)와 이민법 시행령 원문(<code>F1996B03551</code>) 및 행정재심기구(ART) 공식 통계를 자동 폴링하여 SHA-256 해시와 최신 법정 수수료를 검증합니다.",
+    pollerTitle: "1차 이민법 시행령 · 연방 이민성 수수료 API(GetPriceList) · 행정재심기구(ART) 스냅샷 바이트 무결성(SHA-256)",
+    pollerDesc: "연방 이민성 비자 수수료 JSON API(<code>GetPriceList</code>)와 이민법 시행령 원문(<code>F1996B03551</code>) 및 행정재심기구(ART) 공식 통계 원문의 접속 상태와 스냅샷 바이트 무결성(SHA-256 해시)을 기록합니다. 이 해시는 수집된 출처 스냅샷의 변조 여부만 증명하며 개별 사안의 적격성이나 법정 기한 계산에 대한 자동 법률 보증을 의미하지 않습니다.",
     thPollerSource: "1차 출처 및 검증 대상",
     thPollerCitation: "근거 조문 · 엔드포인트",
     thPollerFigures: "실시간 추출 핵심 수치",
@@ -469,7 +469,7 @@
     optPillarWeak: "Evidentiary Gaps Present (Dormant joint account or single-name lease)",
     m2ResultHeading: "Marriage / De Facto Eligibility Verdict & 4 Pillars Action Plan",
     pkhTitle: "3. Partner Visas (820/801, 309/100 & 300) Knowledge Hub · 11 Complex Cases · Cessation Matrix · ART Review · 60 FAQs",
-    pkhDesc: "Primary-source guide grounded in the Migration Act 1958, Migration Regulations 1994, LIN 23/026, F2024L00751, 6 Federal & High Court authorities, Home Affairs 2025–26 program data (116,917 on-hand, 94.0% decided grant share), and ART review statistics (80.1%–81.5% substantive set aside, median wait 3 yrs 1 mo) as at 12 November 2026.",
+    pkhDesc: "Primary-source guide grounded in the Migration Act 1958, Migration Regulations 1994, LIN 23/026, F2024L00751, 6 Federal & High Court authorities, Home Affairs 2025–26 program data (116,917 on-hand, 94.0% decided grant share), and official Subclass 820 ART set-aside/remittal series (FY2025–26 full year: 80.1% of 864 substantive merits decisions [60.6% of all 1,142 finalisations]; FY2026–27 Q1: 81.5% substantive [69.1% all]; FY2026–27 Detailed Caseload YTD: 85.16% of 128 restricted substantive decisions [74.66% of all 146 finalisations]; median wait 3 yrs 1 mo; remittal returns a criterion to Home Affairs for remaining health/character/Stage 2 checks and is not an immediate visa grant or personal approval probability) as at 12 November 2026.",
     pkhTabFaqs: "60-Item FAQ Guide (PV001–PV060)",
     pkhTabComplex: "11 YouTube Complex Scenarios (V01–V11)",
     pkhTabCessation: "Separation, Family Violence, Death & Child Matrix",
@@ -509,9 +509,9 @@
     citKpi1Label: "Conferral Overall to Ceremony",
     citKpi1Val: "7 months (p50) / 11 months (p90)",
     citKpi1Sub: "On-hand 53,298 (Monthly lodged 16,690)",
-    citKpi2Label: "Partner 820 Primary & ART Set Aside",
-    citKpi2Val: "94.0% (Primary) · 80.1% (ART Substantive)",
-    citKpi2Sub: "DHA On-Hand 116,917 · ART p50 3 yrs 1 mo",
+    citKpi2Label: "Partner 820 ART Set Aside (Substantive)",
+    citKpi2Val: "80.1% (FY25–26) · 85.16% (26–27 YTD)",
+    citKpi2Sub: "60.6% / 74.66% of all finalisations · Remittal to DHA (not grant odds)",
     citKpi3Label: "Graduate 485 ART Set Aside Rate",
     citKpi3Val: "93.30% (Substantive) · 83.99% (All)",
     citKpi3Sub: "362 of 388 substantive decisions Set Aside",
@@ -524,7 +524,7 @@
     btnCopyBrief: "Copy Brief",
     btnPrint: "Print Diagnostic",
     citTitle: "Post-PR Australian Citizenship Processing Times (p25–p90) & 820/485/Citizenship ART Statistics",
-    citDesc: "Official Department of Home Affairs 4-percentile citizenship processing times (53,298 Conferral on-hand inventory) and ART substantive Set Aside rates for Partner 820 (2025–26 80.1% · 2026–27 Q1 81.5% · 116,917 DHA on-hand), Graduate 485 (93.30%), and Citizenship refusals (58.82%).",
+    citDesc: "Official Department of Home Affairs 4-percentile citizenship processing times (53,298 Conferral on-hand inventory) and ART Set Aside / Remittal rates for Subclass 820 Partner (FY2025–26 full year: 80.1% substantive [692/864] vs 60.6% all finalisations [692/1,142]; FY2026–27 Q1: 81.5% substantive vs 69.1% all; FY2026–27 Detailed Caseload YTD: 85.16% restricted substantive [109/128] vs 74.66% all [109/146]), Graduate 485 (93.30% substantive / 83.99% all), and Citizenship refusals (58.82% substantive / 31.91% all). An ART Set Aside / Remittal remits a specific criterion back to Home Affairs for remaining health, character, and Stage 2 checks; it is NOT immediate visa grant or an individual applicant's approval probability.",
     thCitStream: "Citizenship Stream & Stage",
     thCitP25: "25% Processed",
     thCitP50: "50% (Median)",
@@ -545,8 +545,8 @@
     statSubSponsorCap: "Waivable for compelling circumstances",
     specName: "Chang Min Park (Legal Practitioner Director)",
     specMeta: "Park & Co Lawyers (Underwood QLD) · Email: <a href=\"mailto:enquiry@parkcolawyers.com\">enquiry@parkcolawyers.com</a> · Hub: <a class=\"parkco-svc-link\" href=\"https://parklawyers.com.au/links/?lang=en\" data-ko-href=\"https://parklawyers.com.au/links/?lang=ko\" data-en-href=\"https://parklawyers.com.au/links/?lang=en\" target=\"_blank\" rel=\"noopener\">parklawyers.com.au/links</a>",
-    pollerTitle: "Primary Migration Regulations, DHA Pricing API (GetPriceList) & Official ART Telemetry (SHA-256)",
-    pollerDesc: "Automated verification of the Department of Home Affairs pricing API (<code>GetPriceList</code>), Migration Regulations 1994 (<code>F1996B03551</code>), and official ART statistics with SHA-256 hashes.",
+    pollerTitle: "Primary Migration Regulations, DHA Pricing API (GetPriceList) & Official ART Snapshot Byte-Integrity (SHA-256)",
+    pollerDesc: "Records HTTP reachability and fetched source snapshot byte-integrity (SHA-256 hashes) for the Home Affairs pricing API (<code>GetPriceList</code>), Migration Regulations 1994 (<code>F1996B03551</code>), and official ART caseload reports. SHA-256 hashes confirm source snapshot non-tampering only and do not constitute automated legal certification of individual eligibility or filing-deadline calculations.",
     thPollerSource: "Primary Source & Target",
     thPollerCitation: "Provision / Endpoint",
     thPollerFigures: "Live Extracted Figures",
@@ -2018,7 +2018,8 @@
     var onHandNum = Number(inv.conferral_on_hand || cit.conferral_on_hand || 53298);
     var monthlyNum = Number(inv.conferral_monthly_received || inv.conferral_applications_lodged_aug_2026 || cit.conferral_monthly_lodged || 23581);
     var partnerGrantPct = artSum.partner_dha_grant_rate_pct != null ? Number(artSum.partner_dha_grant_rate_pct).toFixed(1) : "94.0";
-    var partnerArtSubPct = artSum.partner_820_art_restricted_pct != null ? Number(artSum.partner_820_art_restricted_pct).toFixed(1) : "80.1";
+    var partnerArtSubPct = artSum.partner_820_art_restricted_pct != null ? Number(artSum.partner_820_art_restricted_pct).toFixed(2) : "85.16";
+    var partnerArtAllPct = artSum.partner_820_art_all_pct != null ? Number(artSum.partner_820_art_all_pct).toFixed(2) : "74.66";
     var partnerOnHand = Number(artSum.partner_dha_on_hand || 116917);
     var partnerWaitStr = isKo
       ? (artSum.partner_820_art_wait_p50_ko || "3년 1개월 (95% 3년 11개월)")
@@ -2039,11 +2040,11 @@
           : "On-hand " + onHandNum.toLocaleString("en-US") + " (Monthly lodged " + monthlyNum.toLocaleString("en-US") + ")"
       },
       {
-        label: isKo ? "파트너 비자(820) 1차 & ART 인용률" : "Partner 820 Primary & ART Set Aside",
-        val: partnerGrantPct + "% (" + (isKo ? "1차" : "Primary") + ") · " + partnerArtSubPct + "% (" + (isKo ? "ART 본안" : "ART Substantive") + ")",
+        label: isKo ? "파트너 820 ART 취소·환송률 (본안 분모)" : "Partner 820 ART Set Aside (Substantive)",
+        val: "80.1% (" + (isKo ? "25–26 연간" : "FY25–26") + ") · " + partnerArtSubPct + "% (" + (isKo ? "26–27 YTD" : "26–27 YTD") + ")",
         sub: isKo
-          ? "이민성 미결 " + partnerOnHand.toLocaleString("en-US") + "건 · ART 중위 " + partnerWaitStr
-          : "DHA On-Hand " + partnerOnHand.toLocaleString("en-US") + " · ART p50 " + partnerWaitStr
+          ? "전체 종결 분모 60.6% / " + partnerArtAllPct + "% · 환송 후 잔여심사 (개별 승인확률 아님 · 중위 " + partnerWaitStr + ")"
+          : "All finalisations 60.6% / " + partnerArtAllPct + "% · Remittal to DHA (not grant odds · p50 " + partnerWaitStr + ")"
       },
       {
         label: isKo ? "졸업생 비자(485) 거절 ART 인용률" : "Graduate 485 ART Set Aside Rate",
@@ -2121,9 +2122,11 @@
         sub: isKo ? "NSW · VIC · QLD · SA · TAS · ACT (WA/NT 제외)" : "NSW · VIC · QLD · SA · TAS · ACT (WA/NT excluded)"
       },
       {
-        label: isKo ? "행정재심기구(ART) 본안 인용률" : "Official ART Set Aside Rate",
-        val: "80.1% / 81.5%",
-        sub: isKo ? "파트너 2025-26 80.1% (Q1 81.5%) · 485 93.30%" : "Partner 2025-26 80.1% (Q1 81.5%) · 485 93.30%"
+        label: isKo ? "파트너 820 ART 취소·환송 (본안 분모)" : "Partner 820 ART Set Aside (Substantive)",
+        val: "80.1% / 81.5% / 85.16%",
+        sub: isKo
+          ? "FY25–26 80.1%(전체 60.6%) · Q1 81.5%(전체 69.1%) · 상세통계 YTD 85.16%(전체 74.66%) · 환송 후 잔여심사"
+          : "FY25–26 80.1% (60.6% all) · Q1 81.5% (69.1% all) · YTD 85.16% (74.66% all) · Remittal to DHA"
       }
     ];
 

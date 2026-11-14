@@ -170,8 +170,8 @@
     {
       "id": "art-partner-graduate-citizenship-outcomes",
       "category": "ART Review & Partner Program Backlog",
-      "title_en": "Administrative Review Tribunal (ART) & Migration Program Report · Partner 820 (85.16% Restricted Set Aside · 96,839 On-Hand), Graduate 485 (93.30% Set Aside) & Citizenship Refusal Review (58.82% Set Aside)",
-      "title_ko": "행정재심기구(ART) 및 이민 프로그램 공식 통계 · 파트너 820(본안 85.16% 인용 · 미결 96,839건), 졸업생 485(본안 93.30% 인용), 시민권 거절 재심(본안 58.82% 인용)",
+      "title_en": "Administrative Review Tribunal (ART) & Migration Program Report · Subclass 820 Partner Set Aside/Remittal (FY25–26: 80.1% Substantive / 60.6% All; FY26–27 Detailed YTD: 85.16% Restricted [109/128] / 74.66% All [109/146] · 96,839 On-Hand), Graduate 485 (93.30% Substantive / 83.99% All) & Citizenship Refusal Review (58.82% Substantive / 31.91% All)",
+      "title_ko": "행정재심기구(ART) 및 이민 프로그램 공식 통계 · Subclass 820 파트너 취소·환송(FY25–26 연간 본안 80.1%/전체 60.6% · FY26–27 상세 YTD 본안 제한 85.16%[109/128]/전체 74.66%[109/146] · 환송 후 잔여심사 · 미결 96,839건), 졸업생 485(본안 93.30%/전체 83.99%), 시민권 거절 재심(본안 58.82%/전체 31.91%)",
       "citation": "ART Migration Detailed Caseload Statistics 2026–27 (pp. 3–4, 11) & DHA Migration Program Report",
       "url": "https://www.art.gov.au/sites/default/files/2026-08/Migration-Detailed-Caseload-Statistics-2026-27.pdf",
       "status": "verified_ok",
@@ -182,7 +182,7 @@
       "sha256": "fe57c01188167f6b483a406502dcf1744bf676391240347d1fdc45c8a30ddecb",
       "sha256_prefix": "fe57c01188167f6b",
       "extracted_figures": [
-        "Partner 820 ART Set Aside: 74.66% All / 85.16% Restricted (Wait p50: 3y 2m) | DHA On-Hand: 96,839 (93.9% Grant Rate)",
+        "Subclass 820 ART Set Aside/Remittal: FY25–26 80.1% Substantive (692/864) / 60.6% All (692/1,142) | FY26–27 Detailed YTD 85.16% Restricted (109/128) / 74.66% All (109/146) · Remits criterion to DHA (not personal grant odds)",
         "Graduate 485 ART Set Aside: 83.99% All / 93.30% Restricted (362/388)",
         "Citizenship Refusal ART Set Aside: 31.91% All / 58.82% Restricted (30/51)"
       ]
