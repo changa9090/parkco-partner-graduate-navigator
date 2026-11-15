@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-11T12:20:00Z",
+  "generated_at": "2026-11-15T21:50:52Z",
   "citizenship": {
     "status": "verified_ok",
     "http_status": 200,
-    "bytes": 1314850,
-    "sha256": "469a7bb4fda9e8fb1c014f60a2bbed730286612c6da52c1c33bab5f86aaf2bf1",
-    "sha256_prefix": "469a7bb4fda9e8fb",
+    "bytes": 1318352,
+    "sha256": "b12214142f7a343d34ed0d53c1d98fbca3a5e3d3b2c146ea1784b6a6bae310fc",
+    "sha256_prefix": "b12214142f7a343d",
     "method": "dha-citizenship-pageschema-live",
     "url": "https://immi.homeaffairs.gov.au/citizenship/citizenship-processing-times/citizenship-processing-times",
     "source_updated_label": "16 October 2026",
@@ -69,12 +69,12 @@
       }
     ],
     "inventory": {
-      "conferral_on_hand": 53298,
-      "descent_on_hand": 2988,
-      "evidence_on_hand": 940,
-      "conferral_monthly_received": 23581,
-      "descent_monthly_received": 1664,
-      "evidence_monthly_received": 3647
+      "conferral_on_hand": 47970,
+      "descent_on_hand": 2461,
+      "evidence_on_hand": 673,
+      "conferral_monthly_received": 22723,
+      "descent_monthly_received": 1685,
+      "evidence_monthly_received": 3837
     },
     "art_citizenship_review": {
       "period": "1 July – 31 August 2026 (ART Migration Caseload PDF p.11)",
@@ -93,12 +93,18 @@
     "warning_note_en": "Do not add Stage 1 and Stage 2 percentiles directly; refer to Row 3 (Application to Ceremony: 50% 7 months / 90% 11 months)."
   },
   "partner_graduate_art_summary": {
-    "partner_dha_on_hand": 96839,
-    "partner_dha_grant_rate_pct": 93.9,
-    "partner_820_art_wait_p50_ko": "3년 2개월 (134주)",
-    "partner_820_art_wait_p50_en": "3 yrs 2 mos (134 wks)",
-    "partner_820_art_all_pct": 74.66,
-    "partner_820_art_restricted_pct": 85.16,
+    "partner_dha_on_hand": 116917,
+    "partner_dha_lodged_2025_26": 66916,
+    "partner_dha_outcome_places_2025_26": 40500,
+    "partner_dha_planning_2026_27": 41500,
+    "partner_dha_grant_rate_pct": 94.0,
+    "partner_dha_refusal_rate_pct": 6.0,
+    "partner_820_art_wait_p50_ko": "3년 1개월 (95%: 3년 11개월)",
+    "partner_820_art_wait_p50_en": "3 yrs 1 mo (95%: 3 yrs 11 mos)",
+    "partner_820_art_all_pct": 60.6,
+    "partner_820_art_restricted_pct": 80.1,
+    "partner_820_art_q1_all_pct": 69.1,
+    "partner_820_art_q1_restricted_pct": 81.5,
     "graduate_485_art_all_pct": 83.99,
     "graduate_485_art_restricted_pct": 93.3,
     "citizenship_art_all_pct": 31.91,

@@ -4,7 +4,7 @@
   "title_en": "Australia Partner Visas (820/801 · 309/100 · 300) & Student/Graduate Visas (500 · 485) Navigator",
   "official_contact": "https://parklawyers.com.au/links/?lang=ko",
   "official_email": "enquiry@parkcolawyers.com",
-  "last_polled_iso": "2026-11-11T12:20:00Z",
+  "last_polled_iso": "2026-11-15T21:50:52Z",
   "as_at_date": "November 2026 (DHA GetPriceList API, Migration Regulations & ART Caseload Current)",
   "total_sources": 8,
   "verified_ok_count": 8,
@@ -43,10 +43,10 @@
     "subclass_300_to_820_vac": "$1,955 AUD (18+ $980 | <18 $485 | Ceased 300: $2,475)",
     "student_500_base_vac": "$2,500 AUD (18+ $1,530 | <18 $500 | STAC $700)",
     "graduate_485_base_vac": "$5,750 AUD (18+ $2,875 | <18 $1,450 | Second 485: $2,265)",
-    "de_facto_rule": "12 Months or State Reg (NSW/VIC/QLD/SA/TAS/ACT)",
+    "de_facto_rule": "12 Months De Facto Relationship or 6-State Reg (NSW/VIC/QLD/SA/TAS/ACT · WA/NT excluded)",
     "direct_pr_long_term": "3 Yrs (or 2 Yrs + Child, reg 1.03)",
-    "sponsor_limitation_cap": "Max 2 lifetime · 5-yr gap (reg 1.20J)",
-    "art_partner_set_aside": "Subclass 820: FY25–26 80.1% Substantive (60.6% All) | FY26–27 Detailed YTD 85.16% Restricted Substantive (74.66% All) · Remittal to DHA (not grant odds)"
+    "sponsor_limitation_cap": "Max 2 lifetime · 5-yr gap (regs 1.20J, 1.20KA, 1.20KC–KD)",
+    "art_partner_set_aside": "2025–26: 80.1% Substantive (60.6% All) · 2026–27 Q1: 81.5% Substantive (69.1% All)"
   },
   "sources": [
     {
@@ -60,7 +60,7 @@
       "http_status": 200,
       "bytes": 247792,
       "method": "dha-json-api-post",
-      "last_checked": "2026-11-11T12:20:00Z",
+      "last_checked": "2026-11-15T21:50:52Z",
       "sha256": "0ab169e8525c9030d1815ec12767425367481ccc9d4051bbdd38f7328bf4f00f",
       "sha256_prefix": "0ab169e8525c9030",
       "extracted_figures": [
@@ -72,36 +72,36 @@
     {
       "id": "mig-regs-partner-115a-109a",
       "category": "Primary Legislation (Cth)",
-      "title_en": "Migration Regulations 1994 (Cth) regs 1.09A, 1.15A & 2.03A · Spouse/De Facto 4 Pillars & 12-Month Cohabitation / Relationship Registration Exemption",
-      "title_ko": "이민법 시행령 reg 1.09A · 1.15A(4대 관계 증빙 기둥) 및 reg 2.03A(사실혼 12개월 동거 요건 및 주정부 관계등록 면제)",
-      "citation": "Migration Regulations 1994 (Cth) regs 1.03, 1.09A, 1.15A, 2.03A",
+      "title_en": "Migration Regulations 1994 (Cth) regs 1.09A, 1.15A & 2.03A · Spouse/De Facto 4 Pillars & 12-Month De Facto Relationship / 6-State Registration Exemption",
+      "title_ko": "이민법 시행령 reg 1.09A · 1.15A(4대 관계 증빙 기둥) 및 reg 2.03A(사실혼 12개월 관계 요건 및 6개 주 관계등록 면제 · WA/NT 제외)",
+      "citation": "Migration Regulations 1994 (Cth) regs 1.03, 1.09A, 1.15A, 2.03A & Acts Interpretation (Registered Relationships) Regulations 2019 s 5",
       "url": "https://www.legislation.gov.au/F1996B03551/latest/text",
       "status": "verified_ok",
       "http_status": 200,
-      "bytes": 3580174,
-      "method": "frl-legis-store-c289-F2026C01017",
-      "last_checked": "2026-11-11T12:20:00Z",
-      "sha256": "a964fbdacae4f71afde15126af821182da08eba3befb4e9fc1e504d631b9224e",
-      "sha256_prefix": "a964fbdacae4f71a",
+      "bytes": 3579753,
+      "method": "frl-legis-store-c290-F2026C01179",
+      "last_checked": "2026-11-15T21:50:52Z",
+      "sha256": "ae1a559eefb18f8838ce2389c05cf2c8e92660e14613316e547420eae697f59a",
+      "sha256_prefix": "ae1a559eefb18f88",
       "extracted_figures": [
         "4 Pillars: Financial, Household, Social, Commitment",
-        "12-Month Cohabitation or 6-State Registration (WA/NT excluded)"
+        "12-Month De Facto Relationship (SZOXP) or 6-State Registration (WA/NT excluded)"
       ]
     },
     {
       "id": "mig-regs-sch2-820-309",
       "category": "Primary Legislation (Cth)",
-      "title_en": "Migration Regulations 1994 (Cth) Schedule 2 Subclasses 820/801, 309/100 & 300 + Schedule 3 Criteria 3001/3004 Waiver",
-      "title_ko": "이민법 시행령 Schedule 2 파트너 비자(820/801·309/100·300) 및 브리징/비자만료자 Schedule 3(3001/3004) Compelling Reasons 웨이버",
-      "citation": "Migration Regulations 1994 (Cth) Sch 2 cl 820.211, Sch 3 3001/3004",
+      "title_en": "Migration Regulations 1994 (Cth) Schedule 2 Subclasses 820/801, 309/100 & 300 + Schedule 3 Criteria 3001/3003/3004 Waiver",
+      "title_ko": "이민법 시행령 Schedule 2 파트너 비자(820/801·309/100·300) 및 브리징/비자만료자 Schedule 3(3001/3003/3004) Compelling Reasons 웨이버",
+      "citation": "Migration Regulations 1994 (Cth) Sch 2 cl 820.211, Sch 3 3001/3003/3004",
       "url": "https://www.legislation.gov.au/F1996B03551/latest/text",
       "status": "verified_ok",
       "http_status": 200,
-      "bytes": 3580174,
-      "method": "frl-legis-store-c289-F2026C01017",
-      "last_checked": "2026-11-11T12:20:00Z",
-      "sha256": "a964fbdacae4f71afde15126af821182da08eba3befb4e9fc1e504d631b9224e",
-      "sha256_prefix": "a964fbdacae4f71a",
+      "bytes": 3579753,
+      "method": "frl-legis-store-c290-F2026C01179",
+      "last_checked": "2026-11-15T21:50:52Z",
+      "sha256": "ae1a559eefb18f8838ce2389c05cf2c8e92660e14613316e547420eae697f59a",
+      "sha256_prefix": "ae1a559eefb18f88",
       "extracted_figures": [
         "Direct PR: 3+ Yrs or 2+ Yrs with Child (reg 1.03)",
         "Schedule 3 Waiver: Waensila [2016] FCAFC 32"
@@ -110,20 +110,20 @@
     {
       "id": "mig-regs-sponsor-limits",
       "category": "Primary Legislation (Cth)",
-      "title_en": "Migration Regulations 1994 (Cth) regs 1.20J, 1.20KA, 1.20KB · Partner Sponsorship Limitations (Max 2 Sponsorships, 5-Year Gap & Character Check)",
-      "title_ko": "이민법 시행령 reg 1.20J(평생 최대 2회·5년 간격 스폰서 제한), reg 1.20KA(기여제 부모비자 출신 5년 제한), reg 1.20KB(스폰서 범죄경력 심사)",
-      "citation": "Migration Regulations 1994 (Cth) regs 1.20J, 1.20KA, 1.20KB",
+      "title_en": "Migration Regulations 1994 (Cth) regs 1.20J, 1.20KA, 1.20KB, 1.20KC–1.20KD · Partner Sponsorship Limitations (Max 2 Sponsorships, 5-Year Bars & Character Check)",
+      "title_ko": "이민법 시행령 reg 1.20J(평생 최대 2회·5년 간격·피초청 스폰서 제한), reg 1.20KA(기여제 부모비자 143/864 출신 5년 제한), reg 1.20KB(미성년자 보호 범죄 심사), reg 1.20KC–KD(관련 범죄·중대 범죄경력 공개 및 심사)",
+      "citation": "Migration Regulations 1994 (Cth) regs 1.20J, 1.20KA, 1.20KB, 1.20KC, 1.20KD",
       "url": "https://www.legislation.gov.au/F1996B03551/latest/text",
       "status": "verified_ok",
       "http_status": 200,
-      "bytes": 3580174,
-      "method": "frl-legis-store-c289-F2026C01017",
-      "last_checked": "2026-11-11T12:20:00Z",
-      "sha256": "a964fbdacae4f71afde15126af821182da08eba3befb4e9fc1e504d631b9224e",
-      "sha256_prefix": "a964fbdacae4f71a",
+      "bytes": 3579753,
+      "method": "frl-legis-store-c290-F2026C01179",
+      "last_checked": "2026-11-15T21:50:52Z",
+      "sha256": "ae1a559eefb18f8838ce2389c05cf2c8e92660e14613316e547420eae697f59a",
+      "sha256_prefix": "ae1a559eefb18f88",
       "extracted_figures": [
         "Lifetime Cap: Max 2 Sponsorships (reg 1.20J)",
-        "Minimum Gap: 5 Years (reg 1.20J / 1.20KA)"
+        "Minimum Gap: 5 Years (reg 1.20J / 1.20KA) + Character (1.20KB–KD)"
       ]
     },
     {
@@ -135,14 +135,14 @@
       "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-onshore",
       "status": "verified_ok",
       "http_status": 200,
-      "bytes": 1298251,
+      "bytes": 1301736,
       "method": "https-direct-live",
-      "last_checked": "2026-11-11T12:20:00Z",
+      "last_checked": "2026-11-15T21:50:52Z",
       "sha256": "1f5b254ca50e5175d8a7d53db3213463d0a507a717bf8c8e492468cf6e0811b6",
       "sha256_prefix": "1f5b254ca50e5175",
       "extracted_figures": [
         "Base VAC: $11,710 AUD",
-        "Two-Stage Assessment: 24 Months from Lodgement"
+        "Two-Stage Assessment: 24 Months from Combined Lodgement (50% 22m)"
       ]
     },
     {
@@ -154,14 +154,14 @@
       "url": "https://www.art.gov.au/about-us/accountability-and-reporting/processing-times",
       "status": "verified_ok",
       "http_status": 200,
-      "bytes": 108109,
+      "bytes": 107453,
       "method": "https-direct-live",
-      "last_checked": "2026-11-11T12:20:00Z",
-      "sha256": "4861616f02b9465ec0d6129810a6ae0e0bf429af6d2f4ae66efe75779ace0548",
-      "sha256_prefix": "4861616f02b9465e",
+      "last_checked": "2026-11-15T21:50:52Z",
+      "sha256": "273367a1b73899cd412b5bb9043531c46c74c2500ec0e0fe3bad7401440615f6",
+      "sha256_prefix": "273367a1b73899cd",
       "extracted_figures": [
-        "Partner 820 Median Wait: 3 yrs 2 mos (134 wks)",
-        "Statutory Review Filing Window: 28 Calendar Days"
+        "Partner Review Median Wait: 3 yrs 1 mo (95%: 3 yrs 11 mos)",
+        "Statutory Review Filing Window: 28 Calendar Days (14d Detention)"
       ]
     },
     {
@@ -173,11 +173,11 @@
       "url": "https://immi.homeaffairs.gov.au/citizenship/citizenship-processing-times/citizenship-processing-times",
       "status": "verified_ok",
       "http_status": 200,
-      "bytes": 1314850,
+      "bytes": 1318352,
       "method": "dha-citizenship-pageschema-live",
-      "last_checked": "2026-11-11T12:20:00Z",
-      "sha256": "469a7bb4fda9e8fb1c014f60a2bbed730286612c6da52c1c33bab5f86aaf2bf1",
-      "sha256_prefix": "469a7bb4fda9e8fb",
+      "last_checked": "2026-11-15T21:50:52Z",
+      "sha256": "b12214142f7a343d34ed0d53c1d98fbca3a5e3d3b2c146ea1784b6a6bae310fc",
+      "sha256_prefix": "b12214142f7a343d",
       "extracted_figures": [
         "Conferral Decision (p50/p90): 5m / 11m · Total to Ceremony: 8m / 13m",
         "Conferral On-Hand Inventory: 53,298 (Aug 2026: 16,690 lodged)",
@@ -187,19 +187,19 @@
     {
       "id": "art-partner-graduate-citizenship-outcomes",
       "category": "ART Review & Partner Program Backlog",
-      "title_en": "Administrative Review Tribunal (ART) & Migration Program Report · Subclass 820 Partner Set Aside/Remittal (FY25–26: 80.1% Substantive / 60.6% All; FY26–27 Detailed YTD: 85.16% Restricted [109/128] / 74.66% All [109/146] · 96,839 On-Hand), Graduate 485 (93.30% Substantive / 83.99% All) & Citizenship Refusal Review (58.82% Substantive / 31.91% All)",
-      "title_ko": "행정재심기구(ART) 및 이민 프로그램 공식 통계 · Subclass 820 파트너 취소·환송(FY25–26 연간 본안 80.1%/전체 60.6% · FY26–27 상세 YTD 본안 제한 85.16%[109/128]/전체 74.66%[109/146] · 환송 후 잔여심사 · 미결 96,839건), 졸업생 485(본안 93.30%/전체 83.99%), 시민권 거절 재심(본안 58.82%/전체 31.91%)",
-      "citation": "ART Migration Detailed Caseload Statistics 2026–27 (pp. 3–4, 11) & DHA Migration Program Report",
+      "title_en": "Administrative Review Tribunal (ART) & Migration Program Report · Partner 820 (2025–26: 60.6% All / 80.1% Substantive · 2026–27 Q1: 69.1% All / 81.5% Substantive · 116,917 On-Hand at 2026-06-30), Graduate 485 (93.30% Set Aside) & Citizenship Refusal Review (58.82% Set Aside)",
+      "title_ko": "행정재심기구(ART) 및 이민 프로그램 공식 통계 · 파트너 820(2025–26 본안 80.1% / 전체 60.6% · 2026–27 Q1 본안 81.5% / 전체 69.1% 인용 · 미결 116,917건), 졸업생 485(본안 93.30% 인용), 시민권 거절 재심(본안 58.82% 인용)",
+      "citation": "ART Migration Detailed Caseload Statistics 2025–26 & 2026–27 Q1 + DHA Migration Program Report 2025–26",
       "url": "https://www.art.gov.au/sites/default/files/2026-08/Migration-Detailed-Caseload-Statistics-2026-27.pdf",
       "status": "verified_ok",
       "http_status": 200,
       "bytes": 974695,
       "method": "art-caseload-pdf-live",
-      "last_checked": "2026-11-11T12:20:00Z",
+      "last_checked": "2026-11-15T21:50:52Z",
       "sha256": "fe57c01188167f6b483a406502dcf1744bf676391240347d1fdc45c8a30ddecb",
       "sha256_prefix": "fe57c01188167f6b",
       "extracted_figures": [
-        "Subclass 820 ART Set Aside/Remittal: FY25–26 80.1% Substantive (692/864) / 60.6% All (692/1,142) | FY26–27 Detailed YTD 85.16% Restricted (109/128) / 74.66% All (109/146) · Remits criterion to DHA (not personal grant odds)",
+        "Partner 820 ART Set Aside: 2025–26 60.6% All / 80.1% Substantive · 2026–27 Q1 69.1% All / 81.5% Substantive (Wait p50: 3y 1m) | DHA On-Hand: 116,917 (94.0% Decided Grant Share)",
         "Graduate 485 ART Set Aside: 83.99% All / 93.30% Restricted (362/388)",
         "Citizenship Refusal ART Set Aside: 31.91% All / 58.82% Restricted (30/51)"
       ]
