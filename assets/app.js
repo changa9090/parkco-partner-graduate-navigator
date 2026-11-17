@@ -338,15 +338,15 @@
     lblGradCompDate: "5. 공식 학업 수료 완료일 (Completion Letter 명시 완료일 · 485 6개월 마감 계산)",
     gradResultHeading: "500·485 적격 여부 · 신청비(VAC) · 6개월 법정 마감일 병기",
     tdTitle: "2. 졸업생 비자(Subclass 485) 3대 법정 기한 비교기 (최종 안전 접수 데드라인 산출)",
-    tdDesc: "학위 수료 확인서 발급일(+6개월 · reg 485.213)과 학생비자 500 만료일(온쇼어 합법 체류 · cl 485.211 / s 48) 및 공인 영어시험 응시일(+12개월 · LIN 24/022) 중 가장 먼저 도래하는 날짜가 절대 초과 불가 최종 안전 접수 데드라인이 됩니다.",
+    tdDesc: "학위 수료 확인서 발급일(+6개월 · cl 485.221 / 485.231)과 학생비자 500 만료일(온쇼어 합법 체류 · Sch 1 Item 1229(4)(a)(ii)-(iii) / s 48) 및 공인 영어시험 응시일(+12개월 · LIN 24/022) 중 가장 먼저 도래하는 날짜가 절대 초과 불가 최종 안전 접수 데드라인이 됩니다.",
     tdFormHeading: "485 접수 3대 기한 기준일 입력",
-    lblTdCompletion: "1. 학위 수료 확인서 Completion Letter 완료일 (+6개월 · reg 485.213 / 졸업식 날짜 아님)",
-    lblTdVisa500: "2. 학생비자(Subclass 500) 만료일 (온쇼어 합법 체류 및 최근 6개월 내 보유 · cl 485.211 & s 48 주의)",
+    lblTdCompletion: "1. 학위 수료 확인서 Completion Letter 완료일 (+6개월 · cl 485.221 / 485.231 / 졸업식 날짜 아님)",
+    lblTdVisa500: "2. 학생비자(Subclass 500) 만료일 (온쇼어 합법 체류 및 최근 6개월 내 보유 · Sch 1 Item 1229(4)(a)(ii)-(iii) & s 48 주의)",
     lblTdEnglish: "3. 공인 영어시험 응시일 · IELTS / PTE / OET / TOEFL (+12개월 · LIN 24/022 단축 규정)",
     tdResultHeading: "최종 안전 접수 데드라인 (3개 기한 중 가장 빠른 날)",
     citKpi1Label: "수여 시민권(Conferral) 전체 완료",
     citKpi1Val: "7개월 (p50) / 11개월 (p90)",
-    citKpi1Sub: "미결 재고 53,298건 (월 신규 16,690건)",
+    citKpi1Sub: "미결 재고 47,970건 (월 신규 22,723건 · 1단계 42일/5개월)",
     citKpi2Label: "파트너 820 ART 취소·환송률 (본안 분모)",
     citKpi2Val: "80.1% (25–26 연간) · 85.16% (26–27 YTD)",
     citKpi2Sub: "전체 종결 대비 60.6% / 74.66% · 환송 후 잔여심사 (개별 승인확률 아님)",
@@ -361,8 +361,19 @@
     btnSendEmail: "브리프 복사 & 공식 상담 신청",
     btnCopyBrief: "브리프 복사",
     btnPrint: "진단서 인쇄",
-    citTitle: "영주권 취득 후 호주 시민권 단계별 실제 소요기간(p25~p90) & 820·485·시민권 행정재심기구(ART) 통계",
-    citDesc: "호주 시민권(Conferral · Descent · Evidence) 공식 4분위 심사 소요기간(Conferral 미결 재고 53,298건)과 Subclass 820 파트너(FY2025–26 연간 본안 결정 분모 80.1%[692/864, 전체 종결 60.6%] · FY2026–27 Q1 본안 81.5%[전체 69.1%] · FY2026–27 상세통계 YTD 본안 제한 분모 85.16%[109/128, 전체 74.66%] 취소·환송) · 졸업생 485(본안 93.30% · 전체 83.99% 취소·환송) · 시민권 거절(본안 58.82% · 전체 31.91% 취소·환송) 행정재심기구(ART) 통계를 요약합니다. 취소·환송(Set Aside / Remittal)은 특정 요건 충족 지시와 함께 이민성으로 환송되어 신원·신체검사·Stage 2 등 잔여 심사를 거치는 절차적 결정 비율이며 즉시 비자 승인이나 개별 신청자의 승인 확률을 뜻하지 않습니다.",
+    citTitle: "영주권 취득 후 호주 시민권 단계별 실제 소요기간(p25~p90) · 신청비($595/$85) · s 22 거주기간 계산기 & ART 통계",
+    citDesc: "호주 시민권(Conferral · Descent · Evidence) 공식 4분위 심사 소요기간(Conferral 미결 재고 47,970건 · 1단계 42일/5개월 · 전체 완주 7개월/11개월)과 신청 수수료(일반 Form 1300t AUD $595 / 감면 $85) 및 Subclass 820 파트너(FY2025–26 연간 본안 결정 분모 80.1%[692/864, 전체 종결 60.6%] · FY2026–27 Q1 본안 81.5%[전체 69.1%] · FY2026–27 상세통계 YTD 본안 제한 분모 85.16%[109/128, 전체 74.66%] 취소·환송) · 졸업생 485(본안 93.30% · 전체 83.99% 취소·환송) · 시민권 거절(본안 58.82% · 전체 31.91% 취소·환송) 행정재심기구(ART) 통계를 요약합니다. 취소·환송(Set Aside / Remittal)은 특정 요건 충족 지시와 함께 이민성으로 환송되어 신원·신체검사·Stage 2 등 잔여 심사를 거치는 절차적 결정 비율이며 즉시 비자 승인이나 개별 신청자의 승인 확률을 뜻하지 않습니다.",
+    citS22Title: "호주 시민권 일반 거주요건 계산기 (Australian Citizenship Act 2007 s 22) & Form 1300t 수수료",
+    citS22Desc: "신청일 직전 4년 합법 거주 + 마지막 12개월 영주권(PR) 보유 + 4년간 해외 체류 합계 최대 365일(s 22(1A)) + 마지막 12개월간 해외 체류 최대 90일(s 22(1B)) 요건을 즉시 판정합니다.",
+    citFeeBanner: "Form 1300t 수수료: 일반 AUD $595 · 감면 $85 (만 15세 이하 동반자녀 $0)",
+    lblCitLawfulStart: "1. 호주 합법 체류 개시일 (4년 기산)",
+    lblCitPrGrant: "2. 영주권(801/100/189 등) 취득일 (12개월 PR)",
+    lblCitAppDate: "3. 시민권 신청 예정일 (기준일)",
+    lblCitAbs4Yr: "4. 최근 4년간 해외 체류 총일수 (상한 365일)",
+    lblCitAbs12m: "5. 마지막 12개월 해외 체류 일수 (상한 90일)",
+    lblCitFeeType: "6. 신청 수수료 구분 (Form 1300t)",
+    optCitFeeStd: "일반 신청 (AUD $595 · Form 1300t)",
+    optCitFeeConc: "펜션·컨세션 감면 (AUD $85 · Form 1300t)",
     thCitStream: "시민권 신청 유형 및 심사 단계",
     thCitP25: "25% 완료",
     thCitP50: "50% 완료 (중앙값)",
@@ -500,15 +511,15 @@
     lblGradCompDate: "5. Official Course Completion Date (Completion Letter Date · 6-Month Rule)",
     gradResultHeading: "500 / 485 Eligibility, Official VAC & Dual Safe/Statutory Deadlines",
     tdTitle: "2. Subclass 485 Triple-Deadline Comparator (Hard Filing Deadline)",
-    tdDesc: "Compare your Course Completion Letter date (+6 months · reg 485.213), Student Visa 500 expiry date (onshore lawful status · cl 485.211 / s 48), and English Test date (+12 months · LIN 24/022). The earliest expiring date is your non-extendable Hard Filing Deadline.",
+    tdDesc: "Compare your Course Completion Letter date (+6 months · cl 485.221 / 485.231), Student Visa 500 expiry date (onshore lawful status · Sch 1 Item 1229(4)(a)(ii)-(iii) / s 48), and English Test date (+12 months · LIN 24/022). The earliest expiring date is your non-extendable Hard Filing Deadline.",
     tdFormHeading: "Enter All 3 Subclass 485 Milestone Dates",
-    lblTdCompletion: "1. Course Completion Letter Date (+6 months · reg 485.213 / NOT ceremony date)",
-    lblTdVisa500: "2. Student Visa (Subclass 500) Expiry Date (Onshore lawful status & 6m rule · cl 485.211 & s 48)",
+    lblTdCompletion: "1. Course Completion Letter Date (+6 months · cl 485.221 / 485.231 / NOT ceremony date)",
+    lblTdVisa500: "2. Student Visa (Subclass 500) Expiry Date (Onshore lawful status & 6m rule · Sch 1 Item 1229(4)(a)(ii)-(iii) & s 48)",
     lblTdEnglish: "3. English Test Date · IELTS / PTE / OET / TOEFL (+12 months · LIN 24/022 reduced validity)",
     tdResultHeading: "Hard Filing Deadline (Earliest of the 3 Statutory Deadlines)",
     citKpi1Label: "Conferral Overall to Ceremony",
     citKpi1Val: "7 months (p50) / 11 months (p90)",
-    citKpi1Sub: "On-hand 53,298 (Monthly lodged 16,690)",
+    citKpi1Sub: "On-hand 47,970 (Monthly lodged 22,723 · Stage 1 42d/5m)",
     citKpi2Label: "Partner 820 ART Set Aside (Substantive)",
     citKpi2Val: "80.1% (FY25–26) · 85.16% (26–27 YTD)",
     citKpi2Sub: "60.6% / 74.66% of all finalisations · Remittal to DHA (not grant odds)",
@@ -523,8 +534,19 @@
     btnSendEmail: "Copy Brief & Open Official Inquiry",
     btnCopyBrief: "Copy Brief",
     btnPrint: "Print Diagnostic",
-    citTitle: "Post-PR Australian Citizenship Processing Times (p25–p90) & 820/485/Citizenship ART Statistics",
-    citDesc: "Official Department of Home Affairs 4-percentile citizenship processing times (53,298 Conferral on-hand inventory) and ART Set Aside / Remittal rates for Subclass 820 Partner (FY2025–26 full year: 80.1% substantive [692/864] vs 60.6% all finalisations [692/1,142]; FY2026–27 Q1: 81.5% substantive vs 69.1% all; FY2026–27 Detailed Caseload YTD: 85.16% restricted substantive [109/128] vs 74.66% all [109/146]), Graduate 485 (93.30% substantive / 83.99% all), and Citizenship refusals (58.82% substantive / 31.91% all). An ART Set Aside / Remittal remits a specific criterion back to Home Affairs for remaining health, character, and Stage 2 checks; it is NOT immediate visa grant or an individual applicant's approval probability.",
+    citTitle: "Post-PR Australian Citizenship Processing Times (p25–p90), Fees ($595/$85), s 22 Residence Calculator & ART Statistics",
+    citDesc: "Official Department of Home Affairs 4-percentile citizenship processing times (47,970 Conferral on-hand inventory · Stage 1 42d/5m · Overall 7m/11m), Form 1300t application fees (AUD $595 standard / $85 concession), and ART Set Aside / Remittal rates for Subclass 820 Partner (FY2025–26 full year: 80.1% substantive [692/864] vs 60.6% all finalisations [692/1,142]; FY2026–27 Q1: 81.5% substantive vs 69.1% all; FY2026–27 Detailed Caseload YTD: 85.16% restricted substantive [109/128] vs 74.66% all [109/146]), Graduate 485 (93.30% substantive / 83.99% all), and Citizenship refusals (58.82% substantive / 31.91% all). An ART Set Aside / Remittal remits a specific criterion back to Home Affairs for remaining health, character, and Stage 2 checks; it is NOT immediate visa grant or an individual applicant's approval probability.",
+    citS22Title: "Australian Citizenship General Residence Calculator (Citizenship Act 2007 s 22) & Form 1300t Fee",
+    citS22Desc: "Check the 4-year lawful residence rule, 12-month PR requirement before application date, max 365 days total overseas absence in 4 years (s 22(1A)), and max 90 days absence in the final 12 months (s 22(1B)).",
+    citFeeBanner: "Form 1300t Fee: AUD $595 Standard · $85 Concession ($0 child 15 or under on parent form)",
+    lblCitLawfulStart: "1. Lawful Australian Residence Start Date (4-Year Clock)",
+    lblCitPrGrant: "2. PR Grant Date (801/100/189 · 12-Month PR Rule)",
+    lblCitAppDate: "3. Intended Citizenship Application Date",
+    lblCitAbs4Yr: "4. Total Overseas Absence Days in Last 4 Years (Max 365)",
+    lblCitAbs12m: "5. Overseas Absence Days in Final 12 Months (Max 90)",
+    lblCitFeeType: "6. Fee Category (Form 1300t)",
+    optCitFeeStd: "Standard Conferral (AUD $595 · Form 1300t)",
+    optCitFeeConc: "Pensioner / Concession (AUD $85 · Form 1300t)",
     thCitStream: "Citizenship Stream & Stage",
     thCitP25: "25% Processed",
     thCitP50: "50% (Median)",
@@ -647,8 +669,8 @@
     var schedule3State = "not_triggered_substantive";
     var schedule3TitleKo = "Schedule 3 미적용 (유효 본비자 보유 중 안전 접수)";
     var schedule3TitleEn = "Schedule 3 Not Triggered (Valid Substantive Visa Held)";
-    var schedule3DetailKo = "현재 유효한 본비자(Substantive Visa)를 보유한 상태에서 820 비자를 접수하므로 Schedule 3(3001·3004) 추가 요건이 적용되지 않습니다. 조건 8503(No Further Stay) 부착 여부만 사전 확인하십시오.";
-    var schedule3DetailEn = "Lodging Subclass 820 while holding a valid substantive visa avoids Schedule 3 (Criteria 3001/3004). Confirm no Condition 8503 (No Further Stay) is attached.";
+    var schedule3DetailKo = "현재 유효한 본비자(Substantive Visa)를 보유한 상태에서 820 비자를 접수하므로 Schedule 3(3001·3004) 추가 요건이 적용되지 않습니다. ⚠️ 단 2026년 11월 28일 이후 신청하는 모든 방문비자(600 전 스트림)·ETA(601)·eVisitor(651)에는 개정령(F2026L01503)에 의해 Condition 8503(No Further Stay)이 법정 의무 부과되어 Form 1447 웨이버 승인(reg 2.05(4)) 없이는 입국 후 온쇼어 820 접수가 차단되므로 반드시 VEVO를 확인하십시오.";
+    var schedule3DetailEn = "Lodging Subclass 820 while holding a valid substantive visa avoids Schedule 3 (Criteria 3001/3004). ⚠️ Alert (F2026L01503): For Visitor (600 all streams), ETA (601), and eVisitor (651) applications lodged on or after 28 November 2026, Condition 8503 (No Further Stay) is statutorily mandatory, blocking onshore 820 lodgement unless waived under reg 2.05(4) (verify VEVO!).";
     var schedule3Severity = "ok";
 
     var isOffshoreFiance300 = (loc === "offshore_fiance" || loc === "offshore_300");
@@ -682,10 +704,10 @@
     } else if (loc === "onshore_8503_491_494") {
       schedule3State = "lodgement_barrier_8503_or_491";
       schedule3Severity = "danger";
-      schedule3TitleKo = "유효 접수 원천 차단 경고 · Condition 8503 웨이버(s 41(2A)) 또는 491/494 3년 보유(item 1214C(3)(h) / item 1124B(3)(e)) 필수";
-      schedule3TitleEn = "Valid Application Barrier · Condition 8503 Waiver (s 41(2A)) or 491/494 3-Year Rule (item 1214C(3)(h) / item 1124B(3)(e)) Required";
-      schedule3DetailKo = "현재 비자에 Condition 8503(또는 8534/8535)이 부착되어 있으면 Form 1447 웨이버 승인(s 41(2A) · r 2.05(4)) 전에는 온쇼어 820 신청서 자체가 무효(s 46(1A))가 되며 BVA도 발급되지 않습니다. 또한 지방 기술비자(491/494) 보유자는 승인 후 최소 3년을 보유하기 전에는 Schedule 1 item 1214C(3)(h)(구 item 1124B(3)(e))에 의해 온쇼어 820 유효 접수가 법적으로 차단됩니다.";
-      schedule3DetailEn = "If Condition 8503/8534/8535 applies, an onshore 820 application is invalid under s 46(1A) unless a Form 1447 waiver is granted first under s 41(2A) and r 2.05(4). Similarly, Subclass 491/494 holders are barred by Schedule 1 item 1214C(3)(h) (and item 1124B(3)(e)) from making a valid onshore 820 application until they have held the regional visa for at least 3 years.";
+      schedule3TitleKo = "유효 접수 원천 차단 경고 · Condition 8503 웨이버(s 41(2A) · F2026L01503 주의) 또는 491/494 3년 보유(item 1214C(3)(h) / item 1124B(3)(e)) 필수";
+      schedule3TitleEn = "Valid Application Barrier · Condition 8503 Waiver (s 41(2A) · F2026L01503 Alert) or 491/494 3-Year Rule (item 1214C(3)(h) / item 1124B(3)(e)) Required";
+      schedule3DetailKo = "현재 비자에 Condition 8503(또는 8534/8535)이 부착되어 있으면 Form 1447 웨이버 승인(s 41(2A) · r 2.05(4)) 전에는 온쇼어 820 신청서 자체가 무효(s 46(1A))가 되며 BVA도 발급되지 않습니다(특히 2026년 11월 28일 이후 신청분 600·601·651 방문비자는 F2026L01503에 따라 8503이 법정 의무 부과됨). 또한 지방 기술비자(491/494) 보유자는 승인 후 최소 3년을 보유하기 전에는 Schedule 1 item 1214C(3)(h)(구 item 1124B(3)(e))에 의해 온쇼어 820 유효 접수가 법적으로 차단됩니다.";
+      schedule3DetailEn = "If Condition 8503/8534/8535 applies (note: under F2026L01503, Condition 8503 is mandatory on all Visitor 600, ETA 601, and eVisitor 651 applications lodged on or after 28 November 2026), an onshore 820 application is invalid under s 46(1A) unless a Form 1447 waiver is granted first under s 41(2A) and r 2.05(4). Similarly, Subclass 491/494 holders are barred by Schedule 1 item 1214C(3)(h) (and item 1124B(3)(e)) from making a valid onshore 820 application until they have held the regional visa for at least 3 years.";
     } else if (loc === "offshore_married_defacto") {
       subclassCode = "309_100";
       trackTitleKo = "Subclass 309 / 100 (오프쇼어 파트너 비자)";
@@ -990,8 +1012,8 @@
       /* 485 checks */
       if (stream !== "485_second" && (currentVisa === "600_visitor" || currentVisa === "417_462_whm" || currentVisa === "offshore_outside")) {
         issues.push({
-          ko: "최근 6개월 내 학생 비자(500) 보유 및 온쇼어 신청 요건 주의(cl 485.211): 최초 485 주신청자는 원칙적으로 호주 국내에 체류 중이어야 하며 신청 전 최근 6개월 이내에 적격 학생 비자(Subclass 500)를 보유했어야 합니다.",
-          en: "Recent Student Visa & Onshore Requirement Warning (cl 485.211): Primary 485 applicants must generally be in Australia and have held an eligible Subclass 500 Student visa within the 6 months before lodgement."
+          ko: "최근 6개월 내 학생 비자(500) 보유 및 온쇼어 신청 요건 주의(Sch 1 Item 1229(4)(a)(ii)-(iii)): 최초 485 주신청자는 원칙적으로 호주 국내에 체류 중이어야 하며 신청 전 최근 6개월 이내에 적격 학생 비자(Subclass 500)를 보유했어야 합니다.",
+          en: "Recent Student Visa & Onshore Requirement Warning (Sch 1 Item 1229(4)(a)(ii)-(iii)): Primary 485 applicants must generally be in Australia and have held an eligible Subclass 500 Student visa within the 6 months before lodgement."
         });
       } else if (stream === "485_second" && currentVisa !== "485_current") {
         issues.push({
@@ -1009,13 +1031,13 @@
       var maxAge = qualType === "research_phd" ? 49 : 35;
       if (age > maxAge) {
         issues.push({
-          ko: "연령 상한 초과(cl 485.212): 선택한 학위 기준 만 " + maxAge + "세 이하만 485 신청이 가능하나 입력 연령이 만 " + age + "세입니다. 고용주 스폰서(SID 482 · 만 45세 미만 186 전환) 또는 DAMA(만 55세 미만 연령 특례) 및 파트너 비자 경로를 즉시 검토하십시오.",
-          en: "Age Cap Exceeded (cl 485.212): Maximum eligible age for this qualification is " + maxAge + ", whereas entered age is " + age + ". Assess SID 482 employer sponsorship, DAMA age concessions, or Partner visa options immediately."
+          ko: "연령 상한 초과(Sch 1 Item 1229(4)(a)(i)): 선택한 학위 기준 만 " + maxAge + "세 이하만 485 신청이 가능하나 입력 연령이 만 " + age + "세입니다. 고용주 스폰서(SID 482 · 만 45세 미만 186 전환) 또는 DAMA(만 55세 미만 연령 특례) 및 파트너 비자 경로를 즉시 검토하십시오.",
+          en: "Age Cap Exceeded (Sch 1 Item 1229(4)(a)(i)): Maximum eligible age for this qualification is " + maxAge + ", whereas entered age is " + age + ". Assess SID 482 employer sponsorship, DAMA age concessions, or Partner visa options immediately."
         });
       } else {
         passes.push({
-          ko: "연령 요건 충족(만 " + age + "세 ≤ 상한 만 " + maxAge + "세 · cl 485.212).",
-          en: "Age requirement met (Age " + age + " ≤ cap of " + maxAge + " · cl 485.212)."
+          ko: "연령 요건 충족(만 " + age + "세 ≤ 상한 만 " + maxAge + "세 · Sch 1 Item 1229(4)(a)(i)).",
+          en: "Age requirement met (Age " + age + " ≤ cap of " + maxAge + " · Sch 1 Item 1229(4)(a)(i))."
         });
       }
     }
@@ -1107,8 +1129,8 @@
         deadlineIso: compDeadlineIso,
         daysRemaining: compDiff,
         expired: compDiff < 0,
-        labelKo: "학위 수료일 + 6개월 (reg 485.213 / cl 485.221)",
-        labelEn: "Completion Letter + 6 Months (reg 485.213 / cl 485.221)",
+        labelKo: "학위 수료일 + 6개월 (cl 485.221 / 485.231)",
+        labelEn: "Completion Letter + 6 Months (cl 485.221 / 485.231)",
         ruleKo: "학위 수여식(졸업식) 날짜가 아니라 대학 공식 Completion Letter 상 최종 학업 완료일로부터 정확히 6개월 이내에 접수해야 합니다.",
         ruleEn: "Counted strictly 6 months from the official course completion date on your Completion Letter (NOT graduation ceremony date)."
       });
@@ -1130,10 +1152,10 @@
         deadlineIso: visa500Exp,
         daysRemaining: vDiff,
         expired: vDiff < 0,
-        labelKo: "학생비자(500) 만료일 (cl 485.211 / s 48 주의)",
-        labelEn: "Student Visa (500) Expiry (cl 485.211 / s 48 Rule)",
+        labelKo: "학생비자(500) 만료일 (Sch 1 Item 1229(4)(a)(ii)-(iii) / s 48 주의)",
+        labelEn: "Student Visa (500) Expiry (Sch 1 Item 1229(4)(a)(ii)-(iii) / s 48 Rule)",
         ruleKo: "유효한 본비자(500) 만료 전에 온쇼어에서 접수해야 BVA가 순조롭게 부여됩니다(만료 후 무비자 전락 또는 거절 이력 발생 시 s 48 제한 및 최근 6개월 내 500 보유 요건 위반 위험).",
-        ruleEn: "Lodge onshore before Subclass 500 expires to transition cleanly onto BVA (avoiding unlawful status, s 48 bars, or breaching the 6-month substantive 500 holding rule under cl 485.211)."
+        ruleEn: "Lodge onshore before Subclass 500 expires to transition cleanly onto BVA (avoiding unlawful status, s 48 bars, or breaching the 6-month substantive 500 holding rule under Sch 1 Item 1229(4)(a)(ii)-(iii))."
       });
     }
 
@@ -1202,11 +1224,76 @@
     };
   }
 
+  function evaluateCitizenshipS22(opts) {
+    var lawfulStart = String((opts && opts.lawfulStartIso) || "").trim();
+    var prGrant = String((opts && opts.prGrantIso) || "").trim();
+    var appDate = String((opts && opts.applicationDateIso) || "").trim() || ParkCoDates.todayBrisbaneIso();
+    var abs4Raw = opts && opts.absences4YrRaw !== undefined ? String(opts.absences4YrRaw).trim() : "";
+    var abs12Raw = opts && opts.absences12mRaw !== undefined ? String(opts.absences12mRaw).trim() : "";
+    var feeType = (opts && opts.feeType) === "concession" ? "concession" : "standard";
+    var feeAud = feeType === "concession" ? 85 : 595;
+
+    if (!lawfulStart && !prGrant && abs4Raw === "" && abs12Raw === "") {
+      return { ready: false, feeAud: feeAud, feeType: feeType };
+    }
+    if (!ParkCoDates.parseIsoLocal(lawfulStart) || !ParkCoDates.parseIsoLocal(prGrant) || !ParkCoDates.parseIsoLocal(appDate)) {
+      return {
+        ready: true,
+        validationError: true,
+        feeAud: feeAud,
+        errorKo: "합법 체류 개시일·영주권 취득일·신청 예정일을 모두 선택해 주십시오.",
+        errorEn: "Please select your lawful residence start date, PR grant date, and intended application date."
+      };
+    }
+    var abs4 = abs4Raw === "" ? 0 : Number(abs4Raw);
+    var abs12 = abs12Raw === "" ? 0 : Number(abs12Raw);
+    if (!isFinite(abs4) || abs4 < 0 || abs4 > 1461 || !isFinite(abs12) || abs12 < 0 || abs12 > 366 || abs12 > abs4) {
+      return {
+        ready: true,
+        validationError: true,
+        feeAud: feeAud,
+        errorKo: "해외 체류 일수는 0 이상의 정수로 입력하되 마지막 12개월 해외 체류 일수는 4년 전체 해외 체류 일수를 초과할 수 없습니다.",
+        errorEn: "Enter non-negative absence days, with final-12-month absences not exceeding 4-year total absences."
+      };
+    }
+
+    var fourYrIso = ParkCoDates.formatIsoLocal(ParkCoDates.addYearsMonthsClamped(lawfulStart, 4, 0, 0));
+    var pr12mIso = ParkCoDates.formatIsoLocal(ParkCoDates.addYearsMonthsClamped(prGrant, 1, 0, 0));
+    var earliestBaseIso = fourYrIso > pr12mIso ? fourYrIso : pr12mIso;
+
+    var met4YrLawful = appDate >= fourYrIso;
+    var met12mPr = appDate >= pr12mIso;
+    var metAbs4Yr = abs4 <= 365;
+    var metAbs12m = abs12 <= 90;
+    var eligible = met4YrLawful && met12mPr && metAbs4Yr && metAbs12m;
+
+    return {
+      ready: true,
+      validationError: false,
+      eligible: eligible,
+      feeType: feeType,
+      feeAud: feeAud,
+      lawfulStartIso: lawfulStart,
+      prGrantIso: prGrant,
+      applicationDateIso: appDate,
+      fourYrThresholdIso: fourYrIso,
+      pr12mThresholdIso: pr12mIso,
+      earliestBaseEligibleIso: earliestBaseIso,
+      absences4YrDays: abs4,
+      absences12mDays: abs12,
+      met4YrLawful: met4YrLawful,
+      met12mPr: met12mPr,
+      metAbs4Yr: metAbs4Yr,
+      metAbs12m: metAbs12m
+    };
+  }
+
   root.PartnerGraduateEngine = {
     evaluatePartnerPathway: evaluatePartnerPathway,
     evaluateRelationshipEligibility: evaluateRelationshipEligibility,
     evaluateGraduatePathway: evaluateGraduatePathway,
     evaluate485TripleDeadlines: evaluate485TripleDeadlines,
+    evaluateCitizenshipS22: evaluateCitizenshipS22,
     hydrateVacSchedule: hydrateVacSchedule,
     formatCitizenshipDuration: formatCitizenshipDuration,
     getLabel: getLabel,
@@ -1642,6 +1729,71 @@
         }
       };
     }
+    renderCitizenshipS22();
+  }
+
+  function renderCitizenshipS22() {
+    if (typeof document === "undefined") return;
+    var outBox = document.getElementById("cit-s22-output");
+    if (!outBox) return;
+    var isKo = currentLang === "ko";
+    var res = evaluateCitizenshipS22({
+      lawfulStartIso: (document.getElementById("cit-lawful-start") || {}).value || "",
+      prGrantIso: (document.getElementById("cit-pr-grant") || {}).value || "",
+      applicationDateIso: (document.getElementById("cit-app-date") || {}).value || "",
+      absences4YrRaw: (document.getElementById("cit-abs-4yr") || {}).value,
+      absences12mRaw: (document.getElementById("cit-abs-12m") || {}).value,
+      feeType: (document.getElementById("cit-fee-type") || {}).value || "standard"
+    });
+    if (!res.ready) {
+      outBox.innerHTML =
+        '<div class="alert-box alert-info">' +
+          '<strong>' + escapeHtml(isKo ? "s 22 거주요건 계산 대기 중 (Form 1300t: 일반 $595 / 감면 $85)" : "Awaiting s 22 Residence Dates (Form 1300t: $595 Standard / $85 Concession)") + '</strong><br/>' +
+          escapeHtml(isKo
+            ? "좌측에 합법 체류 개시일과 영주권 취득일 및 해외 체류 일수를 입력하시면 4년 합법 거주·12개월 영주권·365일/90일 해외 체류 상한 충족 여부와 최초 적격 기준일이 계산됩니다."
+            : "Enter your lawful residence start date, PR grant date, and overseas absence days to verify the 4-year residence, 12-month PR, and 365d/90d absence caps under s 22.") +
+        '</div>';
+      return;
+    }
+    if (res.validationError) {
+      outBox.innerHTML = '<div class="alert-box alert-warn">' + escapeHtml(isKo ? res.errorKo : res.errorEn) + '</div>';
+      return;
+    }
+    var rows = [
+      {
+        ok: res.met4YrLawful,
+        ko: "4년 합법 거주 요건(s 22(1)(a)): 기준 도달일 " + res.fourYrThresholdIso + " (" + (res.met4YrLawful ? "충족" : "미도래") + ")",
+        en: "4-Year Lawful Residence (s 22(1)(a)): Met from " + res.fourYrThresholdIso + " (" + (res.met4YrLawful ? "Met" : "Not yet reached") + ")"
+      },
+      {
+        ok: res.met12mPr,
+        ko: "신청 직전 12개월 영주권 보유(s 22(1)(c)): 기준 도달일 " + res.pr12mThresholdIso + " (" + (res.met12mPr ? "충족" : "미도래") + ")",
+        en: "12-Month PR Before Application (s 22(1)(c)): Met from " + res.pr12mThresholdIso + " (" + (res.met12mPr ? "Met" : "Not yet reached") + ")"
+      },
+      {
+        ok: res.metAbs4Yr,
+        ko: "최근 4년간 해외 체류 상한(s 22(1A) · 최대 365일): 입력 " + res.absences4YrDays + "일 (" + (res.metAbs4Yr ? "충족" : "초과") + ")",
+        en: "4-Year Total Absence Cap (s 22(1A) · Max 365d): " + res.absences4YrDays + " days (" + (res.metAbs4Yr ? "Met" : "Exceeded") + ")"
+      },
+      {
+        ok: res.metAbs12m,
+        ko: "마지막 12개월 해외 체류 상한(s 22(1B) · 최대 90일): 입력 " + res.absences12mDays + "일 (" + (res.metAbs12m ? "충족" : "초과") + ")",
+        en: "Final 12-Month Absence Cap (s 22(1B) · Max 90d): " + res.absences12mDays + " days (" + (res.metAbs12m ? "Met" : "Exceeded") + ")"
+      }
+    ];
+    var headCls = res.eligible ? "alert-ok" : "alert-danger";
+    var headTitle = res.eligible
+      ? (isKo ? "✅ s 22 일반 거주요건 충족 (신청 수수료: AUD $" + res.feeAud + " · Form 1300t)" : "✅ Meets s 22 General Residence Requirement (Fee: AUD $" + res.feeAud + " · Form 1300t)")
+      : (isKo ? "⚠️ s 22 거주요건 일부 미충족 (최초 기본 도래일: " + res.earliestBaseEligibleIso + " · 수수료 AUD $" + res.feeAud + ")" : "⚠️ s 22 Requirement Not Yet Met (Earliest Base Date: " + res.earliestBaseEligibleIso + " · Fee AUD $" + res.feeAud + ")");
+    outBox.innerHTML =
+      '<div class="alert-box ' + headCls + '">' +
+        '<div style="font-weight:800;margin-bottom:6px;">' + escapeHtml(headTitle) + '</div>' +
+        '<ul style="margin:0;padding-left:18px;font-size:12.8px;line-height:1.58;">' +
+          rows.map(function (r) {
+            return '<li>' + (r.ok ? "✓ " : "✗ ") + escapeHtml(isKo ? r.ko : r.en) + '</li>';
+          }).join("") +
+        '</ul>' +
+      '</div>';
   }
 
   function fillSampleInputs() {
@@ -1666,7 +1818,13 @@
       "grad-completion-date": twoMonthsAgo,
       "td-completion-date": twoMonthsAgo,
       "td-visa500-expiry": twoMonthsAhead,
-      "td-english-date": tenMonthsAgo
+      "td-english-date": tenMonthsAgo,
+      "cit-lawful-start": ParkCoDates.formatIsoLocal(ParkCoDates.addYearsMonthsClamped(todayIso, -4, -3, 0)),
+      "cit-pr-grant": ParkCoDates.formatIsoLocal(ParkCoDates.addYearsMonthsClamped(todayIso, -1, -2, 0)),
+      "cit-app-date": todayIso,
+      "cit-abs-4yr": "120",
+      "cit-abs-12m": "30",
+      "cit-fee-type": "standard"
     };
     Object.keys(map).forEach(function (id) {
       var el = document.getElementById(id);
@@ -1692,7 +1850,13 @@
       "grad-completion-date": "",
       "td-completion-date": "",
       "td-visa500-expiry": "",
-      "td-english-date": ""
+      "td-english-date": "",
+      "cit-lawful-start": "",
+      "cit-pr-grant": "",
+      "cit-app-date": "",
+      "cit-abs-4yr": "",
+      "cit-abs-12m": "",
+      "cit-fee-type": "standard"
     };
     Object.keys(defaults).forEach(function (id) {
       var el = document.getElementById(id);
@@ -1708,8 +1872,8 @@
   var cachedCitizenshipData = {
     citizenship: {
       inventory: {
-        conferral_applications_lodged_aug_2026: 16690,
-        conferral_on_hand: 53298
+        conferral_monthly_received: 22723,
+        conferral_on_hand: 47970
       },
       art_citizenship_review: {
         total_finalised: 94,
@@ -2015,8 +2179,8 @@
       ? formatCitizenshipDuration((isKo ? overallRow.p90_ko : overallRow.p90_en) || overallRow.p90, isKo)
       : (isKo ? "11개월" : "11 months");
 
-    var onHandNum = Number(inv.conferral_on_hand || cit.conferral_on_hand || 53298);
-    var monthlyNum = Number(inv.conferral_monthly_received || inv.conferral_applications_lodged_aug_2026 || cit.conferral_monthly_lodged || 23581);
+    var onHandNum = Number(inv.conferral_on_hand || cit.conferral_on_hand || 47970);
+    var monthlyNum = Number(inv.conferral_monthly_received || cit.conferral_monthly_lodged || 22723);
     var partnerGrantPct = artSum.partner_dha_grant_rate_pct != null ? Number(artSum.partner_dha_grant_rate_pct).toFixed(1) : "94.0";
     var partnerArtSubPct = artSum.partner_820_art_restricted_pct != null ? Number(artSum.partner_820_art_restricted_pct).toFixed(2) : "85.16";
     var partnerArtAllPct = artSum.partner_820_art_all_pct != null ? Number(artSum.partner_820_art_all_pct).toFixed(2) : "74.66";
@@ -2217,7 +2381,8 @@
         "pv-location", "pv-rel-years", "pv-shared-child", "s3-sponsor-hist",
         "rel-legal-status", "df-state", "df-months", "df-pillars",
         "grad-target-stream", "grad-current-visa", "grad-qual-type", "grad-age", "grad-completion-date",
-        "td-completion-date", "td-visa500-expiry", "td-english-date"
+        "td-completion-date", "td-visa500-expiry", "td-english-date",
+        "cit-lawful-start", "cit-pr-grant", "cit-app-date", "cit-abs-4yr", "cit-abs-12m", "cit-fee-type"
       ].forEach(function (id) {
         var el = document.getElementById(id);
         if (el) {
@@ -2233,11 +2398,27 @@
 
       var jumpP = document.getElementById("nav-jump-partner");
       var jumpDf = document.getElementById("nav-jump-defacto");
-      var jumpKh = document.getElementById("nav-jump-kh");
+      var jumpKh = document.getElementById("nav-jump-hub") || document.getElementById("nav-jump-kh");
       var jumpG = document.getElementById("nav-jump-grad");
       if (jumpP) jumpP.addEventListener("click", function () { setMode("partner", true); });
-      if (jumpDf) jumpDf.addEventListener("click", function () { setMode("partner", true); });
-      if (jumpKh) jumpKh.addEventListener("click", function () { setMode("partner", true); });
+      if (jumpDf) {
+        jumpDf.addEventListener("click", function () {
+          setMode("partner", true);
+          var dfSec = document.getElementById("de-facto-4pillars");
+          if (dfSec && typeof dfSec.scrollIntoView === "function") {
+            dfSec.scrollIntoView({ behavior: "smooth", block: "start" });
+          }
+        });
+      }
+      if (jumpKh) {
+        jumpKh.addEventListener("click", function () {
+          setMode("partner", true);
+          var khSec = document.getElementById("partner-knowledge-hub");
+          if (khSec && typeof khSec.scrollIntoView === "function") {
+            khSec.scrollIntoView({ behavior: "smooth", block: "start" });
+          }
+        });
+      }
       if (jumpG) jumpG.addEventListener("click", function () { setMode("graduate", true); });
 
       var pkhSearch = document.getElementById("pkh-faq-search");

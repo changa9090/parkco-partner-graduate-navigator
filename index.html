@@ -313,7 +313,7 @@
         <div class="section-head">
           <div>
             <h2 data-i18n="tdTitle">2. 졸업생 비자(Subclass 485) 3대 법정 기한 비교기 (최종 안전 접수 데드라인 산출)</h2>
-            <p data-i18n="tdDesc">학위 수료 확인서 발급일(+6개월 · reg 485.213), 학생비자 500 만료일(온쇼어 합법 체류 · cl 485.211 / s 48), 공인 영어시험 응시일(+12개월 · LIN 24/022) 중 가장 먼저 도래하는 날짜가 절대 초과 불가 최종 안전 접수 데드라인이 됩니다.</p>
+            <p data-i18n="tdDesc">학위 수료 확인서 발급일(+6개월 · cl 485.221 / 485.231)과 학생비자 500 만료일(온쇼어 합법 체류 · Sch 1 Item 1229(4)(a)(ii)-(iii) / s 48) 및 공인 영어시험 응시일(+12개월 · LIN 24/022) 중 가장 먼저 도래하는 날짜가 절대 초과 불가 최종 안전 접수 데드라인이 됩니다.</p>
           </div>
         </div>
 
@@ -321,11 +321,11 @@
           <div class="card">
             <h3 style="margin:0 0 12px;font-size:15.5px;" data-i18n="tdFormHeading">485 접수 3대 기한 기준일 입력</h3>
             <div class="form-group">
-              <label for="td-completion-date" data-i18n="lblTdCompletion">1. 학위 수료 확인서 Completion Letter 완료일 (+6개월 · reg 485.213 / 졸업식 날짜 아님)</label>
+              <label for="td-completion-date" data-i18n="lblTdCompletion">1. 학위 수료 확인서 Completion Letter 완료일 (+6개월 · cl 485.221 / 485.231 / 졸업식 날짜 아님)</label>
               <input type="date" id="td-completion-date" class="form-control" />
             </div>
             <div class="form-group">
-              <label for="td-visa500-expiry" data-i18n="lblTdVisa500">2. 학생비자(Subclass 500) 만료일 (온쇼어 합법 체류 및 최근 6개월 내 보유 · cl 485.211 &amp; s 48 주의)</label>
+              <label for="td-visa500-expiry" data-i18n="lblTdVisa500">2. 학생비자(Subclass 500) 만료일 (온쇼어 합법 체류 및 최근 6개월 내 보유 · Sch 1 Item 1229(4)(a)(ii)-(iii) &amp; s 48 주의)</label>
               <input type="date" id="td-visa500-expiry" class="form-control" />
             </div>
             <div class="form-group">
@@ -361,15 +361,15 @@
     </section>
 
     <!-- BOTTOM COLLAPSIBLE REFERENCE ACCORDIONS -->
-    <details class="ref-accordion" id="citizenship-processing-intelligence">
-      <summary data-i18n="citTitle">영주권 취득 후 호주 시민권 단계별 실제 소요기간(p25~p90) &amp; 820·485·시민권 행정재심기구(ART) 통계</summary>
-      <div class="ref-accordion-body">
-        <p style="font-size:13px;color:#4A5D5F;margin-bottom:12px;" data-i18n="citDesc">호주 시민권(Conferral · Descent · Evidence) 공식 4분위 심사 소요기간(Conferral 미결 재고 53,298건)과 Subclass 820 파트너(FY2025–26 연간 본안 결정 분모 80.1%[692/864, 전체 종결 60.6%] · FY2026–27 Q1 본안 81.5%[전체 69.1%] · FY2026–27 상세통계 YTD 본안 제한 분모 85.16%[109/128, 전체 74.66%] 취소·환송) · 졸업생 485(본안 93.30% · 전체 83.99% 취소·환송) · 시민권 거절(본안 58.82% · 전체 31.91% 취소·환송) 행정재심기구(ART) 통계를 요약합니다. 취소·환송(Set Aside / Remittal)은 특정 요건 충족 지시와 함께 이민성으로 환송되어 신원·신체검사·Stage 2 등 잔여 심사를 거치는 절차적 결정 비율이며 즉시 비자 승인이나 개별 신청자의 승인 확률을 뜻하지 않습니다.</p>
+    <details class="ref-accordion" id="citizenship-processing-intelligence" open>
+      <summary data-i18n="citTitle">영주권 취득 후 호주 시민권 단계별 실제 소요기간(p25~p90) · 신청비($595/$85) · s 22 거주기간 계산기 &amp; ART 통계</summary>
+      <div class="ref-accordion-body" id="module-citizenship">
+        <p style="font-size:13px;color:#4A5D5F;margin-bottom:12px;" data-i18n="citDesc">호주 시민권(Conferral · Descent · Evidence) 공식 4분위 심사 소요기간(Conferral 미결 재고 47,970건 · 1단계 42일/5개월 · 전체 완주 7개월/11개월)과 신청 수수료(일반 Form 1300t AUD $595 / 감면 $85) 및 Subclass 820 파트너(FY2025–26 연간 본안 결정 분모 80.1%[692/864, 전체 종결 60.6%] · FY2026–27 Q1 본안 81.5%[전체 69.1%] · FY2026–27 상세통계 YTD 본안 제한 분모 85.16%[109/128, 전체 74.66%] 취소·환송) · 졸업생 485(본안 93.30% · 전체 83.99% 취소·환송) · 시민권 거절(본안 58.82% · 전체 31.91% 취소·환송) 행정재심기구(ART) 통계를 요약합니다. 취소·환송(Set Aside / Remittal)은 특정 요건 충족 지시와 함께 이민성으로 환송되어 신원·신체검사·Stage 2 등 잔여 심사를 거치는 절차적 결정 비율이며 즉시 비자 승인이나 개별 신청자의 승인 확률을 뜻하지 않습니다.</p>
         <div id="cit-art-kpi-grid" class="result-summary-grid">
           <div class="mini-kpi">
             <span data-i18n="citKpi1Label">수여 시민권(Conferral) 전체 완료</span>
             <strong data-i18n="citKpi1Val">7개월 (p50) / 11개월 (p90)</strong>
-            <small data-i18n="citKpi1Sub">미결 재고 53,298건 (월 신규 16,690건)</small>
+            <small data-i18n="citKpi1Sub">미결 재고 47,970건 (월 신규 22,723건 · 1단계 42일/5개월)</small>
           </div>
           <div class="mini-kpi">
             <span data-i18n="citKpi2Label">파트너 820 ART 취소·환송률 (본안 분모)</span>
@@ -387,7 +387,7 @@
             <small data-i18n="citKpi4Sub">본안 결정 51건 중 30건 취소·환송</small>
           </div>
         </div>
-        <div class="table-wrap" style="margin-bottom:14px;">
+        <div class="table-wrap" style="margin-bottom:16px;">
           <table class="data-table">
             <thead>
               <tr>
@@ -400,6 +400,52 @@
             </thead>
             <tbody id="cit-processing-tbody"></tbody>
           </table>
+        </div>
+
+        <div class="card" style="background:#FBF9F5;border:1px solid #D5CBB8;margin-bottom:14px;">
+          <div style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:10px;margin-bottom:12px;">
+            <div>
+              <h3 style="margin:0 0 4px;font-size:15.5px;" data-i18n="citS22Title">호주 시민권 일반 거주요건 계산기 (Australian Citizenship Act 2007 s 22) &amp; Form 1300t 수수료</h3>
+              <p style="margin:0;font-size:12.5px;color:#4A5D5F;" data-i18n="citS22Desc">신청일 직전 4년 합법 거주 + 마지막 12개월 영주권(PR) 보유 + 4년간 해외 체류 합계 최대 365일(s 22(1A)) + 마지막 12개월간 해외 체류 최대 90일(s 22(1B)) 요건을 즉시 판정합니다.</p>
+            </div>
+            <span class="badge badge-teal" style="font-size:12px;" data-i18n="citFeeBanner">Form 1300t 수수료: 일반 AUD $595 · 감면 $85 (만 15세 이하 동반자녀 $0)</span>
+          </div>
+          <div class="calc-grid">
+            <div>
+              <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:10px;">
+                <div class="form-group">
+                  <label for="cit-lawful-start" data-i18n="lblCitLawfulStart">1. 호주 합법 체류 개시일 (4년 기산)</label>
+                  <input type="date" id="cit-lawful-start" class="form-control" />
+                </div>
+                <div class="form-group">
+                  <label for="cit-pr-grant" data-i18n="lblCitPrGrant">2. 영주권(801/100/189 등) 취득일 (12개월 PR)</label>
+                  <input type="date" id="cit-pr-grant" class="form-control" />
+                </div>
+                <div class="form-group">
+                  <label for="cit-app-date" data-i18n="lblCitAppDate">3. 시민권 신청 예정일 (기준일)</label>
+                  <input type="date" id="cit-app-date" class="form-control" />
+                </div>
+                <div class="form-group">
+                  <label for="cit-abs-4yr" data-i18n="lblCitAbs4Yr">4. 최근 4년간 해외 체류 총일수 (상한 365일)</label>
+                  <input type="number" id="cit-abs-4yr" class="form-control" min="0" max="1461" placeholder="0" />
+                </div>
+                <div class="form-group">
+                  <label for="cit-abs-12m" data-i18n="lblCitAbs12m">5. 마지막 12개월 해외 체류 일수 (상한 90일)</label>
+                  <input type="number" id="cit-abs-12m" class="form-control" min="0" max="365" placeholder="0" />
+                </div>
+                <div class="form-group">
+                  <label for="cit-fee-type" data-i18n="lblCitFeeType">6. 신청 수수료 구분 (Form 1300t)</label>
+                  <select id="cit-fee-type" class="form-control">
+                    <option value="standard" data-i18n="optCitFeeStd">일반 신청 (AUD $595 · Form 1300t)</option>
+                    <option value="concession" data-i18n="optCitFeeConc">펜션·컨세션 감면 (AUD $85 · Form 1300t)</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div id="cit-s22-output"></div>
+            </div>
+          </div>
         </div>
         <div style="display:flex;flex-wrap:wrap;gap:8px;">
           <a class="btn-burgundy parkco-svc-link" href="https://parklawyers.com.au/appealing-visa-decision/?lang=ko" data-ko-href="https://parklawyers.com.au/appealing-visa-decision/?lang=ko" data-en-href="https://parklawyers.com.au/appealing-visa-decision/" target="_blank" rel="noopener" data-i18n="citBtnArt">행정재심기구(ART) 거절 재심 검토</a>
